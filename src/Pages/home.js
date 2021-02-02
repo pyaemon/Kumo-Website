@@ -1,9 +1,9 @@
 import React from 'react'
-
-const Home=()=>{
-    return(
-        <div>
-            Hii Home
+import ParagraphThirty from '../Feature/30and70Paragraph'
+const Home = () => {
+    return (
+        <div className="container justify-content-center">
+            <ParagraphThirty />
         </div>
     )
 }

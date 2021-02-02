@@ -1,9 +1,10 @@
 import React from 'react'
+import ParagraphThirty from '../Feature/30and70Paragraph';
 
 const Services=()=>{
     return(
-        <div>
-            Hii Services
+        <div className="container justify-content-center">
+            <ParagraphThirty/>
         </div>
     )
 }

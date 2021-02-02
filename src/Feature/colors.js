@@ -1,7 +1,8 @@
 export default {
     TitleColor : "#084c95",
     ParagraphColor: "#bacadf",
-    whiteColor : "#FFF",
-    blackColor : '#000',
+    DividerColor: "d6a2f5",
+    WhiteColor : "#FFF",
+    BlackColor : '#000',
     
 }
