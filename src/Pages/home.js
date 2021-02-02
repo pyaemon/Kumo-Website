@@ -1,9 +1,9 @@
 import React from 'react'
-
-const Home=()=>{
-    return(
+import Paragraph from '../Feature/Paragraph'
+const Home = () => {
+    return (
         <div>
-            Hii Home
+            <Paragraph />
         </div>
     )
 }

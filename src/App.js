@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import Home from "./Pages/home";
-import Nav from "./Feature/nav"
-import About from "./Pages/about"
-import Services from "./Pages/services"
-import Projects from "./Pages/projects"
-import Contact from "./Pages/contacts"
+import Home from "./Pages/Home";
+import Nav from "./Feature/Nav"
+import About from "./Pages/About"
+import Services from "./Pages/Services"
+import Projects from "./Pages/Projects"
+import Contact from "./Pages/Contacts"
 
 const App=()=>{
   return(
