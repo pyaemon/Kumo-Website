@@ -1,6 +1,6 @@
 import React from 'react'
-import Azure from '../Config/azure.png'
-import Warehouse from '../Config/Warehouse.jpg'
+import Azure from '../Images/azure.png'
+import Warehouse from '../Images/Warehouse.jpg'
 import Paragraph from '../Feature/30and70Paragraph'
 
 const Services = () => {
