@@ -23,10 +23,10 @@
 // export default ParagraphThirty
 
 import React from 'react'
-import Font from '../Feature/fonts'
-import Color from '../Feature/colors'
+import Font from './fonts'
+import Color from './colors'
 
-const ParagraphThirty = (props) => {
+const HomeParagraph = (props) => {
     const { imgRadius, isReverse, imgSrc, imageWidth, data } = props;
     return (
         <div className='col-9'>
@@ -38,11 +38,14 @@ const ParagraphThirty = (props) => {
                     <div className={`${isReverse && 'text-end me-2'} ms-3`} style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
                     <div className={`dropdown-divider border-0 p-0`} style={{ backgroundColor: '#C5B3E5', height: 1.4}}></div>
                     <div className='ms-3 me-2' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
-                        {data.description}
+                        {data.description1}
+                    </div>
+                    <div className='ms-3 me-2' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
+                        {data.description2}
                     </div>
                 </div>
             </div>
         </div>
     )
 }
-export default ParagraphThirty;
+export default HomeParagraph;
