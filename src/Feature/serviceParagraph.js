@@ -14,7 +14,7 @@ const ServiceParagraph = (props) => {
     })
 
     return (
-        <div className='col-9 my-5'>
+        <div className='col-10 my-4'>
             <div className={`d-flex ${isReverse ? 'flex-row-reverse' : 'flex-row'} flex-xl-nowrap flex-lg-nowrap flex-md-nowrap flex-sm-wrap flex-xs-wrap flex-wrap mx-4 justify-content-center`} >
                 <div className='image-box' style={{ display: 'inline-block', verticalAlign: 'top' }}>
                     <img className='' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius, border: '1px solid #C5B3E5' }} />

@@ -10,7 +10,7 @@ import Contact from "./Pages/contacts"
 const App=()=>{
   return(
    
-    <div className='mx-xl-5 px-xl-5 mx-lg-5 px-lg-5 mx-md-4 px-md-4 mx-sm-2 px-sm-2 mx-xs-1 px-xs-1 mx-1 px-1'>
+    <div className='mx-xl-4 px-xl-4 mx-lg-4 px-lg-4 mx-md-4 px-md-4 mx-sm-2 px-sm-2 mx-xs-1 px-xs-1 mx-1 px-1'>
       <Nav/>
       <BrowserRouter>
         <Switch>
