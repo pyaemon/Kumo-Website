@@ -17,7 +17,6 @@ const ParagraphSeventy = props => {
         </div>
     )
 
-
 }
 
 export default ParagraphSeventy

@@ -18,7 +18,6 @@ const ImageSeventy = props => {
         </div>
     )
 
-
 }
 
 export default ImageSeventy
