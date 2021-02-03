@@ -1,7 +1,7 @@
 import React from 'react'
 import ParaFragment from '../Feature/homeParagraph'
-import softdevImg from '../images/softDev.jpg'
-import realtimeImg from '../images/ipbem.jpeg'
+import softdevImg from '../Images/softDev.jpg'
+import realtimeImg from '../Images/ipbem.jpeg'
 import KumoButton from '../Feature/kumoButtom'
 const Home = () => {
     return (

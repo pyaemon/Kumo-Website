@@ -1,9 +1,9 @@
 import React from 'react'
 import ParaFragment from '../Feature/aboutParagraph'
 import colors from '../Feature/colors'
-import AboutImg from '../images/about1.PNG'
-import Team from '../images/TEAM.jpg'
-import Developers from '../images/DEVELOPERS.jpg'
+import AboutImg from '../Images/about1.PNG'
+import Team from '../Images/TEAM.jpg'
+import Developers from '../Images/DEVELOPERS.jpg'
 import fonts from '../Feature/fonts'
 
 const About = () => {

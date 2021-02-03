@@ -1,9 +1,9 @@
 import React from 'react'
-import Azure from '../images/azure.png'
-import Warehouse from '../images/AI.jpg'
-import Mobile from '../images/mobileapps.jpg'
-import WebApp from '../images/webapp.jpg'
-import UiUx from '../images/uiux.png'
+import Azure from '../Images/azure.png'
+import Warehouse from '../Images/AI.jpg'
+import Mobile from '../Images/mobileapps.jpg'
+import WebApp from '../Images/webapp.jpg'
+import UiUx from '../Images/uiux.png'
 import Paragraph from '../Feature/serviceParagraph'
 
 const Services = () => {
