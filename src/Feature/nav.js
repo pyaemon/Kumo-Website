@@ -1,42 +1,161 @@
-import React from 'react'
+import React from "react";
+import {
+  BrowserRouter,
+  Redirect,
+  Route,
+  Switch,
+  withRouter,
+  useLocation,
+  Link,
+} from "react-router-dom";
 
 const Nav = () => {
-    return (
-        // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        //     <div className="container-fluid">
+  let location = useLocation();
+  let loc = location.pathname;
+  console.log("MMMM", loc);
+  return (
+    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    //     <div className="container-fluid">
 
-        //         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        //             <div className="navbar-nav">
-        //                 <a className="nav-link active" aria-current="page" href="/home">Home</a>
-        //                 <a className="nav-link" href="/about"> About Us</a>
-        //                 <a className="nav-link" href="/services"> Services</a>
-        //                 <a className="nav-link" href="/products"> Products</a>
-        //                 <a className="nav-link" href="/contact"> Contact</a>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </nav>
-        <div>
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <div class="container mx-xl-5 mx-lg-5 mx-md-4 mx-sm-2 mx-sm-1 mx-1 justify-content-between">
-                    <a class="navbar-brand">Kumo</a>
-                    <div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div className="navbar-nav">
-                                <a className="nav-link me-2" href="/home">Home</a>
-                                <a className="nav-link me-2" href="/about"> About Us</a>
-                                <a className="nav-link me-2" href="/services"> Services</a>
-                                <a className="nav-link me-2" href="/products"> Products</a>
-                                <a className="nav-link" href="/contact"> Contact</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+    //         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+    //             <div className="navbar-nav">
+    //                 <a className="nav-link active" aria-current="page" href="/home">Home</a>
+    //                 <a className="nav-link" href="/about"> About Us</a>
+    //                 <a className="nav-link" href="/services"> Services</a>
+    //                 <a className="nav-link" href="/products"> Products</a>
+    //                 <a className="nav-link" href="/contact"> Contact</a>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </nav>
+    <div className='p-0 m-0 d-flex justify-content-center align-self-center' >
+      <nav className="navbar navbar-expand-md navbar-light bg-light w-100 shadow-sm " style={{ position:'fixed',zIndex:1000, opacity:0.9 }}>
+        <div className="d-flex mx-xl-5 mx-lg-5 mx-md-4 mx-sm-2 mx-sm-1 mx-1 justify-content-between w-100">
+          <img className="navbar-brand" src={"/kumo.jpeg"} style={{ width: window.innerWidth > 600 ? 60 : 40, height: 40 }} ></img>
+          <div>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <Switch
+            >
+              <div className="navbar-nav">
+                <Link
+                  to="/home"
+                  className=""
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: loc.includes("home") ? 600 : 400,
+                  }}
+                >
+                  <div className='py-2 px-3'
+                    style={{
+                      color: loc.includes("home")
+                        ? "#775ADA" : '#084C95',
+                        borderRadius :6
+,                      fontWeight: loc.includes("home") ? 600 : 400,
+                    }}
+                  >
+                    Home
+                  </div>
+                </Link>
+                <Link
+                  to="/about"
+                  className=""
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: loc.includes("about") ? 600 : 400,
+                  }}
+                >
+                  <div className='py-2 px-3'
+                    style={{
+                      color: loc.includes("about")
+                        ? "#775ADA" : '#084C95',
+                        borderRadius :6
+,                      fontWeight: loc.includes("about") ? 600 : 400,
+                    }}
+                  >
+                      About Us</div>
+                </Link>
+
+                <Link
+                  to="/services"
+                  className=""
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: loc.includes("services") ? 600 : 400,
+                  }}
+                >
+                  <div className='py-2 px-3'
+                    style={{
+                      color: loc.includes("services")
+                        ? "#775ADA" : '#084C95',
+                        borderRadius :6
+,                      fontWeight: loc.includes("services") ? 600 : 400,
+                    }}
+                  >
+                      Services</div>
+                </Link>
+                <Link
+                  to="/products"
+                  className=""
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: loc.includes("products") ? 600 : 400,
+                  }}
+                >
+                  <div className='py-2 px-3'
+                    style={{
+                      color: loc.includes("products")
+                        ? "#775ADA" : '#084C95',
+                        borderRadius :6
+,                      fontWeight: loc.includes("products") ? 600 : 400,
+                    }}
+                  >
+                      Products</div>
+                </Link>
+                <Link
+                  to="/contact"
+                  className=""
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: loc.includes("contact") ? 600 : 400,
+                  }}
+                >
+                  <div className='py-2 px-3'
+                    style={{
+                      color: loc.includes("contact")
+                        ? "#775ADA" : '#084C95',
+                        borderRadius :6
+,                      fontWeight: loc.includes("contact") ? 600 : 400,
+                    }}
+                  >
+                      Contact</div>
+                </Link>
+              </div>
+            </Switch>
+          </div>
         </div>
-    )
-}
-export default Nav;
+      </nav>
+    </div>
+  );
+};
+export default withRouter(Nav);
+
+// style={{
+//     color: loc.includes("dashboard")
+//       ? MyColor.secondarySelected
+//       : MyColor.dropDownItemColor,
+//     borderBottom: `1px solid ${MyColor.divider}`,
+//     color: loc.includes("dashboard")
+//       ? MyColor.secondarySelectedText
+//       : MyColor.bodyText,
+//     fontWeight: loc.includes("dashboard") ? 600 : 400,
+//   }}
