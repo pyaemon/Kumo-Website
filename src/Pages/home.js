@@ -3,6 +3,7 @@ import ParaFragment from '../Feature/homeParagraph'
 import softdevImg from '../Images/softDev.jpg'
 import realtimeImg from '../Images/ipbem.jpeg'
 import KumoButton from '../Feature/kumoButtom'
+import IconCarousel from '../Feature/IconCarousel';
 const Home = () => {
     return (
         <div className="container  py-3 my-4" style={{ height: "100vh" }}>
@@ -76,6 +77,10 @@ const Home = () => {
                 marginRight: '20px'
             }}
             ><i class="fa fa-building" style={{ color: '#ffffff', fontSize: '20px' }}></i> </div>Partner Company</button>
+           
+            </div>
+            <div>
+            <IconCarousel></IconCarousel>
             </div>
 
             <div className="d-flex justify-content-center mt-5"> <button className="btn" style={{
