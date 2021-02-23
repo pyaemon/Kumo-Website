@@ -5,6 +5,7 @@ import Mobile from '../Images/mobileapps.jpg'
 import WebApp from '../Images/webapp.jpg'
 import UiUx from '../Images/uiux.png'
 import Paragraph from '../Feature/serviceParagraph'
+import Footer from '../Feature/footer'
 
 const Services = () => {
     return (
@@ -44,6 +45,7 @@ const Services = () => {
                 isReverse={false}
                 data={ui_uxData}
             />
+            <Footer />
         </div>
     )
 }
@@ -60,7 +62,7 @@ const warehouseData = {
 }
 
 const mobileDevData = {
-    title: 'Mobile Applications',
+    title: 'Mobile Development',
     description: 'We provide full-cycle mobile app development services, including professional business analysis, design, and development of your mobile application from a single idea to complete application launch, integrating the new product into your infrastructure and providing further optimization and scale-up on demand. Using a proactive approach and an agile process, we ensure your time and investment are optimized at every step of development and you receive a digital product that fully meets your requirements and exceeds your expectations.'
 }
 

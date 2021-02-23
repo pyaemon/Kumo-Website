@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Font from './fonts'
 import Color from './colors'
-import '../App.css'
 
 const ProductParagraph = (props) => {
-    const { imgRadius, isReverse, imgSrc, imageWidth, data } = props;
+    const { imgRadius, isReverse, imgSrc, imageWidth, data,imgheight } = props;
     const [pageWidth, setPageWidth] = useState(window.innerWidth)
 
     useEffect(() => {
@@ -14,19 +13,19 @@ const ProductParagraph = (props) => {
     })
 
     return (
-        <div className='col-10 my-4'>
+        <div className='my-4'>
             <div className={`d-flex ${isReverse ? 'flex-row-reverse' : 'flex-row'} flex-xl-nowrap flex-lg-nowrap flex-md-nowrap flex-sm-wrap flex-xs-wrap flex-wrap mx-4 justify-content-center`} >
-                <div className='image-box' style={{ display: 'block'}}>
-                    <img className='' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius, border: '1px solid #C5B3E5' }} />
+                <div className='row ms-3 me-2'>
+                <div className='col-6' style={{ display: 'block'}}>
+                    <img className='shadow' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius,height:imgheight, border: '1px solid #C5B3E5' }} />
                 </div>
-                <div className='mt-3' style={{ display: 'block' }}>
-                    <div className={`${pageWidth < 768 ? 'text-center' : isReverse && ' text-end'} ms-3`} style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
-                    <div className={`dropdown-divider border-0 p-0`} style={{ backgroundColor: '#C5B3E5', height: 1.4 }}></div>
-                    <div className='ms-3 me-2' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
-                <p style={{ color: Color.ParagraphColor }}>{data.description}</p>
-               
-                    </div>
-                    <p style={{ color: Color.ParagraphColor }}>{data.description1}</p>
+                <div className='col-5 ms-3 me-2' style={{ display: 'block' }}>
+                    <div /*className={`${pageWidth < 768 ? 'text-right' : isReverse && ' text-end'} ms-5`}*/className='pl-2' style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
+                    <div className={`dropdown-divider border-0 `} style={{ backgroundColor: '#C5B3E5', height: 1.4}}></div>
+                    <div className='ms-3 me-2' style={{color: "#084C95", fontWeight:600,fontSize: '15px' }}>
+                <p style={{ }}>{data.description}</p>
+                </div>
+            </div>
                 </div>
             </div>
         </div>

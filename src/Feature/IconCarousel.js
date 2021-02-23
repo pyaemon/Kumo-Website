@@ -9,6 +9,7 @@ import "react-multi-carousel/lib/styles.css";
 import AllianceLogo from '../Images/alliancelogo.jpg';
 import MarterLogo from '../Images/marter_logo.png';
 import EverComm from '../Images/logo.dark.png';
+import PPS from '../Images/pps beach light.png'
 
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForward';
@@ -94,10 +95,7 @@ const IconCarousel = () => {
                  </div>
                 </Carousel> */}
 
-              <Carousel breakPoints={breakPoints} arr style={{background:"#ffff00", outline: "none",background: "transparent",
-        border: 0,
-        color: "#ffff00",
-        fontSize: "15px"} }   pagination={false} infinite={true}   >
+              <Carousel breakPoints={breakPoints}  pagination={false} infinite={true}   >
               <Item>
                      <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 50px"   }}/>
                  </Item>
@@ -108,7 +106,7 @@ const IconCarousel = () => {
                      <img className='img-fluid' src={MarterLogo} alt="spa" style={{padding: "50px 50px"  }}/>
                  </Item>
                  <Item>
-                     <img className='img-fluid' src={EverComm} alt="spa" style={{padding: "80px 50px"   }}/>
+                     <img className='img-fluid' src={PPS} alt="spa" style={{padding: "80px 50px"   }}/>
                  </Item>
                  <Item>
                      <img className='img-fluid' src={EverComm} alt="spa" style={{padding: "80px 50px"   }}/>

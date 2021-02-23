@@ -45,3 +45,16 @@
 .image-box:hover img {
   transform: scale(1.1);
 }
+
+
+.google-map {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+ }
+
+#map {
+  position: relative;
+  width: 50%; 
+ }
