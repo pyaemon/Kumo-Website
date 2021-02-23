@@ -4,7 +4,7 @@ import {
   Redirect,
   Route,
   Switch,
-  withRouter,
+  withRouter,useLocation
 } from "react-router-dom";
 import Home from "./Pages/home";
 import Nav from "./Feature/nav";
@@ -12,8 +12,12 @@ import About from "./Pages/about";
 import Services from "./Pages/services";
 import Products from "./Pages/products";
 import Contact from "./Pages/contacts";
+import Map from "./Feature/MapForContact"
 
 const App = () => {
+  let location = useLocation();
+  let loc = location.pathname;
+  
   return (
     <div className='m-0'>
       <Nav />
@@ -30,6 +34,13 @@ const App = () => {
         {/* </Switch>
       </BrowserRouter> */}
       </div>
+      {
+        loc.includes("contact") &&
+        // <div className='d-flex'>
+        <Map />
+
+        // </div>
+      }
     </div>
   );
 };

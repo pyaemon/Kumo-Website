@@ -12,7 +12,7 @@ import {
 const Nav = () => {
   let location = useLocation();
   let loc = location.pathname;
-  console.log("MMMM", loc);
+  
   return (
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
     //     <div className="container-fluid">
