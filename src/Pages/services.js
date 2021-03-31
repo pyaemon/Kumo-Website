@@ -1,6 +1,6 @@
 import React from 'react'
 import Azure from '../Images/azure.png'
-import Warehouse from '../Images/AI.jpg'
+// import Warehouse from '../Images/AI.jpg'
 import Mobile from '../Images/mobileapps.jpg'
 import WebApp from '../Images/webapp.jpg'
 import UiUx from '../Images/uiux.png'
@@ -17,7 +17,7 @@ const Services = () => {
                 data={analyticsData}
             />
             <Paragraph
-                imgSrc={Warehouse}
+                // imgSrc={Warehouse}
                 imageWidth={'215px'}
                 imgRadius={'70%'}
                 isReverse={true}
