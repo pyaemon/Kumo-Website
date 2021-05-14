@@ -6,7 +6,7 @@ const HomeParagraph = props => {
     const { data, imgSrc, imgWidth, isReverse, } = props
 
     return (
-        < div style={{ margin: '30px 30px 0 0', overflow: 'auto' }}>
+        < div  style={{ margin: '30px 30px 0 0', overflow: 'auto' }}>
             <div style={{ float: isReverse ? 'left' : 'right' }}><img src={imgSrc} style={{
                 display: 'block', width: imgWidth,
                 height: '200px',
@@ -15,14 +15,15 @@ const HomeParagraph = props => {
                 opacity: 1,
 
             }} /></div>
-            <div >
-                <h3 style={{ color: '#084C95', textAlign: isReverse ? 'right' : 'left', font: 'normal normal normal 30px/36px Microsoft Sans Serif' }} >{data.title}</h3>
-                <div className="dropdown-divider p-0 m-0" style={{ display: 'block', border: '1px solid #EBD1FA' }}></div>
-                <p style={{ color: colors.ParagraphColor }}>{data.description1}</p>
-                <p style={{ color: colors.ParagraphColor }}>{data.description2}</p>
-                <p style={{ color: colors.ParagraphColor }}>{data.description3}</p>
+            <div className="m-container">
+                <h3 className="" style={{ color: '#084C95', textAlign: isReverse ? 'right' : 'left', font: 'normal normal normal 30px/36px Microsoft Sans Serif' }} >{data.title}</h3>
+                <div className="dropdown-divider-1 ud_line p-0 m-0 m-title mb-2" style={{ display: 'block' }}></div>
+                <div className='m-paragraph'>
+                    <p style={{ color: colors.ParagraphColor }}>{data.description1}</p>
+                    <p style={{ color: colors.ParagraphColor }}>{data.description2}</p>
+                    <p style={{ color: colors.ParagraphColor }}>{data.description3}</p>
+                </div>
             </div>
-
         </div >
     )
 }

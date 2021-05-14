@@ -82,3 +82,43 @@ p{
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
+
+
+
+.img-fluid {
+  max-width: 60%;
+  height: auto;
+}
+
+
+
+
+
+  .m-title {
+    height: 2px;
+    background-color: lightgray;
+    /* animation: reveal 2s forwards; */
+  }
+
+  .m-title:hover {
+    background-color: lightgray !important;
+  }
+
+  .m-container:hover > .m-title {
+    background-color: #9C1DE7;
+    animation: reveal 2s forwards;
+  }
+
+  @keyframes reveal {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 100%
+    }
+  }
+
+
+
+
+

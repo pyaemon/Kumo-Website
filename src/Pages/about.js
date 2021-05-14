@@ -12,7 +12,7 @@ import '../App.css'
 const About = () => {
     const windowWidth = window.innerWidth
     return (
-        <div className="d-flex flex-wrap justify-content-center py-3 my-4 mt-5" style={{ height: "100vh" }}> 
+        <div className="d-flex flex-wrap justify-content-center py-3 my-4 mt-5 m-container" style={{ height: "100vh" }}> 
             <ParaFragment
                 imgSrc={AboutImg}
                 imageWidth={'380px'}
@@ -26,11 +26,13 @@ const About = () => {
                 </p>
             </div>
 
-            <div className="w-100 pb-3" style={{ position:'relative', margin: '0 auto'}}>
-                <img className="shadow-lg mt-3 w-100" alt="developers" src={Developers} style={{ height: '300px'}}/>
-                <div style={{position: 'absolute', top: '50%', height:'300px', width: '100%', left: '50%', transform: 'translate(-50%, -50%)', opacity: '0.7', background: 'rgb(76, 74, 131)'}}>
+            <div className="w-100 pb-3" style={{ position:'relative', margin: ''}}>
+                <img className="shadow-lg mt-3 w-100" alt="developers" src={Developers} style={{  height: '300px'}}/>
+                <div style={{position: 'absolute', top: '50%', height:'300px', width: '100%', left: '50%', transform: 'translate(-50%, -50%)', opacity: '0.7',
+                 background: 'rgb(76, 74, 111)'}}>
                     <div className="mt-3" style={{ whiteSpace: 'nowrap', paddingLeft: windowWidth < 1200 ? '12rem' : '31rem', fontSize: fonts.heading1, fontWeight: 600, color: colors.WhiteColor }}>Team Introduction</div>
-                    <div className="p-4 mx-5" style={{ fontSize: '15px', letterSpacing: '0px',color: colors.WhiteColor,wordSpacing: 4 }}>The team is made up of 20 local talents who strive for the continual development of innovative and exceptional skills by adopting international & the foremost practice standards. We maintain continuous improvements by promoting a learning environment, ensuring that our employees are exposed to and trained on state-of-the-art technologies. As a team, we continue to learn together, creating a collaborative environment encouraging individual and organizational growth and development. The work environment in the company reflects a professional approach to dedicated team spirit and serves as a motivational ground for the professional and personal growth of the software talent.</div>
+                    <div className="p-4 mx-5" style={{position: 'relative', fontSize: '15px', letterSpacing: '0px',color: colors.WhiteColor,wordSpacing: 4 }}>
+                        The team is made up of 20 local talents who strive for the continual development of innovative and exceptional skills by adopting international & the foremost practice standards. We maintain continuous improvements by promoting a learning environment, ensuring that our employees are exposed to and trained on state-of-the-art technologies. As a team, we continue to learn together, creating a collaborative environment encouraging individual and organizational growth and development. The work environment in the company reflects a professional approach to dedicated team spirit and serves as a motivational ground for the professional and personal growth of the software talent.</div>
                 </div>
             </div>                     
             
@@ -43,9 +45,9 @@ const About = () => {
                 imgheight={'200px'}
             />
          
-            <div className="col-11 ms-3 me-2"  style={{ color: colors.ParagraphColor, fontSize: '15px', wordSpacing: 4 , marginTop: '3%'}}>
+            <div className="col-11 ms-3 me-2 m-container"  style={{ color: colors.ParagraphColor, fontSize: '15px', wordSpacing: 4 , marginTop: '3%'}}>
                 <div className="ms-3 me-2" style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>Operations</div>
-                <div className={`dropdown-divider border-0 p-0`} style={{ backgroundColor: '#C5B3E5', height: 1.4}}></div>
+                <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: "2px"}}></div>
                 <div className="ms-3 me-2">Kumo Solutions is dedicated to transforming our consumers’ needs into fully realized and satisfying products by comprehensively understanding our clients’ business requirements and delivering beyond their expectations. Our commitment and dedication are backed by the necessary technological skill and innovation as we craft software customized to the needs of each individual consumers’ daily operations. Our software development process is continuously monitored and improved to maximize our client’s ease and productivity.</div>
             </div>
                 <Footer />

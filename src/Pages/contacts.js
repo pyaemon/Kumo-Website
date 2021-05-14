@@ -10,10 +10,10 @@ import Input from "../Feature/input";
 const Contact = () => {
   return (
     <div className="pt-5" style={{ color: "#084C95" }}>
-      <div className="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap justify-content-center" >
+      <div className="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap justify-content-center " >
         <div className="col-xl-5 col-lg-5 col-md-6  pt-5 mx-3 justify-content-center">
           <div
-            className="pt-3"
+            className="pt-3 "
             style={{
               fontSize: Font.heading12,
               borderBottom: "1px solid #799ED1",
