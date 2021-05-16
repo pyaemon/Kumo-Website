@@ -63,12 +63,12 @@ const IconCarousel = () => {
         } = rest;
         // onMove means if dragging or swiping in progress.
         return (
-    <div style={{border: "0px",background:"red" }}><ArrowBackIosIcon onClick={() => onClick()} /></div>
+    <div style={{border: "0px",background:"red", }}><ArrowBackIosIcon onClick={() => onClick()} /></div>
         )
       };
 
     const breakPoints = [
-      { width: 1, itemsToShow: 1 },
+      { width: 0.1, itemsToShow: 1 },
       { width: 550, itemsToShow: 2, itemsToScroll: 2 },
       { width: 768, itemsToShow: 3 },
       { width: 900, itemsToShow: 4 }
@@ -76,7 +76,7 @@ const IconCarousel = () => {
     return(
         <div>
              <div className="container ">
-            <div className='row pt-3 justify-content-center'>
+            <div className='row pt-3 justify-content-center' style={{}}>
                 {/* <Carousel className='text-center' customRightArrow={<CustomRightArrow />}  responsive={responsive} swipeable={true} autoPlay={false} autoPlaySpeed={1000}   infinite={true} >
                 <div>
                      <img className='img-fluid' src={EverComm} alt="spa" style={{padding: "80px 50px"   }}/>
@@ -97,7 +97,7 @@ const IconCarousel = () => {
 
               <Carousel breakPoints={breakPoints}  pagination={false} infinite={true}   >
               <Item>
-                     <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 50px"   }}/>
+                     <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 50px"}}/>
                  </Item>
                  <Item>
                      <img className='img-fluid' src={AllianceLogo} alt="room" style={{padding: "50px 50px"  }}/>
