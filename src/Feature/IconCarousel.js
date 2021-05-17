@@ -51,7 +51,7 @@ const IconCarousel = () => {
               position: "relative"
             }}
           >
-            <i className="fal fa-chevron-left" onClick={previous}>TEST</i>
+            <i className="bg-danger fal fa-chevron-left" onClick={previous}>TEST</i>
           </div>
       )
     };
@@ -63,7 +63,7 @@ const IconCarousel = () => {
         } = rest;
         // onMove means if dragging or swiping in progress.
         return (
-    <div style={{border: "0px",background:"red", }}><ArrowBackIosIcon onClick={() => onClick()} /></div>
+    <div style={{border: "0px",background:"" }}><ArrowBackIosIcon onClick={() => onClick()} /></div>
         )
       };
 
@@ -97,7 +97,7 @@ const IconCarousel = () => {
 
               <Carousel breakPoints={breakPoints}  pagination={false} infinite={true}   >
               <Item>
-                     <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 50px"}}/>
+                     <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 65px"}}/>
                  </Item>
                  <Item>
                      <img className='img-fluid' src={AllianceLogo} alt="room" style={{padding: "50px 50px"  }}/>

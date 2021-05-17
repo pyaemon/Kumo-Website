@@ -11,7 +11,12 @@ import Acbel1 from '../Images/acbel1.jpeg'
 import Crm from '../Images/crm.jpeg'
 import Crm1 from '../Images/crm1.jpeg'
 import Map from "../Feature/map"
+import { useHistory } from 'react-router-dom';
+
 const Home = () => {
+  const history = useHistory();
+  const handleClickAbout = () => history.push('/about'); 
+  const handleClickPrud = () => history.push('/products'); 
   return (
     <div >
       <div className="container  py-3 my-4" style={{ height: "100vh" }}>
@@ -146,9 +151,10 @@ const Home = () => {
           />
         </div>
 
-        <div className="d-flex justify-content-start mt-5" >
+        <div className="d-flex justify-content-start mt-5"  >
           {" "}
-          <KumoButton text="See More About Company" />
+          <KumoButton  text="See More About Company" onClick={handleClickAbout} />
+          {/* <button type="button" onClick={handleClick}></button> */}
         </div>
         <div className="d-flex justify-content-center mt-5">
           {" "}
@@ -243,12 +249,13 @@ const Home = () => {
       </div> */}
 
         <div className="container-fluid ">
-          <div style={{ background: "#dbf3fa", transform: "skew(-30deg)", width: "900px", height: "350px", zIndex: ' 1', position: 'absolute', marginLeft: 100 }}></div>
+          <div style={{ background: "#dbf3fa", transform: "skew(-30deg)", width: "900px", height: "350px", zIndex: ' 1', 
+          position: 'absolute', marginLeft: 100 }}></div>
         </div>
-        <div className='m-container' style={{}}>
+        <div className='m-container mt-4   ' style={{}}>
           <div className="d-flex justify-content-center mt-3" style={{ position: 'relative', zIndex: '2', }} >
             <div
-              className="d-flex justify-content-center align-self-center "
+              className="d-flex justify-content-center align-self-center mt-1"
               style={{
                 background: "#4B74AD",
                 height: "40px",
@@ -263,7 +270,7 @@ const Home = () => {
             </div>
             <div className="m-container ">
             <span
-              className="px-2 py-0"
+              className="px-3 m-2"
               style={{
                 textAlign: "center",                
                 fontSize: "1.5rem",
@@ -272,14 +279,14 @@ const Home = () => {
               Our Services
               {/* <hr className='m-title' style={{ marginTop: -4, marginRight: '180px', height:"2px",width:'100%'}}></hr> */}
           </span>
-          <div className='m-title' style={{ marginTop: -4, marginRight: '200px', height:"2px",width:'75%'}}></div>
+          <div className='m-title mt-1' style={{ marginTop: -4, marginRight: '200px', height:"2px",width:'75%'}}></div>
           </div>
           </div>
-          <div style={{ position: 'relative', zIndex: 2 }}> 
+          <div style={{ position: 'relative', zIndex: 1 }}> 
             <OurService />
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-5">
+        <div className="d-flex justify-content-center mt-5 pb-4">
           {" "}
           <button
             className="btn m-container"
@@ -297,6 +304,7 @@ const Home = () => {
             }}
           >
             <div
+              className=""
               style={{
                 height: "40px",
                 width: "40px",
@@ -416,7 +424,7 @@ const Home = () => {
 
         <div className="d-flex justify-content-start mt-5">
           {" "}
-          <KumoButton text="See More Products" />
+          <KumoButton text="See More Products" onClick={handleClickPrud}/>
         </div>
         <div className='col-12'>
           <Footer />

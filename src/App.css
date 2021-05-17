@@ -27,6 +27,11 @@ p{
   color: white;
 }
 
+.rec-arrow-left {
+  background-color: none ;
+  color: #9C1DE7;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -84,15 +89,10 @@ p{
 }
 
 
-
 .img-fluid {
   max-width: 60%;
   height: auto;
 }
-
-
-
-
 
   .m-title {
     height: 2px;
@@ -118,7 +118,6 @@ p{
     }
   }
 
-
-
-
-
+  .main { 
+    backgroundColor:#dbf3fa !important
+  }

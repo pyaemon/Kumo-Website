@@ -2,9 +2,9 @@ import React from 'react'
 
 
 const KumoButton = (props) => {
-    const { text } = props
+    const { text,onClick } = props
     return (
-        <button type="button" className="btn customeBtn" style={{
+        <button type="button" className="btn customeBtn" onClick={onClick} style={{
             boxShadow: '10px 10px 10px #00000029',
             border: '1px solid #4B74AD',
             borderRadius: '10px',
