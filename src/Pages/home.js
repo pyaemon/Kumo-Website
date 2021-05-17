@@ -71,7 +71,7 @@ const Home = () => {
                 textAlign: "left",
                 fontSize: "35px",
                 fontFamily: "Cambria",
-                marginTop: "40px",
+                marginTop: "100px",
               }}
             >
               Vision
@@ -202,7 +202,7 @@ const Home = () => {
               Partner Company
               {/* <hr className='ud_line m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></hr> */}
             </span>
-            <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></div>                        
+            <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'100%'}}></div>                        
           </button>
         </div>
 
@@ -279,7 +279,7 @@ const Home = () => {
               Our Services
               {/* <hr className='m-title' style={{ marginTop: -4, marginRight: '180px', height:"2px",width:'100%'}}></hr> */}
           </span>
-          <div className='m-title mt-1' style={{ marginTop: -4, marginRight: '200px', height:"2px",width:'75%'}}></div>
+          <div className='m-title mt-1' style={{ marginTop: -4, marginRight: '200px', height:"2px",width:'100%'}}></div>
           </div>
           </div>
           <div style={{ position: 'relative', zIndex: 1 }}> 
@@ -321,7 +321,7 @@ const Home = () => {
             </div>
           Previous Products
           {/* <hr className='ud_line' style={{ marginTop: -4, marginLeft: 100, height:"2px"}}></hr> */}
-          <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></div>            
+          <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'100%'}}></div>            
           </button>
         </div>
         <div className="d-flex justify-content-center ">
@@ -369,7 +369,7 @@ const Home = () => {
           <div className="m-container" >
             <h3>Taiwan Centralized</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="dropdown-divider m-title p-0 m-0" style={{ display: 'block', height:'1px' }}></div>
+            <div className="dropdown-divider m-title p-0 m-0" style={{ display: 'block', height:'1px',width: '100%' }}></div>
             <p>Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
 </p>
 
@@ -380,7 +380,7 @@ const Home = () => {
           <div  className="m-container" >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="dropdown-divider m-title p-0 m-0" style={{ display: 'block', height:'1px' }}></div>
+            <div className="dropdown-divider m-title p-0 m-0 container-fluid" style={{ height:'1px',width: '120%'}}></div>
             <p>Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager. Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
 </p>
           </div>

@@ -10,13 +10,13 @@ import Map from "../Feature/map"
 
 const Footer = () => {
     return (
-        <div className="footer">
-        <div className=" mt-5 d-flex flex-fill flex-wrap w-100" style={{ backgroundColor:  "#dbf3fa ",color: "#084C95"  }}>
-            <div className="p-0 flex-fill " >
+        <div className="footer w-100" style={{ backgroundColor:  "#dbf3fa ",color: "#084C95"  }}>
+        <div className=" mt-5 d-flex flex-fill flex-wrap" >
+            <div className="p-0 flex-fill " style={{marginLeft: 50}} >
             {/* <img src={Map} style={{width:280, borderRadius: 10}}/> */}
             <Map className="" style={{borderRadius:10}}/>
             </div>
-            <div className="p-2  flex-fill" style={{marginRight: -100}}>
+            <div className="p-2  flex-fill" style={{marginLeft: 100}}>
                 <img src={Location} alt="img" style={{fontSize: 5}}/>
                 <div style={{paddingLeft: 60,marginTop: -40}}>
                 <p >(Nga Gyi/98), 64Street, Between</p>
