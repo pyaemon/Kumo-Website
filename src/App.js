@@ -13,6 +13,7 @@ import Services from "./Pages/services";
 import Products from "./Pages/products";
 import Contact from "./Pages/contacts";
 import Map from "./Feature/MapForContact"
+import Footer from "./Feature/footer";
 
 const App = () => {
   let location = useLocation();
@@ -34,13 +35,15 @@ const App = () => {
         {/* </Switch>
       </BrowserRouter> */}
       </div>
-      {
+      {/* {
         loc.includes("contact") &&
-        // <div className='d-flex'>
+        <div className='d-flex align-center'>
         <Map />
+       
 
-        // </div>
-      }
+         </div>
+      } */}
+      
     </div>
   );
 };

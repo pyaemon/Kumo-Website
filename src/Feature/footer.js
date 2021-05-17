@@ -11,7 +11,7 @@ import Map from "../Feature/map"
 const Footer = () => {
     return (
 
-        <div className="  mt-5 d-flex flex-fill flex-wrap" style={{ backgroundColor:  "#dbf3fa ",color: "#084C95"  }}>
+        <div className="  mt-5 d-flex flex-fill flex-wrap w-100" style={{ backgroundColor:  "#dbf3fa ",color: "#084C95"  }}>
             <div className="p-0 flex-fill " >
             {/* <img src={Map} style={{width:280, borderRadius: 10}}/> */}
             <Map className="" style={{borderRadius:10}}/>

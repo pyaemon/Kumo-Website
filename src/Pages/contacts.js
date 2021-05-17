@@ -5,11 +5,14 @@ import Mail from "../Images/mail.png";
 import Facebook from "../Images/facebook.png";
 import Location from "../Images/locations.png";
 import Input from "../Feature/input";
+import MapForContact from "../Feature/MapForContact";
+import Footer from "../Feature/footer";
 
 
 const Contact = () => {
   return (
-    <div className="pt-5 mt-3" style={{ color: "#084C95", }}>
+    <div>
+    <div className="pt-5 mt-3" style={{ color: "#084C95",height:"70vh"  }}>
       <div className="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap justify-content-center " >
         <div className="col-xl-5 col-lg-5 col-md-6  pt-5 mx-3 justify-content-center">
           <div
@@ -93,8 +96,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
+      <MapForContact />
     </div>
+
+     
+      {/* <div className='w-100' style={{marginTop: '35%'}}>
+      <Footer />
+      </div> */}
+      </div>
+
   );
 };
 export default Contact;

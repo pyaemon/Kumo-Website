@@ -84,9 +84,9 @@ p{
   box-sizing: content-box;
 }
 
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
+/* #content-wrap {
+  padding-bottom: 2.5rem;    Footer height
+} */
 
 
 .img-fluid {
