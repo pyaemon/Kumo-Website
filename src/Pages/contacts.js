@@ -100,9 +100,9 @@ const Contact = () => {
     </div>
 
      
-      {/* <div className='w-100' style={{marginTop: '35%'}}>
+       <div className='w-100' style={{marginTop: '35%'}}>
       <Footer />
-      </div> */}
+      </div>
       </div>
 
   );
