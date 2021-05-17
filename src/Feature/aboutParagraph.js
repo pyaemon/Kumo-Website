@@ -7,7 +7,7 @@ const AboutParagraph = (props) => {
     return (
         <div className='col-11 mt-3'>
             <div className={`d-flex ${isReverse ? 'flex-row-reverse' : 'flex-row'} flex-xl-nowrap flex-lg-nowrap flex-md-nowrap flex-sm-wrap flex-xs-wrap flex-wrap `} >
-                <div className='' style={{ display: 'inline-block', verticalAlign: 'top' , paddingTop: 10}}>
+                <div className='image-box' style={{ display: 'inline-block', verticalAlign: 'top' , paddingTop: 10}}>
                     <img className='shadow' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius, border: '1px solid #C5B3E5',height:imgheight }} />
                 </div>
                 <div className='m-container' style={{ display: 'inline-block'}}>

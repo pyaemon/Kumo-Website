@@ -90,7 +90,7 @@ const Home = () => {
           </div>
           </div>
           <div
-            className="col-lg-6 col-xl-6 col-md-6 px-2 "
+            className="col-lg-6 col-xl-6 col-md-6 image-box"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
@@ -141,7 +141,7 @@ const Home = () => {
 
         <div
           className="d-flex justify-content-center "
-          style={{ marginTop: "80px" }}
+          style={{ marginTop: "80px", overflow: 'auto' }}
         >
           <ParaFragment
             imgSrc={Development}
@@ -334,7 +334,7 @@ const Home = () => {
         </div>
         <div className="d-flex justify-content-center pt-3 " style={{ color: "#084C95" }}>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-2"
+            className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
@@ -385,7 +385,7 @@ const Home = () => {
 </p>
           </div>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-2"
+            className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
@@ -427,6 +427,7 @@ const Home = () => {
           <KumoButton text="See More Products" onClick={handleClickPrud}/>
         </div>
       </div>
+
     </div>
 
   );

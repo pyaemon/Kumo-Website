@@ -7,7 +7,7 @@ const HomeParagraph = props => {
 
     return (
         < div  style={{ margin: '30px 30px 0 0', overflow: 'auto' }}>
-            <div style={{ float: isReverse ? 'left' : 'right' }}><img src={imgSrc} style={{
+            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img src={imgSrc} style={{
                 display: 'block', width: imgWidth,
                 height: '200px',
                 boxShadow: '10px 10px 10px #00000029',
