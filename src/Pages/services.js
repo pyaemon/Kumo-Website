@@ -45,7 +45,6 @@ const Services = () => {
                 isReverse={false}
                 data={ui_uxData}
             />
-            <Footer />
         </div>
     )
 }

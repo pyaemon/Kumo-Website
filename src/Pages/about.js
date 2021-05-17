@@ -12,7 +12,8 @@ import '../App.css'
 const About = () => {
     const windowWidth = window.innerWidth
     return (
-        <div className="d-flex flex-wrap justify-content-center py-3 my-4 mt-5 m-container" style={{ height: "100vh" }}> 
+        <div style={{}}>
+        <div className="d-flex flex-wrap justify-content-center py-3 my-4 mt-5 m-container" > 
             <ParaFragment
                 imgSrc={AboutImg}
                 imageWidth={'380px'}
@@ -49,9 +50,8 @@ const About = () => {
                 <div className="ms-3 me-2" style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>Operations</div>
                 <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: "2px"}}></div>
                 <div className="ms-3 me-2">Kumo Solutions is dedicated to transforming our consumers’ needs into fully realized and satisfying products by comprehensively understanding our clients’ business requirements and delivering beyond their expectations. Our commitment and dedication are backed by the necessary technological skill and innovation as we craft software customized to the needs of each individual consumers’ daily operations. Our software development process is continuously monitored and improved to maximize our client’s ease and productivity.</div>
-            </div>
-                <Footer />
-          
+            </div>    
+        </div>
         </div>
     )
 }

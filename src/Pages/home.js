@@ -19,7 +19,7 @@ const Home = () => {
   const handleClickPrud = () => history.push('/products'); 
   return (
     <div >
-      <div className="container  py-3 my-4" style={{ height: "100vh" }}>
+      <div className="container  py-3 my-4" >
         <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
           <div className="col-lg-5 col-xl-5 col-md-5 ">
             <div
@@ -425,9 +425,6 @@ const Home = () => {
         <div className="d-flex justify-content-start mt-5">
           {" "}
           <KumoButton text="See More Products" onClick={handleClickPrud}/>
-        </div>
-        <div className='col-12'>
-          <Footer />
         </div>
       </div>
     </div>

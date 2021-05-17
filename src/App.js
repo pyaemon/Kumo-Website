@@ -35,6 +35,7 @@ const App = () => {
         {/* </Switch>
       </BrowserRouter> */}
       </div>
+      <Footer/>
       {/* {
         loc.includes("contact") &&
         <div className='d-flex align-center'>
