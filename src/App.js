@@ -35,16 +35,15 @@ const App = () => {
         {/* </Switch>
       </BrowserRouter> */}
       </div>
-      <Footer/>
-      {/* {
+      
+      {
         loc.includes("contact") &&
-        <div className='d-flex align-center'>
+        <div className='d-flex align-center w-100'  style={{ marginBottom: '35%' }}>
         <Map />
-       
 
          </div>
-      } */}
-      
+      }
+      <Footer/>
     </div>
   );
 };
