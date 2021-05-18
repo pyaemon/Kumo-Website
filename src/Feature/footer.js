@@ -16,7 +16,7 @@ const Footer = () => {
                     {/* <img src={Map} style={{width:280, borderRadius: 10}}/> */}
                     <Map className="" style={{ borderRadius: 10 }} />
                 </div>
-                <div className="p-2 flex-fill flex-wrap location" style={{ marginLeft: 100 }}>
+                <div className="p-2 flex-wrap location" style={{ marginLeft: 100 }}>
                     <div className="location-sub">
                         <img src={Location} alt="img" style={{ fontSize: 5 }} />
                         <div style={{ paddingLeft: 60, marginTop: -40 }}>
