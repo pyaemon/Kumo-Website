@@ -21,7 +21,7 @@ const ServiceParagraph = (props) => {
                 </div>
                 <div className='mt-3 m-container' style={{ display: 'inline-block' }}>
                     <div className={`${pageWidth < 768 ? 'text-center' : isReverse && ' text-end'} ms-3`} style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
-                    <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: "2px" }}></div>
+                    <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: "2px", width:"105%",marginLeft: -15 }}></div>
                     <div className='ms-3 me-2' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
                         {data.description}
                     </div>
