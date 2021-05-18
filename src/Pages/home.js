@@ -183,7 +183,7 @@ const Home = () => {
                 backgroundColor: "#4B74AD",
                 borderRadius: "50%",
                 display: "inline-block",
-                marginRight: "20px",
+                marginRight: "10px",
 
               }}
             >
@@ -203,7 +203,7 @@ const Home = () => {
               Partner Company
               {/* <hr className='ud_line m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></hr> */}
             </span>
-            <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height: "2px", width: '100%' }}></div>
+            <div className='m-title' style={{ marginTop: -2 , marginLeft: '110px', height: "2px", width: '100%' }}></div>
           </button>
         </div>
 
@@ -251,19 +251,20 @@ const Home = () => {
 
         <div className="container-fluid ">
           <div style={{
-            background: "#dbf3fa", transform: "skew(-30deg)", width: "900px", height: "350px", zIndex: ' 1',
-            position: 'absolute', marginLeft: 100
+            background: "#dbf3fa", transform: "skew(-30deg)", width: "900px", height: "330px", zIndex: ' -1',
+            position: 'absolute', marginLeft: 140
           }}></div>
         </div>
-        <div className='m-container mt-4   ' style={{}}>
-          <div className="d-flex justify-content-center mt-3" style={{ position: 'relative', zIndex: '2', }} >
+        <div className='m-container' style={{}}>
+          <div className="d-flex justify-content-center mt-3" style={{ position: 'relative', zIndex: '4',paddingLeft:"50px" }} >
             <div
-              className="d-flex justify-content-center align-self-center mt-1"
+              className="d-flex justify-content-center"
               style={{
                 background: "#4B74AD",
                 height: "40px",
                 width: "40px",
                 borderRadius: "50%",
+                
               }}
             >
               <i
@@ -271,25 +272,26 @@ const Home = () => {
                 style={{ color: "#ffffff", fontSize: "15px" }}
               ></i>
             </div>
-            <div className="m-container p-0">
+            <div className="m-container  ">
               <span
-                className="px-3 m-2"
+                className="px-2 mx-2"
                 style={{
                   textAlign: "center",
                   fontSize: "1.5rem",
+                  paddingLeft:"10px"                
                 }}
               >
                 Our Services
               {/* <hr className='m-title' style={{ marginTop: -4, marginRight: '180px', height:"2px",width:'100%'}}></hr> */}
               </span>
-              <div className='m-title mt-1' style={{ marginTop: -4, marginRight: '200px', height: "2px", width: '100%' }}></div>
+              <div className='m-title ' style={{ marginTop: -2, paddingleft: 30, height: "2px", width: '100%',marginRight:'-100' }}></div>
             </div>
           </div>
           <div style={{ position: 'relative', zIndex: 1 }} >
             <OurService />
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-5 pb-4 pt-5">
+        <div className="d-flex justify-content-center my-5 my-5 p-5">
           {" "}
           <button
             className="btn m-container"
@@ -324,7 +326,7 @@ const Home = () => {
             </div>
           Previous Products
           {/* <hr className='ud_line' style={{ marginTop: -4, marginLeft: 100, height:"2px"}}></hr> */}
-            <div className='m-title' style={{ marginTop: -4, marginLeft: '110px', height: "2px", width: '100%' }}></div>
+          <div className='m-title' style={{ marginTop: -5 , marginLeft: '100px',width: '100%' }}></div>
           </button>
         </div>
         <div className="d-flex justify-content-center realtime-image">
@@ -372,7 +374,7 @@ const Home = () => {
           <div className="m-container" >
             <h3>Taiwan Centralized</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="dropdown-divider m-title p-0 m-0" style={{display: 'block',  height: '1%', width: '100%' }}></div>
+            <div className=" m-title p-0 m-0" style={{display: 'block',  height: '1%', width: '100%' }}></div>
             <p>Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
             </p>
           </div>
@@ -382,7 +384,7 @@ const Home = () => {
           <div className="m-container" >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="dropdown-divider m-title p-0 m-0 container-fluid" style={{display: 'block', height: '2px', width: '120%' }}></div>
+            <div className=" m-title p-0 m-0 container-fluid" style={{display: 'block', height: '2px', width: '120%' }}></div>
             <p>Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager. Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
             </p>
           </div>

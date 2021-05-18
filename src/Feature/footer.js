@@ -45,7 +45,7 @@ const Footer = () => {
 
 
 
-        <div class="mt-5 pt-5 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
+        <div class="mt-5 pb-0 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-xs-12 about-company">
