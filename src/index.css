@@ -23,6 +23,7 @@ code {
   bottom:0;
   left:0;
   right: 0;
+  background-color: #dbf3fa ;
 }
 .contact{
   width: 100%;
@@ -65,4 +66,91 @@ code {
 .development{
   overflow-x:hidden;
   overflow-y: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+  .development {
+    /* background-color: lightblue; */
+   padding-top: 40%;
+   margin-bottom: -30px;
+  }
+  .title{
+    font-size: medium;
+    margin-left: 13px;
+  }
+  .service-text{
+    font-size:12px;
+  }
+  .centralized{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .kumo-button{
+    padding-top: 60%;
+  }
+  .location{
+    margin-top: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+  .location-sub{
+    margin-left: -20%;
+  }
+  .facebook{
+    margin-left: -8%;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .vertion-text{
+    background-color: red;
+    margin-top: -50px;
+  }
+  .development {
+    /* background-color: lightblue; */
+   padding-top: 30%;
+   margin-bottom: -30px;
+  }
+  .map-style{
+    margin-left: 500px;
+  }
+ 
+}
+@media only screen and (max-width: 800px) {
+  .centralized{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .kumo-button{
+    padding-top: 40%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .location{
+    margin-top: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+  .location-sub{
+    /* padding-left: -500px; */
+    padding:0%;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .location-sub{
+    margin-left: -50%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .location-sub{
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .location-sub{
+    margin-left: 20%;
+  }
 }

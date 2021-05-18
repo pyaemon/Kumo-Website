@@ -15,7 +15,7 @@ const Nav = () => {
   return (
   
     <div className='p-0 m-0 d-flex justify-content-center align-self-center' >
-      <nav class="navbar navbar-expand-md navbar-light bg-light w-100 shadow-sm" style={{ position:'fixed',zIndex:1000, opacity:0.9 }}>
+      <nav class="navbar navbar-expand-md navbar-light bg-light w-100 shadow-sm" style={{ position:'fixed',zIndex:1000 }}>
         <div class="container-fluid d-flex justify-content-between ">
         <img className="navbar-brand" src={"/kumo.jpeg"} style={{ width: window.innerWidth > 600 ? 60 : 40, height: 40 }} ></img>
 
