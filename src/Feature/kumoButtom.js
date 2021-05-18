@@ -10,7 +10,7 @@ const KumoButton = (props) => {
             borderRadius: '10px',
             opacity: 1,
             width: '300px',
-            height: '50px',
+            height: '35px',
             color: '#775ADA',
             font: 'normal normal normal 25px/33px Bodoni 72 Smallcaps',
             backgroundColor: '#FFFFFF',

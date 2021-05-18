@@ -21,7 +21,7 @@ const Products = () => {
                         {/* <div className="d-flex justify-content-between"> */}
                         <div className="ms-3 me-2" style={{ color: "#084C95", fontWeight: 600 }}>Through partnerships with CapitaLand, we developed a real-time machine learning platform capable of performing real-time data analysis. This platform combines intelligent, decision-making algorithms with collected data, enabling developers to create a business solution instantaneously with the most current data. In collaboration with data scientists and experts from Taiwan and Singapore (NTU), this platform provides users real-time alarm system of chillers by learning and training machines’ behaviours through machine learning algorithms</div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 image-box">
                         <img className='shadow' src={Ipbem} width={"600px"} style={{ borderRadius: '40px', height: '230px' }} />
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Products = () => {
                     <div className="" style={{ color: "#084C95", fontWeight: 600 }}>
                         Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager.</div>
                 </div>
-                <div className=" ms-3 me-2 col-6">
+                <div className=" ms-3 me-2 col-6 image-box">
                     <img className='shadow' src={CRM} width={"610px"} style={{ borderRadius: '40px', height: '230px' }} />
                 </div>
             </div>
@@ -80,7 +80,7 @@ const Products = () => {
                     This product is dedicated for a Singapore based Solar Power Company. The main function of this product is providing source information for Singapore’s Energy Market bidding. In this single platform, various vendors are able to control their sites for power output monitoring and market bidding. As a registered vendor, the client is able to access real-time and historical prices and demand on the market. Users can also generate various reports such as quarterly revenue report, service report, activation reports and so on by selecting the time range they would like to. 
                     </div>
                 </div>
-                <div className=" ms-3 me-2 col-6">
+                <div className=" ms-3 me-2 col-6 image-box">
                     <img className='shadow' src={Solar} width={"600px"} style={{ borderRadius: '40px', height: '250px' }} />
                 </div>
             </div>

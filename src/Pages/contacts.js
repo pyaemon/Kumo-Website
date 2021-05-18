@@ -97,9 +97,9 @@ const Contact = () => {
             </div>
           </div>
         </div >
-        <div style={{ marginBottom: '32%' }}>
+        {/* <div style={{ marginBottom: '32%' }}>
           <MapForContact />
-        </div>
+        </div> */}
       </div>
     </div>
 

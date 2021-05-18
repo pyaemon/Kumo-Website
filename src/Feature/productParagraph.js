@@ -16,7 +16,7 @@ const ProductParagraph = (props) => {
         <div className='my-4'>
             <div className={`d-flex ${isReverse ? 'flex-row-reverse' : 'flex-row'} flex-xl-nowrap flex-lg-nowrap flex-md-nowrap flex-sm-wrap flex-xs-wrap flex-wrap mx-4 justify-content-center`} >
                 <div className='row ms-3 me-2'>
-                <div className='col-6' style={{ display: 'block'}}>
+                <div className='col-6 image-box' style={{ display: 'block'}}>
                     <img className='shadow' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius,height:imgheight, border: '1px solid #C5B3E5' }} />
                 </div>
                 <div className='col-5 ms-3 me-2 m-container' style={{ display: 'block' }}>
