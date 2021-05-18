@@ -140,7 +140,7 @@ const Home = () => {
         </div>
 
         <div
-          className="d-flex justify-content-center image-box"
+          className="d-flex justify-content-center development"
           style={{ marginTop: "80px", overflow: 'auto' }}
         >
           <ParaFragment
@@ -371,8 +371,7 @@ const Home = () => {
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
             <div className="dropdown-divider m-title p-0 m-0" style={{ display: 'block', height:'2px',width: '100%' }}></div>
             <p>Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
-</p>
-
+            </p>
           </div>
         </div>
         <div style={{ color: "#084C95" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>

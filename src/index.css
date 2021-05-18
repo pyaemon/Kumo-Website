@@ -54,8 +54,15 @@ code {
 .image-box img {
   transition: all 0.3s;
   transform: scale(1);
+  scrollbar-width: none;
 }
 
 .image-box:hover img {
   transform: scale(1.1);
+  scrollbar-width: none;
+}
+
+.development{
+  overflow-x:hidden;
+  overflow-y: hidden;
 }

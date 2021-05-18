@@ -6,13 +6,14 @@ const HomeParagraph = props => {
     const { data, imgSrc, imgWidth, isReverse, } = props
 
     return (
-        < div  style={{ margin: '30px 30px 0 0', overflow: 'auto' }}>
-            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img src={imgSrc} style={{
+        < div  style={{ margin: '30px 30px 0 0' }}>
+            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img  src={imgSrc} style={{
                 display: 'block', width: imgWidth,
-                height: '200px',
+                height: '185px',
                 boxShadow: '10px 10px 10px #00000029',
                 borderRadius: '41px',
                 opacity: 1,
+                marginTop: -30
 
             }} /></div>
             <div className="m-container">
