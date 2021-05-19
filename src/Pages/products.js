@@ -33,7 +33,7 @@ const Products = () => {
 
                 <Paragraph
                     imgSrc={Ipbem}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={false}
                     data={Ipbemdata}
@@ -47,7 +47,7 @@ const Products = () => {
 
                 <Paragraph
                     imgSrc={ACBEL}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={true}
                     data={acbelData}
@@ -61,7 +61,7 @@ const Products = () => {
 
                 <Paragraph
                     imgSrc={CRM}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={false}
                     data={Crmdata}
@@ -70,12 +70,12 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center development"
-                style={{ marginTop: "50px",whiteSpace:'wrap' }}
+                style={{ marginTop: "50px"}}
             >
 
                 <Paragraph
                     imgSrc={Chiller1}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={true}
                     data={chillerData}
@@ -84,12 +84,12 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center development"
-                style={{ marginTop: "80px" }}
+                style={{ marginTop: "50px" }}
             >
 
                 <Paragraph
                     imgSrc={Solar}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={false}
                     data={Solardata}
@@ -98,12 +98,12 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center development"
-                style={{ marginTop: "80px", overflow: 'auto' }}
+                style={{ marginTop: "50px"}}
             >
 
                 <Paragraph
                     imgSrc={Survey}
-                    imageWidth={'600px'}
+                    imgWidth={'600px'}
                     imgRadius={'40px'}
                     isReverse={true}
                     data={surveyData}

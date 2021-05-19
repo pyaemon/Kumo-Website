@@ -21,7 +21,7 @@ const App = () => {
   let loc = location.pathname;
   
   return (
-    <div className='m-0 ' style={{ backgroundImage: `url(${Bg})`, paddingTop:'18px', paddingInline:"10px",  }}>
+    <div className='m-0 ' style={{ backgroundImage: `url(${Bg})`, }}>
       <Nav />
       <div className="mx-xl-4 px-xl-4 mx-lg-4 px-lg-4 mx-md-4 px-md-4 mx-sm-2 px-sm-2 mx-xs-1 px-xs-1 mx-1 px-1 pt-3">
         

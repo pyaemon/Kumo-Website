@@ -14,10 +14,10 @@ const Nav = () => {
   let loc = location.pathname;
   return (
   
-    <div className='p-0 m-0 d-flex justify-content-center align-self-center' >
-      <nav class="navbar navbar-expand-md navbar-light bg-light w-100 shadow-sm" style={{ position:'fixed',zIndex:1000 }}>
+    <div className='p-0 m-0 d-flex justify-content-center align-self-center ' >
+      <nav class="navbar navbar-expand-md navbar-light bg-light w-100 shadow-sm bg-danger" style={{ position:'fixed',zIndex:1000 }}>
         <div class="container-fluid d-flex justify-content-between ">
-        <img className="navbar-brand" src={"/kumo.jpeg"} style={{ width: window.innerWidth > 600 ? 60 : 40, height: 40 }} ></img>
+        <img className="navbar-brand mx-3" src={"/kumo.jpeg"} style={{ width: window.innerWidth > 600 ? 60 : 40, height: 40 }} ></img>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
