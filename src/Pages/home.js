@@ -277,7 +277,8 @@ const Home = () => {
                 style={{
                   textAlign: "center",
                   fontSize: "1.5rem",
-                  paddingLeft:"10px"                
+                  paddingLeft:"10px" ,
+                  cursor: 'pointer'               
                 }}
               >
                 Our Services

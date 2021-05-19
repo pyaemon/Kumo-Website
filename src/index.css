@@ -99,7 +99,7 @@ code {
     margin-left: 30px;
   }
   .reserved{
-    margin-left: -20px;
+    margin-left: 5px;
   }
 }
 @media only screen and (max-width: 730px) {
@@ -111,6 +111,10 @@ code {
     /* background-color: lightblue; */
    padding-top: 30%;
    margin-bottom: -30px;
+  }
+  .our-service {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
  
 }
@@ -161,6 +165,16 @@ code {
     right: -300px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .development{
+    padding-top: 42%;
+    /* background-color: red; */
+  }
+  .reserved{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width: 310px) {
   .links{
     margin-top: 80%;
@@ -174,7 +188,7 @@ code {
     margin-top: 80%;
   }
   .about-company{
-    margin-left: 10px;
+    margin-left: -20px;
   }
   .town{
     margin-left: -20px;
@@ -188,8 +202,8 @@ code {
    margin-left: 50px; */
    margin-left: 12px;
 }
-.map-contact{
-  background-color: red;
+.development{
+  padding-top: 50%;
 }
 }
 

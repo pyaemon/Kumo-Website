@@ -69,17 +69,18 @@ const Contact = () => {
               <div>
                 <textarea
                   className="p-3"
+                  placeholder="Message ........"
                   style={{
                     color: "#799ED1",
                     fontSize: 16,
                     paddingLeft: 20,
-                    minWidth: window.innerWidth > 800 ? 350 : 250,
+                    minWidth: window.innerWidth > 800 ? 350 : 210,
                     minHeight: 200,
                     borderRadius: 20,
                     border: "1px solid #799ED1",
                   }}
                 >
-                  Message .......
+                 
               </textarea>
               </div>
               <div className='py-3'>
