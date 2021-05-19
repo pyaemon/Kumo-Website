@@ -390,22 +390,11 @@ const Home = () => {
           </div>
           <div
             className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
-            style={{ maxHeight: 600, position: "relative", display: "block" }}
+            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft: -50 }}
           >
             <div
               className="d-flex justify-content-end align-items-start"
-              style={{}}
-            >
-              <img
-                className="img-fluid shadow"
-                src={Crm1}
-                alt="view"
-                style={{ width: 180, height: 180, borderRadius: "50%", marginRight: 180, marginTop: 70, position: "absolute", zIndex: 1 }}
-              />
-            </div>
-            <div
-              className="d-flex justify-content-center align-items-center"
-              style={{}}
+              style={{ position: "relative"}}
             >
               <img
                 className="img-fluid shadow"
@@ -415,11 +404,23 @@ const Home = () => {
                   width: 230,
                   height: 230,
                   borderRadius: "50%",
-                  marginBottom: -220,
+                  marginBottom: -100,
                   position: "relative",
                   marginLeft: 20,
                   zIndex: 2
                 }}
+              />
+              
+            </div>
+            <div
+              className="d-flex justify-content-center align-items-center"
+              style={{position: "relative"}}
+            >
+              <img
+                className="img-fluid shadow"
+                src={Crm1}
+                alt="view"
+                style={{ width: 180, height: 180, borderRadius: "50%", marginRight: 0, position: "absolute", zIndex: 1 }}
               />
             </div>
           </div>

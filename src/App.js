@@ -39,7 +39,7 @@ const App = () => {
       
       {
         loc.includes("contact") &&
-        <div className='d-flex w-100'  style={{ marginBottom: '45%'}}>
+        <div className='d-flex w-100'  style={{ marginBottom: '35%'}}>
         <Map />
 
          </div>

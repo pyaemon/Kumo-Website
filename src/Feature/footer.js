@@ -46,12 +46,12 @@ const Footer = () => {
 
 
         <div class="mt-5 pb-0 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
-            <div class="container">
+            <div class="container footer-sub">
                 <div class="row">
                     <div class="col-lg-4 col-xs-12 about-company">
                         <Map className="" style={{ borderRadius: 10 }} />
                     </div>
-                    <div class="col-lg-4 col-xs-12 links">
+                    <div class="col-lg-4 col-xs-12 links ">
                         <img src={Location} alt="img" style={{ fontSize: 5 }} />
                         <div style={{ paddingLeft: 60, marginTop: -40 }}>
                             <p >(Nga Gyi/98), 64Street, Between</p>
@@ -61,7 +61,7 @@ const Footer = () => {
                         <img src={Phone} alt="facebook" width={25} />
                         <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
                         <br></br>
-                        <p className="pt-5">@2021 Kumo Solution Co.,Ltd. All Rights Reserved</p>
+                        <p className="reserved" style={{paddingTop:"15%"}}>@2021 Kumo Solution Co.,Ltd. All Rights Reserved</p>
                     </div>
                     <div class="col-lg-3 col-xs-12 location">
                     <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
