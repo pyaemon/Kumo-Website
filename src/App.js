@@ -21,7 +21,7 @@ const App = () => {
   let loc = location.pathname;
   
   return (
-    <div className='m-0 ' style={{ backgroundImage: `url(${Bg})`, }}>
+    <div className='m-0' style={{ backgroundImage: `url(${Bg})`, height: "100%" }}>
       <Nav />
       <div className="mx-xl-4 px-xl-4 mx-lg-4 px-lg-4 mx-md-4 px-md-4 mx-sm-2 px-sm-2 mx-xs-1 px-xs-1 mx-1 px-1 pt-3">
         
@@ -39,7 +39,9 @@ const App = () => {
       
       {
         loc.includes("contact") &&
-        <div className='d-flex w-100'  style={{ marginBottom: '35%'}}>
+        <div className=''  
+        style={{ height: '50%', position: "relative" }}
+        >
         <Map />
 
          </div>

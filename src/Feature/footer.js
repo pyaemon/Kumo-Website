@@ -46,8 +46,8 @@ const Footer = () => {
 
 
         <div class="mt-5 pb-0 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
-            <div class="container footer-sub">
-                <div class="row">
+            <div class="container footer-sub m-0 h-100 p-2">
+                <div class="row h-100">
                     <div class="col-lg-4 col-xs-12 about-company">
                         <Map className="" style={{ borderRadius: 10 }} />
                     </div>
