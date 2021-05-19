@@ -87,7 +87,7 @@ p{
 
 
 .img-fluid {
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -115,6 +115,4 @@ p{
     }
   }
 
-  .main { 
-    backgroundColor:#dbf3fa !important
-  }
+  

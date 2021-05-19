@@ -17,7 +17,7 @@ const Nav = () => {
     <div className='p-0 m-0 d-flex justify-content-center align-self-center ' >
       <nav class="navbar navbar-expand-md navbar-light bg-light p-0 w-100 shadow-sm " style={{ position:'fixed',zIndex:1000 }}>
         <div class="container-fluid d-flex justify-content-between ">
-        <img className="navbar-brand mx-3 pr-3" src={"/kumo.png"} style={{ width: window.innerWidth > 600 ? 70 : 60, height: 50 }} ></img>
+        <img className="navbar-brand mx-3 pr-3" src={"/kumo.png"} style={{ width: window.innerWidth > 600 ? 75 : 60, height: 50 }} ></img>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

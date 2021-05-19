@@ -6,6 +6,7 @@ import Location from "../Images/locations.png"
 import Messenger from "../Images/messager.svg";
 import Phone from "../Images/phone.png";
 import Map from "../Feature/map"
+import Font from "../Feature/fonts";
 // import Map from "../Images/map.JPG"
 
 const Footer = () => {
@@ -51,17 +52,17 @@ const Footer = () => {
                     <div class="col-lg-4 col-xs-12 about-company">
                         <Map className="" style={{ borderRadius: 10 }} />
                     </div>
-                    <div class="col-lg-4 col-xs-12 links ">
-                        <img src={Location} alt="img" style={{ fontSize: 5 }} />
-                        <div style={{ paddingLeft: 60, marginTop: -40 }}>
+                    <div class="col-lg-4 col-xs-12 links " style={{font:Font.regular}}>
+                        <img src={Location} alt="img" style={{ }} />
+                        <div style={{ paddingLeft: 60, marginTop: -40,font:Font.regular }}>
                             <p >(Nga Gyi/98), 64Street, Between</p>
-                            <p style={{ lineHeight: "0.1cm", marginTop: -7 ,whiteSpace: 'nowrap'}}>105 & 106 Street, Mandalay, Myanmar</p>
+                            <p class="town" style={{ lineHeight: "0.1cm", marginTop: -7 ,whiteSpace: 'nowrap'}}>105 & 106 Street, Mandalay, Myanmar</p>
                         </div>
                         <br></br>
                         <img src={Phone} alt="facebook" width={25} />
                         <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
                         <br></br>
-                        <p className="reserved" style={{paddingTop:"15%"}}>@2021 Kumo Solution Co.,Ltd. All Rights Reserved</p>
+                        <p className="reserved col-xs-12" style={{paddingTop:"15%",font:Font.large}}> © 2021 Kumo Solutions Co., Ltd. All Rights Reserved</p>
                     </div>
                     <div class="col-lg-3 col-xs-12 location">
                     <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>

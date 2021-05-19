@@ -28,20 +28,19 @@ const About = () => {
                 </p>
                     </div>
                 </div>
-                <div className="nails w-100 pb-3" style={{ position: 'relative', margin: '' }}>
+                <div className="nails w-100 pb-0 mb-3 " style={{ position: 'relative', margin: '' }}>
                     <div className="image-layout">
-                        <img className="layout shadow-lg w-100" alt="developers" src={Developers} style={{ height: '400px', }} />
+                        <img className="img-fluid layout shadow-lg w-100" alt="developers" src={Developers} style={{ height: '400px',overflow: 'auto' }} />
                     </div>
                     <div style={{
-                        position: 'absolute', top: '47%', height: '250px', width: '100%', left: '50%', transform: 'translate(-50%, -50%)', opacity: '0.7',
-                        background: 'rgb(76, 74, 111)'
+                        position: 'absolute', top: 0,  left: 0, right: 0, bottom: 0 ,background: 'rgba(72, 61, 139,0.5)'
                     }}>
-                        <div className="mt-3" style={{ whiteSpace: 'nowrap', paddingLeft: windowWidth < 1200 ? '12rem' : '31rem', fontSize: fonts.heading1, fontWeight: 600, color: colors.WhiteColor }}>Team Introduction</div>
-                        <div className="p-4 mx-5" style={{ position: 'relative', fontSize: '15px', letterSpacing: '0px', color: colors.WhiteColor, wordSpacing: 4 }}>
+                        <div className="mt-2" style={{ whiteSpace: 'nowrap', fontSize: fonts.heading12, fontWeight: 600, color: colors.WhiteColor , textAlign: 'center'}}>Team Introduction</div>
+                        <div className="p-3 mx-5" style={{ position: 'relative', fontSize: '18px', letterSpacing: '0.5px', color: colors.WhiteColor, wordSpacing: 4 }}>
                             The team is made up of 20 local talents who strive for the continual development of innovative and exceptional skills by adopting international & the foremost practice standards. We maintain continuous improvements by promoting a learning environment, ensuring that our employees are exposed to and trained on state-of-the-art technologies. As a team, we continue to learn together, creating a collaborative environment encouraging individual and organizational growth and development. The work environment in the company reflects a professional approach to dedicated team spirit and serves as a motivational ground for the professional and personal growth of the software talent.</div>
                     </div>
                 </div>
-
+                {/* height: '250px', width: '100%', */}
                 <ParaFragment
                     imgSrc={Team}
                     imageWidth={'380px'}

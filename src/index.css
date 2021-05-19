@@ -95,6 +95,12 @@ code {
   .kumo-button{
     padding-top: 60%;
   }
+  .footer-sub{
+    margin-left: 30px;
+  }
+  .reserved{
+    margin-left: -20px;
+  }
 }
 @media only screen and (max-width: 730px) {
   /* .vertion-text{
@@ -105,9 +111,6 @@ code {
     /* background-color: lightblue; */
    padding-top: 30%;
    margin-bottom: -30px;
-  }
-  .map-style{
-    margin-left: 500px;
   }
  
 }
@@ -122,9 +125,6 @@ code {
 }
 
 @media only screen and (max-width: 1050px) {
-  .links{
-    margin-top: 30%;
-  }
   .centralized{
     flex-direction: column;
     flex-wrap: wrap;
@@ -137,6 +137,12 @@ code {
   }
 }
 @media only screen and (max-width: 770px) {
+  /* .footer-sub{
+    text-align: center;
+  }
+  .about-company{
+    margin-left: 30%;
+  } */
   .links{
     margin-top: 40%;
   }
@@ -150,4 +156,30 @@ code {
   .links{
     margin-top: 80%;
   }
+}
+@media only screen and (max-width: 322px) {
+  .footer-sub{
+    margin-left: -5px;
+  }
+  .links{
+    margin-top: 80%;
+  }
+  .about-company{
+    margin-left: 10px;
+  }
+  .town{
+    margin-left: -20px;
+  }
+  .reserved{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  .m-paragraph{
+   /* padding-right: 50px;
+   margin-left: 50px; */
+   margin-left: 12px;
+}
+.map-contact{
+  background-color: red;
+}
 }

@@ -75,18 +75,18 @@ const ContactMap = props => {
   };
 
   return (
-    <div className='' style={{ zIndex: 4 }}>
+    <div className='px-3' style={{ zIndex: 4 }}>
       <Map
         google={window.google}
         zoom={15}
-        style={{ width: "300px", height: "210px", borerRadius: 50 }}
+        style={{ width: "300px", height: "210px", borerRadius: "2%" }}
         initialCenter={{
           lat: 21.9426,
           lng: 96.1078
         }}
         // onClick={onMapClicked}
       >
-        <Marker onClick={onMarkerClick} name={"Kumo Solutions"} />
+        {/* <Marker onClick={onMarkerClick} name={"Kumo Solutions"} /> */}
 
         <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
           <div>
