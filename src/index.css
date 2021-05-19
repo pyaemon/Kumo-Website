@@ -151,6 +151,15 @@ code {
   .links{
     margin-top: 60%;
   }
+  .home-service-bg {
+    background: #dbf3fa;
+    transform: skew(-30deg);
+    height: 330px; 
+    z-index: -1;
+    position: absolute; 
+    left: -300px;
+    right: -300px;
+  }
 }
 @media only screen and (max-width: 310px) {
   .links{
@@ -182,4 +191,27 @@ code {
 .map-contact{
   background-color: red;
 }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-service-bg {
+    background: #dbf3fa;
+    height: 330px; 
+    z-index: -1;
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  .home-service-bg {
+    background: #dbf3fa;
+    transform: skew(-30deg);
+    height: 330px; 
+    z-index: -1;
+    position: absolute; 
+    left: 140px;
+    right: -300px;
+  }
 }

@@ -19,7 +19,7 @@ const Home = () => {
   const handleClickPrud = () => history.push('/products');
   return (
     <div >
-      <div className="container  py-3 my-4" >
+      <div className="py-3 my-4" >
         <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
           <div className="col-lg-5 col-xl-5 col-md-5 ">
             <div
@@ -250,9 +250,8 @@ const Home = () => {
       </div> */}
 
         <div className="container-fluid ">
-          <div style={{
-            background: "#dbf3fa", transform: "skew(-30deg)", width: "900px", height: "330px", zIndex: ' -1',
-            position: 'absolute', marginLeft: 140
+          <div className="home-service-bg" style={{
+           
           }}></div>
         </div>
         <div className='m-container' style={{}}>
