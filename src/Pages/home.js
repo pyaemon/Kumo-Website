@@ -334,7 +334,7 @@ const Home = () => {
             imgSrc={realtimeImg}
             isReverse={false}
             data={productData1}
-            imgWidth={"400px"}
+            imgWidth={window.innerWidth > 600 ? "330px" :"400px"}
           />
         </div>
         <div className="d-flex justify-content-center pt-3 centralized" style={{ color: "#084C95" }}>
