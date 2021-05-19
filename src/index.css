@@ -113,9 +113,19 @@ code {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .links{
     margin-top: 30%;
+  }
+  .centralized{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .kumo-button{
+    padding-top: 30%;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 770px) {
