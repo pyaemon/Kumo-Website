@@ -32,7 +32,7 @@ const About = () => {
                     <div className="image-layout">
                         <img className="img-fluid layout shadow-lg w-100" alt="developers" src={Developers} style={{ height: '400px',overflow: 'auto' }} />
                     </div>
-                    <div style={{
+                    <div className="team-introduction" style={{
                         position: 'absolute', top: 0,  left: 0, right: 0, bottom: 0 ,background: 'rgba(72, 61, 139,0.5)'
                     }}>
                         <div className="mt-2" style={{ whiteSpace: 'nowrap', fontSize: fonts.heading12, fontWeight: 600, color: colors.WhiteColor , textAlign: 'center'}}>Team Introduction</div>

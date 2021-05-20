@@ -183,7 +183,7 @@ code {
 }
 @media only screen and (max-width: 770px) {
   .links{
-    margin-top: 40%;
+    margin-top: 35%;
     margin-left: 30%;
   }
   .location{
@@ -202,8 +202,14 @@ code {
   }
   .reserved{
     position: absolute;
-    top: 70%;
+    top: 75%;
     margin-left: -30px;
+  }
+
+  /* about us */
+
+  .about-box{
+    text-align: center;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -305,6 +311,15 @@ code {
     left: 0px;
     right: 0px;
   }
+  .vertion-text{
+    margin-bottom: 10%;
+  }
+  .development{
+  padding-top: 20%;
+  }
+  .version-box{
+    margin-left: 20%;
+  }
 }
 
 @media only screen and (min-width: 801px) {
@@ -316,5 +331,11 @@ code {
     position: absolute; 
     left: 140px;
     right: -100px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .team-introduction{
+    overflow: auto
   }
 }
