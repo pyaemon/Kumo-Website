@@ -92,7 +92,7 @@ const Home = () => {
           </div>
           </div>
           <div
-            className="col-lg-6 col-xl-6 col-md-12 version-box"
+            className="col-lg-7 col-xl-7 col-md-9 version-box"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div

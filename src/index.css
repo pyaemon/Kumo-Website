@@ -317,9 +317,9 @@ code {
   .development{
   padding-top: 20%;
   }
-  /* .version-box{
+  .version-box{
     margin-left: 20%;
-  } */
+  }
 }
 
 @media only screen and (min-width: 801px) {
