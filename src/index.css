@@ -123,10 +123,10 @@ code {
    padding-top: 30%;
    margin-bottom: -30px;
   }
-  .our-service {
+  /* .our-service {
     flex-direction: column;
     flex-wrap: wrap;
-  }
+  } */
   .mail{
     margin-bottom: 20%;
   }
