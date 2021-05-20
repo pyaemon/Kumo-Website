@@ -385,13 +385,13 @@ const Home = () => {
           <div className="m-container" >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className=" m-title p-0 m-0 container-fluid" style={{display: 'block', height: '2px', width: '120%' }}></div>
+            <div className=" m-title p-0 m-0 container-fluid" style={{display: 'block', height: '2px', width: '100%' }}></div>
             <p>Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager. Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
             </p>
           </div>
           <div
             className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
-            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft: -50 }}
+            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft:"-11%", marginTop: "-4%"  }}
           >
             <div
               className="d-flex justify-content-end align-items-start"
