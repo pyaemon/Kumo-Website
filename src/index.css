@@ -206,6 +206,11 @@ code {
     margin-left: -30px;
   }
 
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+
   /* about us */
 
   .about-box{
@@ -311,6 +316,9 @@ code {
 }
 .development{
   padding-top: 50%;
+}
+#footer-map{
+ width: 100%;
 }
 }
 @media only screen and (max-width: 280px) {
