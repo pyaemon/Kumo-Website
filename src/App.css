@@ -87,9 +87,15 @@ p{
 
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
+
+.img-fluid-crso {
+  max-width: 50%;
+  height: auto;
+}
+
 
   .m-title {
     height: 2px;

@@ -97,19 +97,19 @@ const IconCarousel = () => {
 
               <Carousel breakPoints={breakPoints}  pagination={false} infinite={true}   >
               <Item>
-                     <img className='img-fluid' src={EverComm} alt="salonroom" style={{padding: "80px 65px"}}/>
+                     <img className='img-fluid-crso' src={EverComm} alt="salonroom" style={{padding: "80px 65px"}}/>
                  </Item>
                  <Item>
-                     <img className='img-fluid' src={AllianceLogo} alt="room" style={{padding: "50px 50px"  }}/>
+                     <img className='img-fluid-crso' src={AllianceLogo} alt="room" style={{padding: "50px 50px"  }}/>
                  </Item>
                  <Item> 
-                     <img className='img-fluid' src={MarterLogo} alt="spa" style={{padding: "50px 50px"  }}/>
+                     <img className='img-fluid-crso' src={MarterLogo} alt="spa" style={{padding: "50px 50px"  }}/>
                  </Item>
                  <Item>
-                     <img className='img-fluid' src={PPS} alt="spa" style={{padding: "80px 50px"   }}/>
+                     <img className='img-fluid-crso' src={PPS} alt="spa" style={{padding: "80px 50px"   }}/>
                  </Item>
                  <Item>
-                     <img className='img-fluid' src={EverComm} alt="spa" style={{padding: "80px 50px"   }}/>
+                     <img className='img-fluid-crso' src={EverComm} alt="spa" style={{padding: "80px 50px"   }}/>
                  </Item>
               </Carousel>
 
