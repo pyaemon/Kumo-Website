@@ -56,7 +56,7 @@ const Footer = () => {
                         <img src={Location} alt="img" style={{}} />
                         <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
                             <p class="town">(Nga Gyi/98), 64Street, Between</p>
-                            <p class="town" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
+                            <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
                         </div>
                         <br></br>
                         <img src={Phone} alt="facebook" width={25} />

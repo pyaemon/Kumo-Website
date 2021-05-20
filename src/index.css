@@ -137,9 +137,9 @@ code {
     margin-left: 93%;
     margin-top: -31%;
   }
-  .reserved{
+  /* .reserved{
     white-space: nowrap;
-  }
+  } */
   
 }
 @media only screen and (max-width: 945px) {
@@ -274,6 +274,18 @@ code {
     margin-top: 80%;
   }
 }
+@media only screen and (max-width: 542px) {
+  .links{
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+  .location{
+    margin-left: 10%;
+  }
+  .about-company{
+    margin-left: 10%;
+  }
+}
 @media only screen and (max-width: 322px) {
   .footer-sub{
     margin-left: -5px;
@@ -300,6 +312,21 @@ code {
 .development{
   padding-top: 50%;
 }
+}
+@media only screen and (max-width: 280px) {
+  .links{
+    margin-left: -2%;
+  }
+  .town-sub{
+    padding-top: 5%;
+    margin-left: -22%;
+  }
+  .location{
+    margin-left: -2%;
+  }
+  .about-company{
+    margin-left: -10%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
