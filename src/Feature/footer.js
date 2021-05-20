@@ -49,25 +49,27 @@ const Footer = () => {
         <div class="mt-5 pb-0 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
             <div class="container footer-sub m-0 h-100 p-2">
                 <div class="row h-100">
-                    <div class="col-lg-4 col-xs-12 about-company">
+                    <div class="col-lg-4 col-md-5 col-xs-12 about-company">
                         <Map className="" style={{ borderRadius: 10 }} />
                     </div>
-                    <div class="col-lg-4 col-xs-12 links " style={{font:Font.regular}}>
-                        <img src={Location} alt="img" style={{ }} />
-                        <div style={{ paddingLeft: 60, marginTop: -40,font:Font.regular }}>
-                            <p >(Nga Gyi/98), 64Street, Between</p>
-                            <p class="town" style={{ lineHeight: "0.1cm", marginTop: -7 ,whiteSpace: 'nowrap'}}>105 & 106 Street, Mandalay, Myanmar</p>
+                    <div class="col-lg-4 col-md-4 col-xs-12 links " style={{ font: Font.regular }}>
+                        <img src={Location} alt="img" style={{}} />
+                        <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
+                            <p class="town">(Nga Gyi/98), 64Street, Between</p>
+                            <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
                         </div>
                         <br></br>
                         <img src={Phone} alt="facebook" width={25} />
                         <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
                         <br></br>
-                        <p className="reserved col-xs-12" style={{paddingTop:"15%",font:Font.large}}> © 2021 Kumo Solutions Co., Ltd. All Rights Reserved</p>
+                        <p className="reserved col-xs-12" style={{ paddingTop: "15%", font: Font.large }}> © 2021 Kumo Solutions Co., Ltd. All Rights Reserved</p>
                     </div>
-                    <div class="col-lg-3 col-xs-12 location">
-                    <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
-                       <br></br><br></br>
-                        <img src={Mail} alt="mail" /><span style={{ paddingLeft: 20 }}>office@kumomyanmar.com</span>
+                    <div class="col-lg-3 col-md-5 col-xs-12 location">
+                        <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
+                        <br></br><br></br>
+                        <div className="mail">
+                            <img src={Mail} alt="mail" /><span style={{ paddingLeft: 20 }}>office@kumomyanmar.com</span>
+                        </div>
                     </div>
                 </div>
                 {/* <div class="row mt-5">

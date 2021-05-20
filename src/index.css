@@ -22,7 +22,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.mail{
+  white-space: nowrap;
+}
 .footer
 {
   width:100%;
@@ -96,10 +98,19 @@ code {
     padding-top: 60%;
   }
   .footer-sub{
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .reserved{
     margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .mail{
+    margin-bottom: 20%;
+  }
+  .reserved{
+    top: 80%;
   }
 }
 @media only screen and (max-width: 730px) {
@@ -112,19 +123,49 @@ code {
    padding-top: 30%;
    margin-bottom: -30px;
   }
-  .our-service {
+  /* .our-service {
     flex-direction: column;
     flex-wrap: wrap;
+  } */
+  .mail{
+    margin-bottom: 20%;
   }
- 
 }
-@media only screen and (max-width: 800px) {
-  .centralized{
-    flex-direction: column;
-    flex-wrap: wrap;
+@media only screen and (max-width: 990px) {
+ 
+  .location{
+    margin-left: 93%;
+    margin-top: -31%;
   }
-  .kumo-button{
-    padding-top: 40%;
+  /* .reserved{
+    white-space: nowrap;
+  } */
+  
+}
+@media only screen and (max-width: 945px) {
+  .links{
+    margin-top: 35%;
+    margin-left: 30%;
+  }
+  .location{
+    margin-top: 2%;
+    margin-left: 30%;
+  }
+  .about-company{
+    margin-left: 30%;
+  }
+  .mail{
+    /* margin-top: -2%; */
+    margin-bottom: 10%;
+  }
+  .town{
+    white-space: nowrap;
+  }
+  .reserved{
+    position: absolute;
+    top: 70%;
+    margin-left: -30px;
+    font-size: 17px;
   }
 }
 
@@ -141,14 +182,34 @@ code {
   }
 }
 @media only screen and (max-width: 770px) {
-  /* .footer-sub{
-    text-align: center;
+  .links{
+    margin-top: 35%;
+    margin-left: 30%;
+  }
+  .location{
+    margin-top: 2%;
+    margin-left: 30%;
   }
   .about-company{
     margin-left: 30%;
-  } */
-  .links{
-    margin-top: 40%;
+  }
+  .footer-sub{
+    margin-bottom: 20%;
+  }
+  .mail{
+    margin-top: -2%;
+    margin-bottom: 15%;
+  }
+  .reserved{
+    position: absolute;
+    top: 75%;
+    margin-left: -30px;
+  }
+
+  /* about us */
+
+  .about-box{
+    text-align: center;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -164,6 +225,26 @@ code {
     left: -300px;
     right: -300px;
   }
+  .links{
+    margin-top: 60%;
+    margin-left: 8%;
+    /* margin-bottom: 8%; */
+  }
+  .location{
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  .about-company{
+    margin-left: 8%;
+  }
+  .mail{
+    margin-bottom:15%;
+  }
+  .reserved{
+    /* font-size: 15px; */
+    margin-left: 10px;
+    top: 80%;
+  }
 }
 @media only screen and (max-width: 376px) {
   .development{
@@ -171,13 +252,38 @@ code {
     /* background-color: red; */
   }
   .reserved{
-    font-size: 17px;
+    /* font-size: 15px; */
     margin-left: 10px;
+    top: 80%;
+  }
+  .links{
+    margin-top: 60%;
+    margin-left: 8%;
+    /* margin-bottom: 8%; */
+  }
+  .location{
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  .about-company{
+    margin-left: 8%;
   }
 }
 @media only screen and (max-width: 310px) {
   .links{
     margin-top: 80%;
+  }
+}
+@media only screen and (max-width: 542px) {
+  .links{
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+  .location{
+    margin-left: 10%;
+  }
+  .about-company{
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 322px) {
@@ -188,14 +294,15 @@ code {
     margin-top: 80%;
   }
   .about-company{
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .town{
     margin-left: -20px;
   }
   .reserved{
-    font-size: 17px;
+    /* font-size: 15px; */
     margin-left: 10px;
+    top: 83%;
   }
   .m-paragraph{
    /* padding-right: 50px;
@@ -205,6 +312,21 @@ code {
 .development{
   padding-top: 50%;
 }
+}
+@media only screen and (max-width: 280px) {
+  .links{
+    margin-left: -2%;
+  }
+  .town-sub{
+    padding-top: 5%;
+    margin-left: -22%;
+  }
+  .location{
+    margin-left: -2%;
+  }
+  .about-company{
+    margin-left: -10%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -216,6 +338,15 @@ code {
     left: 0px;
     right: 0px;
   }
+  .vertion-text{
+    margin-bottom: 10%;
+  }
+  .development{
+  padding-top: 20%;
+  }
+  .version-box{
+    margin-left: 20%;
+  }
 }
 
 @media only screen and (min-width: 801px) {
@@ -226,6 +357,12 @@ code {
     z-index: -1;
     position: absolute; 
     left: 140px;
-    right: -300px;
+    right: -100px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .team-introduction{
+    overflow: auto
   }
 }

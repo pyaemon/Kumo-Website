@@ -66,7 +66,6 @@ const Home = () => {
               Committed to the Future
           </div>
             <div
-              className="vertion-text"
               style={{
                 color: "#4B74AD",
                 textAlign: "left",
@@ -78,7 +77,9 @@ const Home = () => {
               Vision
           </div>
             <div
+            className="vertion-text"
               style={{
+                
                 color: "#4B74AD",
                 textAlign: "left",
                 fontSize: "25px",
@@ -91,7 +92,7 @@ const Home = () => {
           </div>
           </div>
           <div
-            className="col-lg-6 col-xl-6 col-md-6 image-box"
+            className="col-lg-5 col-xl-5 col-md-7 image-box"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div

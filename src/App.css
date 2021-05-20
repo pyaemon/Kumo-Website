@@ -91,6 +91,12 @@ p{
   height: auto;
 }
 
+.img-fluid-crso {
+  max-width: 50%;
+  height: auto;
+}
+
+
   .m-title {
     height: 2px;
     background-color: lightgray;
