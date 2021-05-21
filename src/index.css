@@ -13,7 +13,19 @@ body {
   /* overflow-x:hidden; */
 
 }
-
+/* .about-company{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.about-company Map{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+} */
 #root {
   height: 100% !important
 }
@@ -144,7 +156,7 @@ code {
 }
 @media only screen and (max-width: 945px) {
   .links{
-    margin-top: 35%;
+    /* margin-top: 35%; */
     margin-left: 30%;
   }
   .location{
@@ -183,7 +195,7 @@ code {
 }
 @media only screen and (max-width: 770px) {
   .links{
-    margin-top: 35%;
+    /* margin-top: 35%; */
     margin-left: 30%;
   }
   .location{
@@ -218,25 +230,26 @@ code {
   }
 }
 @media only screen and (max-width: 767px) {
-  .links{
+  /* .links{
     margin-top: 50%;
-  }
+  } */
 }
 @media only screen and (max-width: 460px) {
-  .links{
+  /* .links{
     padding-top: 10%;
-  }
+  } */
 }
 @media only screen and (max-width: 450px) {
-  .links{
+  /* .links{
     margin-top: 60%;
-  }
+  }*/
   
   .links{
-    margin-top: 70%;
+    /* margin-top: 70%; */
     margin-left: 8%;
-    /* margin-bottom: 8%; */
+    margin-bottom: 8%;
   }
+  
   .location{
     margin-top: 2%;
     margin-left: 8%;
@@ -264,8 +277,8 @@ code {
     top: 80%;
   }
   .links{
-    margin-top: 60%;
-    margin-left: 8%;
+    /* margin-top: 60%; */
+    margin-left: 5%;
     /* margin-bottom: 8%; */
   }
   .location{
@@ -275,15 +288,19 @@ code {
   .about-company{
     margin-left: 8%;
   }
+  .town-sub{
+    padding-top: 3%;
+    margin-left: -10%;
+  }
 }
 @media only screen and (max-width: 310px) {
-  .links{
+  /* .links{
     margin-top: 80%;
-  }
+  } */
 }
 @media only screen and (max-width: 542px) {
   .links{
-    margin-top: 40%;
+    /* margin-top: 40%; */
     margin-left: 10%;
   }
   .location{
@@ -294,9 +311,9 @@ code {
   }
 }
 @media only screen and (max-width: 332px) {
-  .links{
+  /* .links{
     margin-top: 55%;
-  }
+  } */
   .town-sub{
     padding-top: 4%;
     margin-left: -18%;
@@ -309,9 +326,9 @@ code {
   .footer-sub{
     margin-left: -5px;
   }
-  .links{
+  /* .links{
     margin-top: 80%;
-  }
+  } */
   .about-company{
     margin-left: -10px;
   }
