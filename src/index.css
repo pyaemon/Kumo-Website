@@ -137,9 +137,9 @@ code {
     margin-left: 93%;
     margin-top: -31%;
   }
-  .reserved{
+  /* .reserved{
     white-space: nowrap;
-  }
+  } */
   
 }
 @media only screen and (max-width: 945px) {
@@ -206,10 +206,25 @@ code {
     margin-left: -30px;
   }
 
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+
   /* about us */
 
   .about-box{
     text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .links{
+    margin-top: 50%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .links{
+    padding-top: 10%;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -218,7 +233,7 @@ code {
   }
   
   .links{
-    margin-top: 60%;
+    margin-top: 70%;
     margin-left: 8%;
     /* margin-bottom: 8%; */
   }
@@ -266,6 +281,30 @@ code {
     margin-top: 80%;
   }
 }
+@media only screen and (max-width: 542px) {
+  .links{
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+  .location{
+    margin-left: 10%;
+  }
+  .about-company{
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .links{
+    margin-top: 55%;
+  }
+  .town-sub{
+    padding-top: 4%;
+    margin-left: -18%;
+  }
+  .about-company{
+    margin-left: -3%;
+  }
+}
 @media only screen and (max-width: 322px) {
   .footer-sub{
     margin-left: -5px;
@@ -292,6 +331,24 @@ code {
 .development{
   padding-top: 50%;
 }
+#footer-map{
+ width: 100%;
+}
+}
+@media only screen and (max-width: 280px) {
+  .links{
+    margin-left: -2%;
+  }
+  .town-sub{
+    padding-top: 5%;
+    margin-left: -22%;
+  }
+  .location{
+    margin-left: -2%;
+  }
+  .about-company{
+    margin-left: -10%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -310,9 +367,9 @@ code {
   .development{
   padding-top: 20%;
   }
-  /* .version-box{
+  .version-box{
     margin-left: 20%;
-  } */
+  }
 }
 
 @media only screen and (min-width: 801px) {
