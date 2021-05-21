@@ -51,7 +51,7 @@
 //   }
 // }
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from 'react'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
 
@@ -60,6 +60,7 @@ const ContactMap = props => {
   const [showingInfoWindow, setShowingInfoWindow] = useState(false);
   const [activeMarker, setActiveMarker] = useState({});
   const [selectedPlace, setSelectedPlace] = useState({});
+  const [pageWidth, setPageWidth] = useState(window.innerWidth)
 
   const onMarkerClick = (props, marker, e) => {
     setSelectedPlace(props);
@@ -74,8 +75,14 @@ const ContactMap = props => {
     }
   };
 
+  useEffect(() => {
+    window.onresize = (e) => {
+        setPageWidth(e.target.innerWidth)
+    }
+})
+
   return (
-    <div className='px-3' style={{ zIndex: 4 }}>
+    <div className={`${pageWidth < 768 ? 'map-responsive' : ' map-responsive iframe'} px-2 `} style={{ position: "relative", zIndex: 4 }}>
       <Map
         google={window.google}
         zoom={15}

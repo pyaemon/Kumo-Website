@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
   height: 100%;
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
 
 }
 
@@ -216,15 +216,7 @@ code {
   .links{
     margin-top: 60%;
   }
-  .home-service-bg {
-    background: #dbf3fa;
-    transform: skew(-30deg);
-    height: 330px; 
-    z-index: -1;
-    position: absolute; 
-    left: -300px;
-    right: -300px;
-  }
+  
   .links{
     margin-top: 60%;
     margin-left: 8%;
@@ -310,6 +302,7 @@ code {
     position: absolute; 
     left: 0px;
     right: 0px;
+    width: 100%;
   }
   .vertion-text{
     margin-bottom: 10%;
@@ -331,6 +324,7 @@ code {
     position: absolute; 
     left: 140px;
     right: -100px;
+    width: 100%;
   }
 }
 

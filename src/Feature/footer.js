@@ -46,17 +46,17 @@ const Footer = () => {
 
 
 
-        <div class="mt-5 pb-0 footer" style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
-            <div class="container footer-sub m-0 h-100 p-2">
-                <div class="row h-100">
-                    <div class="col-lg-4 col-md-5 col-xs-12 about-company">
+        <div class="d-flex flex-wrap mt-5 pb-0 footer " style={{ backgroundColor: "#dbf3fa ", color: "#084C95" }}>
+            <div class="d-flex container footer-sub m-0 h-100 p-2">
+                <div class="d-flex row h-100">
+                    <div class="col-lg-4 col-md-5 col-xs-12 about-company" id="footer-map">
                         <Map className="" style={{ borderRadius: 10 }} />
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 links " style={{ font: Font.regular }}>
                         <img src={Location} alt="img" style={{}} />
                         <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
                             <p class="town">(Nga Gyi/98), 64Street, Between</p>
-                            <p class="town" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
+                            <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
                         </div>
                         <br></br>
                         <img src={Phone} alt="facebook" width={25} />
@@ -79,6 +79,7 @@ const Footer = () => {
                 </div> */}
             </div>
         </div>
+
 
     )
 }

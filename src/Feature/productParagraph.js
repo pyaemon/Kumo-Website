@@ -43,7 +43,7 @@ const ProductParagraph = props => {
 
     return (
         < div  style={{ margin: '30px 30px 0 0' }}>
-            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img className='kumo-image img-fluid' src={imgSrc} style={{
+            <div className='' style={{ float: isReverse ? 'left' : 'right' }}><img className='kumo-image img-fluid' src={imgSrc} style={{
                 display: 'block', width: imgWidth,
                 height:imgheight,
                 // height: '185px',
@@ -55,7 +55,7 @@ const ProductParagraph = props => {
             }} /></div>
             <div className="m-container">
                 <h3 className="title" style={{ color: '#084C95', textAlign: isReverse ? 'right' : 'left', font: 'normal normal normal 30px/36px Microsoft Sans Serif' }} >{data.title}</h3>
-                <div className="dropdown-divider-1 ud_line p-0 m-0 m-title mb-2" style={{ display: 'block' }}></div>
+                <div className=" p-0 m-0 m-title mb-2" style={{ display: 'block' }}></div>
                 <div className='m-paragraph '>
                     <p className=' ms-3 me-2' style={{ color: colors.ParagraphColor, whiteSpace:'wrap' }}>{data.description1}</p>
                     <p className=' ms-3 me-2' style={{ color: colors.ParagraphColor, whiteSpace:'wrap' }}>{data.description2}</p>
