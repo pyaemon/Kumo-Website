@@ -326,9 +326,13 @@ code {
   .footer-sub{
     margin-left: -5px;
   }
-  /* .links{
-    margin-top: 80%;
-  } */
+  .links{
+    /* margin-top: 80%; */
+    margin-left: -1%;
+  }
+  .location{
+    margin-left: -1%;
+  }
   .about-company{
     margin-left: -10px;
   }
