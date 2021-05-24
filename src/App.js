@@ -41,7 +41,7 @@ const App = () => {
         </Switch>
       </div>      
           { loc.includes("contact") &&
-            <div className='' style={{ height: '50%', position: "relative" }}>
+            <div className='mb-5' style={{ height: '50%', position: "relative" }}>
               <Map />
             </div>
           }

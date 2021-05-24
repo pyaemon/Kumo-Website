@@ -72,7 +72,7 @@ const Home = () => {
                 textAlign: "left",
                 fontSize: "35px",
                 fontFamily: "Cambria",
-                marginTop: "80px",
+                marginTop: "120px",
               }}
             >
               Vision
@@ -94,7 +94,7 @@ const Home = () => {
           </div>
           </div>
           <div
-            className="col-lg-6 col-xl-6 col-md-6 px-2 image-box kumo-image"
+            className="col-lg-6 col-xl-6 col-md-6 px-2  image-box kumo-image"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
