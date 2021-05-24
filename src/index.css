@@ -72,6 +72,9 @@ code {
   left: 0;
   right: 0;
 }
+.mobile-view{
+  display: none;
+}
 
 .image-box img {
   transition: all 0.3s;
@@ -385,6 +388,12 @@ code {
     flex-direction: column;
     align-items: center;
   }
+  .large-view{
+    display: none;
+  }
+  .mobile-view{
+    display: block;
+  }
 }
 @media only screen and (max-width: 770px) {
   .img-fluid {
@@ -449,11 +458,6 @@ code {
   }
 }
 
-@media only screen and (max-width: 1050px) {
-  .team-introduction{
-    overflow: auto
-  }
-}
 
 footer {
   background: #dbf3fa;
