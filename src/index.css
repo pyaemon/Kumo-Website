@@ -407,3 +407,7 @@ code {
     overflow: auto
   }
 }
+
+.transition-container, .transition-container .bDqItY {
+ overflow: auto;
+}

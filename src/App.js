@@ -15,16 +15,21 @@ import Contact from "./Pages/contacts";
 import Map from "./Feature/MapForContact"
 import Footer from "./Feature/footer";
 import Bg from '../src/Images/bg.svg';
-// import { Router } from "express";
+import { PageTransition } from '@steveeeie/react-page-transition';
 
 const App = () => {
   let location = useLocation();
   let loc = location.pathname;
   
   return (
-    <div className='m-0' style={{ backgroundImage: `url(${Bg})`, height: "100%" }}>
-      
+    
+    <div className='m-0' style={{ backgroundImage: `url(${Bg})`, height: "100%" }}>            
       <Nav />
+      <PageTransition
+              preset="cubeToRight"
+              transitionKey={loc}
+              className="transition-container"
+            >
       <div className="mx-xl-4 px-xl-4 mx-lg-4 px-lg-4 mx-md-4 px-md-4 mx-sm-2 px-sm-2 mx-xs-1 px-xs-1 mx-1 px-1 pt-3 ">
         <Switch>
           <Route path="/home" component={Home} exact />
@@ -34,20 +39,15 @@ const App = () => {
           <Route path="/contact" component={Contact} exact />
           <Redirect to="/home" from="/" component={Home} exact />
         </Switch>
-      </div>
-      
-      {/*
-        loc.includes("contact") &&
-        <div className=''  
-        style={{ height: '50%', position: "relative" }}
-        >
-        <Map />
-
-         </div>
-      */ }
-      <Footer/>
-      
-    </div>
+      </div>      
+          { loc.includes("contact") &&
+            <div className='' style={{ height: '50%', position: "relative" }}>
+              <Map />
+            </div>
+          }
+        <Footer/>
+      </PageTransition>
+    </div>    
   );
 };
 export default withRouter(App);
