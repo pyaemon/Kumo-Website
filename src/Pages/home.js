@@ -433,7 +433,6 @@ const Home = () => {
           <KumoButton text="See More Products" onClick={handleClickPrud} />
         </div>
       </div>
-
     </div>
 
   );
