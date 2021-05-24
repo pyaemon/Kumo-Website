@@ -65,13 +65,14 @@ const Home = () => {
             >
               Committed to the Future
           </div>
+          <div className="vertion-paragraph">
             <div
               style={{
                 color: "#4B74AD",
                 textAlign: "left",
                 fontSize: "35px",
                 fontFamily: "Cambria",
-                marginTop: "100px",
+                marginTop: "80px",
               }}
             >
               Vision
@@ -91,8 +92,9 @@ const Home = () => {
               services.
           </div>
           </div>
+          </div>
           <div
-            className="col-lg-5 col-xl-5 col-md-7 image-box"
+            className="col-lg-5 col-xl-5 col-md-7 image-box kumo-image"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div

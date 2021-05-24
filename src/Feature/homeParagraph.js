@@ -12,7 +12,7 @@ useEffect(() => {
 })
     return (
         < div  style={{ margin: '30px 30px 0 0' }}>
-            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img className='kumo-image img-fluid' src={imgSrc} style={{
+            <div className='image-box' style={{ float: isReverse ? 'left' : 'right' }}><img className=' img-fluid' src={imgSrc} style={{
                 display: 'block', width: imgWidth,
                 // height: '185px',
                 boxShadow: '10px 10px 10px #00000029',

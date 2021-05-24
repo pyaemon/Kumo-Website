@@ -84,6 +84,9 @@ code {
   overflow-x:hidden;
   overflow-y: hidden;
 }
+/* .vertion-paragraph{
+  position: absolute;
+} */
 
 @media only screen and (max-width: 450px) {
   .development {
@@ -136,9 +139,35 @@ code {
     margin-left: 33%;
    }
 }
+@media only screen and (max-width: 800px) {
+  .vertion-paragraph{
+    margin-bottom: -70%;
+  }
+
+}
+@media only screen and (max-width: 764px) {
+  .vertion-paragraph{
+    position: absolute;
+    margin-top: 40%;
+  }
+  .kumo-image{
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+}
 @media only screen and (max-width: 769px) {
   .container-footer{
     margin-left: 30%;
+  }
+  .vertion-paragraph{
+    position: absolute;
+    margin-top: 40%;
+    /* margin-top: -5%; */
+  }
+  .kumo-image{
+   margin-left: 5%;
+   margin-bottom: 10%;
+   margin-top: 2%;
   }
 }
 @media only screen and (max-width: 755px) {
@@ -150,16 +179,66 @@ code {
   .container-footer{
     margin-left: 23%;
    }
+   .vertion-paragraph{
+     margin-top: 45%;
+   }
+   .kumo-image{
+     margin-bottom: 15%;
+   }
+}
+@media only screen and (max-width: 600px) {
+  .vertion-paragraph{
+    margin-top: 48%;
+  }
+  .kumo-image{
+    margin-bottom: 15%;
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .container-footer{
     margin-left: 18%;
   }
+  .vertion-paragraph{
+    margin-top: 50%;
+  }
+  .kumo-image{
+    margin-bottom: 18%;
+  }
+}
+@media only screen and (max-width: 517px) {
+  .vertion-paragraph{
+    margin-top: 55%;
+  }
+  .kumo-image{
+    margin-bottom: 20%;
+  }
 }
 @media only screen and (max-width: 450px) {
   .container-footer{
     margin-left: 10%;
+  }
+  .vertion-paragraph{
+    margin-top: 60%;
+  }
+  .kumo-image{
+   margin-bottom: 25%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .vertion-paragraph{
+    margin-top: 66%;
+  }
+  .kumo-image{
+    margin-bottom: 30%;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .vertion-paragraph{
+    margin-top: 70%;
+  }
+  .kumo-image{
+    margin-bottom: 35%;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -169,10 +248,23 @@ code {
   .development{
     padding-top: 42%;
   }
+  .vertion-paragraph{
+    margin-top: 75%;
+  }
+  .kumo-image{
+    margin-bottom: 42%;
+    margin-top: 5%;
+  }
 }
 @media only screen and (max-width: 361px) {
   .container-footer{
     margin-left: 4%;
+  }
+  .vertion-paragraph{
+    margin-top: 80%;
+  }
+  .kumo-image{
+    margin-bottom: 45%;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -182,6 +274,12 @@ code {
   .town-sub{
     padding-top: 3%;
     margin-left: -10%;
+  }
+  .vertion-paragraph{
+    margin-top: 85%;
+  }
+  .kumo-image{
+    margin-bottom: 50%;
   }
 }
 @media only screen and (max-width: 281px) {
@@ -197,6 +295,28 @@ code {
   }
   .three-column{
     margin-left: -5%;
+  }
+  .vertion-paragraph{
+    margin-top: 90%;
+  }
+  .kumo-image{
+    margin-bottom: 58%;
+  }
+}
+@media only screen and (max-width: 260px) {
+  .vertion-paragraph{
+    margin-top: 120%;
+  }
+  .kumo-image{
+    margin-bottom: 80%;
+  }
+}
+@media only screen and (max-width: 240px) {
+  .vertion-paragraph{
+    margin-top: 100%;
+  }
+  .kumo-image{
+    margin-bottom: 70%;
   }
 }
 @media only screen and (max-width: 1050px) {
