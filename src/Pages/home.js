@@ -94,7 +94,7 @@ const Home = () => {
           </div>
           </div>
           <div
-            className="col-lg-5 col-xl-5 col-md-7 image-box kumo-image"
+            className="col-lg-6 col-xl-6 col-md-6 px-2 image-box kumo-image"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
@@ -105,7 +105,7 @@ const Home = () => {
                 className="img-fluid shadow"
                 src={"/acbel.jpeg"}
                 alt="view"
-                style={{ width: "100%", height: 170, borderRadius: 17 }}
+                style={{ width: 390, height: 210, borderRadius: 17 }}
               />
             </div>
             <div
@@ -117,8 +117,8 @@ const Home = () => {
                 src={"/crm.jpeg"}
                 alt="view"
                 style={{
-                  width: "100%",
-                  height: 170,
+                  width: 390,
+                  height: 210,
                   borderRadius: 17,
                   position: "absolute",
                 }}
@@ -133,8 +133,8 @@ const Home = () => {
                 src={"/ibpemwhite.jpeg"}
                 alt="view"
                 style={{
-                  width: "100%",
-                  height: 170,
+                  width: 390,
+                  height: 210,
                   borderRadius: 17,
                   position: "absolute",
                 }}

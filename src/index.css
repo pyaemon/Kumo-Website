@@ -25,6 +25,10 @@ body {
   width:100%;
   position:absolute;
 } */
+
+html, body, #root {
+  height: 100%;
+}
 #root {
   height: 100% !important
 }
@@ -426,4 +430,8 @@ footer .copyright {
   background: #dbf3fa;
   margin-top: -40px;
   font-size: 15px;
+}
+
+.transition-container,.transition-container .bDqItY {
+  overflow: auto;
 }
