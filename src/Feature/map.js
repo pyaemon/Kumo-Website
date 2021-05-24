@@ -86,7 +86,7 @@ const ContactMap = props => {
       <Map
         google={window.google}
         zoom={15}
-        style={{ width: "300px", height: "210px", borerRadius: "2%" }}
+        style={{ width: "300px", height: "220px", borerRadius: "2%" }}
         initialCenter={{
           lat: 21.9426,
           lng: 96.1078
