@@ -122,9 +122,12 @@ code {
    margin-bottom: -30px;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
  .container-footer{
   margin-left: 33%;
+ }
+ .copyright-reserved{
+   margin-top: 5%;
  }
   
 }
@@ -301,6 +304,6 @@ footer .three-column li{
 footer .copyright {
   padding: 15px 0;
   background: #dbf3fa;
-  margin-top: 10px;
+  margin-top: -40px;
   font-size: 15px;
 }

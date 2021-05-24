@@ -71,7 +71,7 @@ const Footer = () => {
                 </div>
             </div>
             <div class="copyright text-center">
-            © 2021 Kumo Solutions Co., Ltd. All Rights Reserved
+            <div class="copyright-reserved">© 2021 Kumo Solutions Co., Ltd. All Rights Reserved</div>
             </div>
         </footer>
 

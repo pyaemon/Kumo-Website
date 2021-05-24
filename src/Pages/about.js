@@ -53,7 +53,7 @@ const About = () => {
                     // imgheight={'200px'}
                 />
 
-                <div className="col-11 ms-3 me-2 m-container" style={{ color: colors.ParagraphColor, fontSize: '15px', wordSpacing: 4, marginTop: '3%' }}>
+                <div className="col-11 ms-3 me-2 m-container mb-5" style={{ color: colors.ParagraphColor, fontSize: '15px', wordSpacing: 4, marginTop: '3%' }}>
                     <div className="ms-3 me-2" style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>Operations</div>
                     <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: "2px" }}></div>
                     <div className="ms-3 me-2">Kumo Solutions is dedicated to transforming our consumers’ needs into fully realized and satisfying products by comprehensively understanding our clients’ business requirements and delivering beyond their expectations. Our commitment and dedication are backed by the necessary technological skill and innovation as we craft software customized to the needs of each individual consumers’ daily operations. Our software development process is continuously monitored and improved to maximize our client’s ease and productivity.</div>
