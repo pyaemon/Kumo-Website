@@ -28,7 +28,7 @@ const Products = () => {
             </div> */}
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px" }}
+                style={{ marginTop: "30px" }}
             >
 
                 <Paragraph
@@ -42,7 +42,7 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px"}}
+                style={{ marginTop: "30px"}}
             >
 
                 <Paragraph
@@ -56,7 +56,7 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px" }}
+                style={{ marginTop: "30px" }}
             >
 
                 <Paragraph
@@ -70,7 +70,7 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px"}}
+                style={{ marginTop: "30px"}}
             >
 
                 <Paragraph
@@ -84,7 +84,7 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px" }}
+                style={{ marginTop: "30px" }}
             >
 
                 <Paragraph
@@ -98,7 +98,7 @@ const Products = () => {
             </div>
             <div
                 className="d-flex justify-content-center product"
-                style={{ marginTop: "50px"}}
+                style={{ marginTop: "30px"}}
             >
 
                 <Paragraph

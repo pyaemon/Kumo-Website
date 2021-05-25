@@ -43,7 +43,7 @@ const ProductParagraph = props => {
 
     return (
         < div  style={{ margin: '30px 30px 0 0' }}>
-            <div className='' style={{ float: isReverse ? 'left' : 'right' }}><img className='kumo-image img-fluid' src={imgSrc} style={{
+            <div className='' style={{ float: isReverse ? 'left' : 'right' }}><img className=' img-fluid' src={imgSrc} style={{
                 display: 'block', width: imgWidth,
                 height:imgheight,
                 // height: '185px',
