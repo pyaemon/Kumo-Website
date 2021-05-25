@@ -151,7 +151,7 @@ const Home = () => {
             imgSrc={Development}
             isReverse={false}
             data={kumoData}
-            imgWidth={"300px"}
+            imgWidth={"400px"}
           />
         </div>
 
@@ -353,13 +353,13 @@ const Home = () => {
         </div> */}
         <div
           className="d-flex justify-content-center"
-          style={{ marginTop: "10px", overflow: 'auto' }}
+          style={{ marginTop: "10px", overflow: 'hidden' }}
         >
           <ParaFragment
             imgSrc={realtimeImg}
             isReverse={false}
             data={productData1}
-            imgWidth={"300px"}
+            imgWidth={"400px"} 
           />
         </div>
         <div className="d-flex justify-content-center pt-3 px-2 mx-0 py-2 centralized" style={{ color: "#084C95" }}>

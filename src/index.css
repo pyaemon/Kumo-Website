@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  /* overflow-x:hidden; */
+  overflow-x:hidden;
 
 }
 /* .about-company{
@@ -570,7 +570,6 @@ footer {
   color: #084C95;
   padding-top: 10px;
   overflow: hidden;
-  
 }
 
 footer h3 {
