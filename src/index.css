@@ -176,6 +176,12 @@ code {
    margin-bottom: 10%;
    margin-top: 2%;
   }
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb1{
+    margin-left: 30%;
+  }
 }
 @media only screen and (max-width: 740px) {
   .vertion-paragraph{
@@ -239,6 +245,20 @@ code {
   .kumo-image{
     margin-bottom: 25%;
   }
+  .image-container{
+    margin-left: 30%;
+  }
+  .acb{
+   margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .image-container{
+    margin-left: 30%;
+  }
+  .acb1{
+   margin-left: 20%;
+  }
 }
 @media only screen and (max-width: 512px) {
   .vertion-paragraph{
@@ -301,7 +321,17 @@ code {
     max-width: 100%;
     height: auto;
   }
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb{
+   margin-left: 30px;
+  }
+  .acb1{
+    margin-left: 10%;
+  }
 }
+
 @media only screen and (max-width: 361px) {
   .container-footer{
     margin-left: 4%;
@@ -311,6 +341,16 @@ code {
   }
   .kumo-image{
     margin-bottom: 60%;
+  }
+  .image-container{
+    margin-left: 100px;
+    /* width: 80%; */
+  }
+  .acb{
+    margin-left: 2%;
+  }
+  .acb1{
+    margin-left: 30%;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -326,6 +366,16 @@ code {
   }
   .kumo-image{
     margin-bottom: 65%;
+  }
+  .image-container{
+    /* width: 80%; */
+    margin-left: 100px;
+  }
+  .acb1{
+   margin-left: 30%;
+  }
+  .acb{
+    margin-left: 2%;
   }
 }
 @media only screen and (max-width: 300px) {
@@ -372,6 +422,17 @@ code {
     max-width: 100%;
     height: auto;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  } 
+  .acb1{
+    margin-left: 35%;
+  }
+  .acb{
+    margin-left: 5%;
+    margin-top: 5%;
+  }
 }
 @media only screen and (max-width: 260px) {
   .vertion-paragraph{
@@ -413,6 +474,31 @@ code {
   }
   .mobile-view{
     display: block;
+  }
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb1{
+    margin-left: 30%;
+  }
+  .acb{
+    margin-left: -7%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb1{
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-width: 506px) {
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb{
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 770px) {

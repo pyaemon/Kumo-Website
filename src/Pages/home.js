@@ -294,16 +294,17 @@ const Home = () => {
             <OurService />
           </div>
         </div>
-        <div className="d-flex justify-content-center my-5 my-5 p-5">
+        <div className="d-flex justify-content-center mt-5">
           {" "}
           <button
-            className="btn m-container"
+            className="btn m-container border"
             style={{
               overflow: "hidden",
               position: "relative",
               backgroundColor: "#EFF8FE",
               width: "400px",
               height: "76px",
+              textAlign: "center",
               textAlign: "center",
               color: "#084C95",
               fontSize: "1.5rem",
@@ -319,7 +320,8 @@ const Home = () => {
                 backgroundColor: "#4B74AD",
                 borderRadius: "50%",
                 display: "inline-block",
-                marginRight: "20px",
+                marginRight: "10px",
+
               }}
             >
               <i
@@ -327,9 +329,18 @@ const Home = () => {
                 style={{ color: "#ffffff", fontSize: "20px" }}
               ></i>{" "}
             </div>
-          Previous Products
-          {/* <hr className='ud_line' style={{ marginTop: -4, marginLeft: 100, height:"2px"}}></hr> */}
-          <div className='m-title' style={{ marginTop: -5 , marginLeft: '100px',width: '100%' }}></div>
+            <span
+              className=""
+              style={{
+                textAlign: "center",
+                color: "#084C95",
+                fontSize: "1.5rem",
+              }}
+            >
+              Previous Product
+              {/* <hr className='ud_line m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></hr> */}
+            </span>
+            <div className='m-title' style={{ marginTop: -2 , marginLeft: '110px', height: "2px", width: '100%' }}></div>
           </button>
         </div>
         <div className="d-flex justify-content-center realtime-image px-3 mx-3 pb-4">
@@ -342,7 +353,7 @@ const Home = () => {
         </div>
         <div className="d-flex justify-content-center pt-3 px-2 mx-0 py-2 centralized" style={{ color: "#084C95" }}>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 image-box  pt-3 px-2 mx-0 py-2"
+            className="col-lg-4 col-xl-4 col-md-4 image-box  pt-3 px-2 mx-0 py-2 image-container"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
@@ -350,7 +361,7 @@ const Home = () => {
               style={{}}
             >
               <img
-                className="img-fluid shadow"
+                className="img-fluid shadow acb1"
                 src={Acbel1}
                 alt="view"
                 style={{ width: 320, height: 150, borderRadius: 30 }}
@@ -361,7 +372,7 @@ const Home = () => {
               style={{}}
             >
               <img
-                className="img-fluid shadow"
+                className="img-fluid shadow acb"
                 src={Acbel}
                 alt="view"
                 style={{
