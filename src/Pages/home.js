@@ -362,20 +362,20 @@ const Home = () => {
             imgWidth={"400px"} 
           />
         </div>
-        <div className="d-flex justify-content-center pt-3 px-2 mx-0 py-2 centralized" style={{ color: "#084C95" }}>
+        <div className="d-flex justify-content-start pt-3 px-2 mx-0 p-0 centralized" style={{ color: "#084C95" }}>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 image-box  pt-3 px-2 mx-0 py-2 image-container"
+            className="col-lg-4 col-xl-4 col-md-4 image-box  pt-3  image-container"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
-              className="d-flex justify-content-start align-items-start mx-3 px-3"
+              className="d-flex justify-content-center align-items-start "
               style={{}}
             >
               <img
                 className="img-fluid shadow acb1"
                 src={Acbel1}
                 alt="view"
-                style={{ width: 320, height: 150, borderRadius: 30 }}
+                style={{ width: 320, height: 150, borderRadius: 30, }}
               />
             </div>
             <div
@@ -391,13 +391,13 @@ const Home = () => {
                   height: 150,
                   borderRadius: 30,
                   position: "absolute",
-                  left: -24,
+                  left: 10,
                   top: -24
                 }}
               />
             </div>
           </div>
-          <div className="m-container" >
+          <div className="m-container centralized-layout" style={{marginLeft:"-4%" }}>
             <h3>Taiwan Centralized</h3>
             
             <div className=" m-title p-0 m-0" style={{display: 'block',  height: '1%', width: '100%' }}></div>
