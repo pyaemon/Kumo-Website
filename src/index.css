@@ -46,14 +46,14 @@ code {
   left:0;
   right: 0;
 }
-.contact{
+/* .contact{
   width: 100%;
   position:relative;
   Left: 0;
   /* margin: 0 auto; */
-  margin: 0;
+  /* margin: 0;
   padding: 0;
-}
+} */ 
 
 .image-layout{
   width: 100%;
@@ -351,6 +351,15 @@ code {
   }
   .kumo-image{
     margin-bottom: 80%;
+  }
+  .contact-layout{
+    margin-right: -13%;
+  }
+  .mandalay{
+    margin-left: -13%;
+  }
+  .business{
+    margin-left: -12%;
   }
 }
 @media only screen and (max-width: 260px) {

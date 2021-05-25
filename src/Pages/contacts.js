@@ -7,13 +7,14 @@ import Location from "../Images/locations.png";
 import Input from "../Feature/input";
 import MapForContact from "../Feature/MapForContact";
 import Footer from "../Feature/footer";
+import { WrapText } from "@material-ui/icons";
 
 
 const Contact = () => {
   return (
     <div>
       <div className="pt-5 mt-3" style={{ color: "#084C95" }}>
-        <div className="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap justify-content-center " >
+        <div className="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap justify-content-center contact-layout" style={{marginLeft:"5%" }} >
           <div className="col-xl-5 col-lg-5 col-md-6  pt-5 mx-3 justify-content-center">
             <div
               className="pt-3 "
@@ -34,7 +35,7 @@ const Contact = () => {
                 <img src={Mail} alt="mail" style={{ width: 25, height: 25 }} />
                 <p className="px-3">office@kumomyanmar.com</p>
               </div>
-              <div className="d-flex flex-wrap py-2">
+              <div className="d-flex  py-2">
                 <img
                   src={Location}
                   alt="location"
@@ -42,7 +43,7 @@ const Contact = () => {
                 />
                 <div className="px-3">
                   <p style={{ whiteSpace: 'inherit' }}>(Nga Gyi/98), 64Street, Between</p>
-                  <p style={{ lineHeight: 0, whiteSpace: 'pre' }}>
+                  <p  className="mandalay" style={{ lineHeight: 0, whiteSpace: 'pre' }}>
                     105 & 106 Street, Mandalay, Myanmar
                 </p>
                 </div>
@@ -57,7 +58,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className=" col-xl-7 col-lg-7 col-md-6  pt-2 justify-content-center" style={{ fontSize: Font.heading12 }}>
+          <div className=" col-xl-7 col-lg-7 col-md-6  pt-2 justify-content-center business" style={{ fontSize: Font.heading12 }}>
             Join us for your Business
           <div className="py-4">
               <div className="py-2">
