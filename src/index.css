@@ -260,6 +260,37 @@ code {
    margin-left: 20%;
   }
 }
+@media only screen and (max-width: 1950px) {
+  .image-container{
+    /* margin-left: 30%; */
+    /* margin-right: 5%; */
+    margin-left: -4%;
+  }
+  .acb1{
+   margin-left: 15%;
+  }
+  .acb{
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 1700px) {
+ 
+  .acb1{
+   margin-left: -4%;
+  }
+  .acb{
+    margin-left:6%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+ 
+  .acb1{
+   margin-left: -6%;
+  }
+  .acb{
+    margin-left:-3%;
+  }
+}
 @media only screen and (max-width: 512px) {
   .vertion-paragraph{
     margin-top: 65%;
@@ -535,10 +566,10 @@ code {
     margin-left: 100px;
   }
   .acb1{
-    margin-left: -40%;
+    margin-left: -20%;
   }
   .acb{
-    margin-left: -30%;
+    margin-left: -20%;
   }
 }
 @media only screen and (max-width: 322px) {
