@@ -431,14 +431,14 @@ const Home = () => {
                   height: 165,
                   borderRadius: "50%",
                   position: "absolute",
-                  left: -10,
-                  top: 50
+                  left: -4,
+                  top: 10
                 }}
               />
             </div>
             <div
               className="px-4 mx-4 d-flex justify-content-start align-items-center"
-              style={{}}
+              style={{marginTop: -40}}
             >
               <img
                 className="img-fluid shadow crm" 
