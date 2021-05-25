@@ -415,7 +415,7 @@ const Home = () => {
             </p>
           </div>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-0 mx-0 py-3 my-4 image-box "
+            className="col-lg-4 col-xl-4 col-md-6 px-0 mx-0 py-3 my-4 image-box "
             style={{ maxHeight: 100, position: "relative", display: "block", marginLeft:-50}}
           >
             <div
@@ -444,7 +444,7 @@ const Home = () => {
                 className="img-fluid shadow crm" 
                 src={Crm}
                 alt="view"
-                style={{ width: 220, height: 220, borderRadius: "50%" }}
+                style={{ width: 230, height: 230, borderRadius: "50%" }}
               />
               
             </div>
