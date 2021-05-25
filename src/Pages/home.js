@@ -155,7 +155,7 @@ const Home = () => {
           />
         </div>
 
-        <div className="d-flex justify-content-start mt-5"  >
+        <div className="d-flex justify-content-start mt-3"  >
           {" "}
           <KumoButton text="See More About Company" onClick={handleClickAbout} />
           {/* <button type="button" onClick={handleClick}></button> */}
@@ -253,7 +253,7 @@ const Home = () => {
       </div> */}
 
         <div className="container-fluid ">
-          <div className="home-service-bg1" style={{
+          <div className="home-service-bg" style={{
            
           }}></div>
         </div>
@@ -332,7 +332,7 @@ const Home = () => {
           <div className='m-title' style={{ marginTop: -5 , marginLeft: '100px',width: '100%' }}></div>
           </button>
         </div>
-        <div className="d-flex justify-content-center realtime-image">
+        <div className="d-flex justify-content-center realtime-image px-3 mx-3 pb-4">
           <ParaFragment
             imgSrc={realtimeImg}
             isReverse={false}
@@ -340,24 +340,24 @@ const Home = () => {
             imgWidth={window.innerWidth > 600 ? "330px" :"400px"}
           />
         </div>
-        <div className="d-flex justify-content-center pt-3 centralized" style={{ color: "#084C95" }}>
+        <div className="d-flex justify-content-center pt-3 px-2 mx-0 py-2 centralized" style={{ color: "#084C95" }}>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
+            className="col-lg-4 col-xl-4 col-md-4 image-box  pt-3 px-2 mx-0 py-2"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
             <div
-              className="d-flex justify-content-end align-items-start"
+              className="d-flex justify-content-start align-items-start mx-3 px-3"
               style={{}}
             >
               <img
                 className="img-fluid shadow"
                 src={Acbel1}
                 alt="view"
-                style={{ width: 210, height: 110, borderRadius: 30, marginTop: 70 }}
+                style={{ width: 320, height: 150, borderRadius: 30 }}
               />
             </div>
             <div
-              className="d-flex justify-content-center align-items-center"
+              className="d-flex justify-content-start align-items-start"
               style={{}}
             >
               <img
@@ -369,21 +369,22 @@ const Home = () => {
                   height: 150,
                   borderRadius: 30,
                   position: "absolute",
-                  marginBottom: 200
+                  left: -24,
+                  top: -24
                 }}
               />
             </div>
           </div>
           <div className="m-container" >
             <h3>Taiwan Centralized</h3>
-            {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
+            
             <div className=" m-title p-0 m-0" style={{display: 'block',  height: '1%', width: '100%' }}></div>
             <p>Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
             </p>
           </div>
         </div>
         <div style={{ color: "#084C95" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
-        <div className="d-flex justify-content-center pt-4 centralized" style={{ color: "#084C95" }}>
+        <div className="d-flex justify-content-center pt-4 mt-3 centralized" style={{ color: "#084C95" }}>
           <div className="m-container" >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
@@ -392,41 +393,75 @@ const Home = () => {
             </p>
           </div>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-2 image-box"
-            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft: -50 }}
+            className="col-lg-4 col-xl-4 col-md-4 px-0 mx-0 py-3 my-4 image-box"
+            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft:-50}}
           >
             <div
-              className="d-flex justify-content-end align-items-start"
-              style={{ position: "relative"}}
+              className="px-3 mx-3  d-flex justify-content-start align-items-center"
+              style={{}}
+            >
+              <img
+                className="img-fluid shadow"
+                src={Crm1}
+                alt="view"
+                style={{
+                  width: 165,
+                  height: 165,
+                  borderRadius: "50%",
+                  position: "absolute",
+                  left: -10,
+                  top: 50
+                }}
+              />
+            </div>
+            <div
+              className="px-4 mx-4 d-flex justify-content-start align-items-center"
+              style={{}}
+            >
+              <img
+                className="img-fluid shadow"
+                src={Crm}
+                alt="view"
+                style={{ width: 220, height: 220, borderRadius: "50%" }}
+              />
+              
+            </div>
+          </div>
+          {/* <div
+            className="col-lg-4 col-xl-4 col-md-4 px-4 justify-content-center image-box"
+            style={{ maxHeight: 600, display: "block", marginLeft: -50 }}
+          >
+            <div
+              className="d-flex justify-content-start align-items-start"              
+              style={{ }}
             >
               <img
                 className="img-fluid shadow"
                 src={Crm}
                 alt="view"
                 style={{
-                  width: 230,
-                  height: 230,
+                  width: 220,
+                  height: 220,
+                  right: 100,
                   borderRadius: "50%",
-                  marginBottom: -100,
-                  position: "relative",
-                  marginLeft: 20,
+                  position: "absolute",                  
                   zIndex: 2
                 }}
               />
               
             </div>
             <div
-              className="d-flex justify-content-center align-items-center"
-              style={{position: "relative"}}
+              className="d-flex justify-content-start align-items-end "
+              style={{  }}
             >
               <img
                 className="img-fluid shadow"
                 src={Crm1}
                 alt="view"
-                style={{ width: 180, height: 180, borderRadius: "50%", marginRight: 0, position: "absolute", zIndex: 1 }}
+                style={{ width: 155, height: 155, borderRadius: "50%", marginTop: 50, left: 190, position: "relative" ,zIndex: 1 }}
               />
             </div>
-          </div>
+          </div> */}
 
         </div>
 

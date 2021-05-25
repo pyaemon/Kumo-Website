@@ -23,7 +23,7 @@ const App = () => {
   
   return (
     
-    <div className='m-0' style={{ backgroundImage: `url(${Bg})`, height: "100%" }}>            
+    <div className='m-0' style={{ backgroundImage: `url(${Bg})`, height: "100%",backgroundAttachment:'fixed',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>            
       <Nav />
       <PageTransition
               preset="cubeToRight"

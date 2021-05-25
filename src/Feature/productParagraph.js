@@ -47,19 +47,20 @@ const ProductParagraph = props => {
                 display: 'block', width: imgWidth,
                 height:imgheight,
                 // height: '185px',
-                boxShadow: '10px 10px 10px #00000029',
+                // boxShadow: '10px 3px 10px #00000029',
                 borderRadius: '41px',
                 opacity: 1,
+                paddingRight:20,
                 // marginTop: -30
 
             }} /></div>
             <div className="m-container">
                 <h3 className="title" style={{ color: '#084C95', textAlign: isReverse ? 'right' : 'left', font: 'normal normal normal 30px/36px Microsoft Sans Serif' }} >{data.title}</h3>
-                <div className=" p-0 m-0 m-title mb-2" style={{ display: 'block' }}></div>
-                <div className='m-paragraph '>
-                    <p className=' ms-3 me-2' style={{ color: colors.ParagraphColor, whiteSpace:'wrap' }}>{data.description1}</p>
-                    <p className=' ms-3 me-2' style={{ color: colors.ParagraphColor, whiteSpace:'wrap' }}>{data.description2}</p>
-                    <p className=' ms-3 me-2' style={{ color: colors.ParagraphColor , whiteSpace:'wrap'}}>{data.description3}</p>
+                <div className=" p-0 m-0 m-title" style={{ display: 'block' }}></div>
+                <div className='m-paragraph' >
+                    <p className=' ms-3 me-3' style={{ color: colors.TitleColor, whiteSpace:'wrap' }}>{data.description1}</p>
+                    <p className=' ms-3 me-2' style={{ color: colors.TitleColor, whiteSpace:'wrap' }}>{data.description2}</p>
+                    <p className=' ms-3 me-2' style={{ color: colors.TitleColor , whiteSpace:'wrap'}}>{data.description3}</p>
                 </div>
             </div>
         </div >

@@ -15,18 +15,18 @@ const AboutParagraph = (props) => {
         <div className='col-11 mt-3'>
             <div className={`d-flex ${isReverse ? 'flex-row-reverse' : 'flex-row'} flex-xl-nowrap flex-lg-nowrap flex-md-wrap flex-sm-wrap flex-xs-wrap flex-wrap `} >
             <div className='' style={{ display: 'inline-block', verticalAlign: 'top' }}>
-                    <img className='' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius, border: '1px solid #C5B3E5',backgroundColor:"#d2edff" }} />
+                    <img className='pl-3' src={imgSrc} alt="img" style={{ width: imageWidth, borderRadius: imgRadius, border: '1px solid #C5B3E5',backgroundColor:"#d2edff" }} />
                 </div>
-                <div className='m-container' style={{ display: 'inline-block'}}>
-                    <div className={`${isReverse && 'me-2'} ms-3`} style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
+                <div className='m-container px-2' style={{ display: 'inline-block'}}>
+                    <div className={`${isReverse && 'me-2'} `} style={{ whiteSpace: 'nowrap', color: Color.TitleColor, fontSize: Font.heading12, fontWeight: 400 }}>{data.title}</div>
                     <div className={`m-title border-0 mx-1`} style={{ backgroundColor: '', height: "", width:"100%",marginLeft: -30 }}></div>
-                    <div className='d-flex flex-sm-wrap flex-xs-wrap  ms-3 me-2 description' style={{ color: Color.ParagraphColor, fontSize: '15px'  }}>
+                    <div className='d-flex flex-sm-wrap flex-xs-wrap   me-2 description' style={{ color: Color.ParagraphColor, fontSize: '15px',paddingRight:"50px"  }}>
                         {data.description1}
                     </div>
-                    <div className='ms-3 me-2 mt-1' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
+                    <div className=' me-2 mt-1' style={{ color: Color.ParagraphColor, fontSize: '15px' }}>
                         {data.description2}
                     </div>
-                    <div className='ms-3 me-2 mt-1' style={{ color: Color.ParagraphColor, fontSize: '15px'}}>
+                    <div className='me-2 mt-1' style={{ color: Color.ParagraphColor, fontSize: '15px'}}>
                         {data.description3}
                     </div>                     
                 </div>

@@ -396,10 +396,10 @@ code {
   }
 }
 @media only screen and (max-width: 770px) {
-  .img-fluid {
+  /* .img-fluid {
     max-width: 50%;
     height: auto;
-  }
+  } */
   /* about us */
 
   .about-box{
@@ -424,10 +424,10 @@ code {
  width: 100%;
 }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 928px) {
   .home-service-bg {
     background: #dbf3fa;
-    height: 330px; 
+    height: 420px; 
     z-index: -1;
     position: absolute; 
     left: 0px;
@@ -445,7 +445,7 @@ code {
   }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 929px) {
   .home-service-bg {
     background: #dbf3fa;
     transform: skew(-30deg);
@@ -453,8 +453,8 @@ code {
     z-index: -1;
     position: absolute; 
     left: 140px;
-    right: -100px;
-    width: 100%;
+    right: 100px;
+    
   }
 }
 
