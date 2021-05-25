@@ -400,14 +400,14 @@ const Home = () => {
           <div className="m-container centralized-layout" style={{marginLeft:"-4%" }}>
             <h3>Taiwan Centralized</h3>
             
-            <div className=" m-title p-0 m-0" style={{display: 'block',  height: '1%', width: '100%' }}></div>
+            <div className=" m-title p-0 m-0" style={{display: 'block', width: '100%' }}></div>
             <p>Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
             </p>
           </div>
         </div>
         <div style={{ color: "#084C95",paddingLeft:"10px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
-        <div className="d-flex justify-content-center pt-4 mt-3 centralized" style={{ color: "#084C95" }}>
-          <div className="m-container" >
+        <div className="d-flex justify-content-center pt-4 mt-3 centralized" style={{ color: "#084C95",marginLeft:'30px' }}>
+          <div className="m-container" style={{paddingTop:'40px'}} >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
             <div className=" m-title p-0 m-0 container-fluid" style={{display: 'block', height: '2px', width: '100%' }}></div>
