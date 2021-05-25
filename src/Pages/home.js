@@ -343,12 +343,23 @@ const Home = () => {
             <div className='m-title' style={{ marginTop: -2 , marginLeft: '110px', height: "2px", width: '100%' }}></div>
           </button>
         </div>
-        <div className="d-flex justify-content-center realtime-image px-3 mx-3 pb-4">
+        {/* <div className="d-flex justify-content-center realtime-image px-3 mx-3 pb-4">
           <ParaFragment
             imgSrc={realtimeImg}
             isReverse={false}
             data={productData1}
             imgWidth={window.innerWidth > 600 ? "330px" :"400px"}
+          />
+        </div> */}
+        <div
+          className="d-flex justify-content-center"
+          style={{ marginTop: "10px", overflow: 'auto' }}
+        >
+          <ParaFragment
+            imgSrc={realtimeImg}
+            isReverse={false}
+            data={productData1}
+            imgWidth={"300px"}
           />
         </div>
         <div className="d-flex justify-content-center pt-3 px-2 mx-0 py-2 centralized" style={{ color: "#084C95" }}>
@@ -404,15 +415,15 @@ const Home = () => {
             </p>
           </div>
           <div
-            className="col-lg-4 col-xl-4 col-md-4 px-0 mx-0 py-3 my-4 image-box"
+            className="col-lg-4 col-xl-4 col-md-4 px-0 mx-0 py-3 my-4 image-box "
             style={{ maxHeight: 600, position: "relative", display: "block", marginLeft:-50}}
           >
             <div
-              className="px-3 mx-3  d-flex justify-content-start align-items-center"
+              className="px-3 mx-3  d-flex justify-content-start align-items-center crm-container"
               style={{}}
             >
               <img
-                className="img-fluid shadow"
+                className="img-fluid shadow crm1"
                 src={Crm1}
                 alt="view"
                 style={{
@@ -430,7 +441,7 @@ const Home = () => {
               style={{}}
             >
               <img
-                className="img-fluid shadow"
+                className="img-fluid shadow crm" 
                 src={Crm}
                 alt="view"
                 style={{ width: 220, height: 220, borderRadius: "50%" }}
