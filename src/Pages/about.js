@@ -23,7 +23,7 @@ const About = () => {
                         data={AboutCompany}
                     // imgheight={'200px'}
                     />
-                    <div className='col-11' style={{ paddingLeft: '', color: Color.ParagraphColor, wordSpacing: 4, fontSize: '15px' }}>
+                    <div className='col-11' style={{ paddingLeft: '10px', color: Color.ParagraphColor, wordSpacing: 4, fontSize: '15px' }}>
                         <p>To provide satisfying products to our customers, we utilize object-oriented analysis, design, and testing methodologies and ensure seamless integration and
                         traceability between the project’s requirements, design, development, quality assurance, and delivery.
                         Our goal is not only to achieve local and global customers but also to support the development of the domestic Information Technology Industry.

@@ -405,7 +405,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div style={{ color: "#084C95" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
+        <div style={{ color: "#084C95",paddingLeft:"10px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
         <div className="d-flex justify-content-center pt-4 mt-3 centralized" style={{ color: "#084C95" }}>
           <div className="m-container" >
             <h3>CRM Modules</h3>
