@@ -518,6 +518,29 @@ code {
  }
 }
 
+@media only screen and (max-width: 1250px) {
+.image-container{
+  margin-left: 100px;
+}
+.acb{
+  margin-left: -20%;
+}
+.acb1{
+  margin-left: -20%;
+}
+
+}
+@media only screen and (max-width: 1350px) {
+  .image-container{
+    margin-left: 100px;
+  }
+  .acb1{
+    margin-left: -40%;
+  }
+  .acb{
+    margin-left: -30%;
+  }
+}
 @media only screen and (max-width: 322px) {
 
   .m-paragraph{
