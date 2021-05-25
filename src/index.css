@@ -297,6 +297,10 @@ code {
     margin-bottom: 55%;
     margin-top: 5%;
   }
+  .about-image{
+    max-width: 100%;
+    height: auto;
+  }
 }
 @media only screen and (max-width: 361px) {
   .container-footer{
@@ -360,6 +364,13 @@ code {
   }
   .business{
     margin-left: -12%;
+  }
+  .about-title{
+    margin-left: -5%;
+  }
+  .about-image{
+    max-width: 100%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 260px) {
