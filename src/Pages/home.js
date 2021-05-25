@@ -416,7 +416,7 @@ const Home = () => {
           </div>
           <div
             className="col-lg-4 col-xl-4 col-md-4 px-0 mx-0 py-3 my-4 image-box "
-            style={{ maxHeight: 600, position: "relative", display: "block", marginLeft:-50}}
+            style={{ maxHeight: 100, position: "relative", display: "block", marginLeft:-50}}
           >
             <div
               className="px-3 mx-3  d-flex justify-content-start align-items-center crm-container"
