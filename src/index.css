@@ -37,6 +37,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mobile-footer{
+  display: none;
+  overflow:hidden;
+}
 .footer
 {
   width:100%;
@@ -45,6 +49,13 @@ code {
   bottom:0;
   left:0;
   right: 0;
+}
+.mobile{
+  display: none;
+}
+.img-fluid{
+  max-width: 100%;
+    height: auto;
 }
 /* .contact{
   width: 100%;
@@ -95,6 +106,110 @@ code {
   position: absolute;
 } */
 
+@media only screen and (max-width: 1200px) {
+  .kumo{
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .kumo{
+    margin-left: 52%;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .kumo{
+    margin-left: 50%;
+  }
+  .CRM{
+    margin-right: -50px;
+  }
+  .ibpem{
+    margin-right: -100px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .kumo{
+    margin-left: -40%;
+  }
+  .ibpem{
+    margin-right: -20%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .acbel{
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .ibpem{
+    margin-right: -100px;
+  }
+  .vertion-local{
+    margin-bottom: -60%;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .acbel{
+    max-width: 65%;
+  }
+ .CRM{
+   max-width: 65%;
+ }
+ .ibpem{
+   max-width: 65%;
+ }
+}
+@media only screen and (max-width: 777px) {
+  .ibpem{
+    max-width: 55%;
+    max-height: 90%;
+  }
+  .CRM{
+    max-width: 55%;
+    max-height: 90%;
+  }
+  .acbel{
+    max-width: 55%;
+    max-height: 90%;
+  }
+  .kumo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 771px) {
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .kumo{
+    position: absolute;
+    margin-left: 30%;
+    z-index: -1;
+  }
+  .vertion-local{
+    margin-bottom: -30%;
+  }
+ 
+}
+@media only screen and (max-width: 630px){
+  .ibpem1{
+    margin-left: 500px;
+  }
+}
+@media only screen and (max-width: 870px){
+  .kumo{
+    margin-right: -40px;
+  }
+}
+@media only screen and (max-width: 830px){
+  .kumo{
+    margin-right: -40px;
+  }
+}
 @media only screen and (max-width: 450px) {
   .development {
     /* background-color: lightblue; */
@@ -146,35 +261,9 @@ code {
     margin-left: 33%;
    }
 }
-@media only screen and (max-width: 800px) {
-  .vertion-paragraph{
-    margin-bottom: -70%;
-  }
-
-}
-@media only screen and (max-width: 764px) {
-  .vertion-paragraph{
-    position: absolute;
-    margin-top: 40%;
-  }
-  .kumo-image{
-    margin-bottom: 10%;
-    margin-top: 2%;
-  }
-}
 @media only screen and (max-width: 769px) {
   .container-footer{
     margin-left: 30%;
-  }
-  .vertion-paragraph{
-    position: absolute;
-    margin-top: 40%;
-    /* margin-top: -5%; */
-  }
-  .kumo-image{
-   margin-left: 5%;
-   margin-bottom: 10%;
-   margin-top: 2%;
   }
   .image-container{
     margin-left: 100px;
@@ -182,40 +271,23 @@ code {
   .acb1{
     margin-left: 30%;
   }
-}
-@media only screen and (max-width: 740px) {
-  .vertion-paragraph{
-    margin-top: 45%;
+  .kumo{
+    margin-left: 20%;
   }
 }
 @media only screen and (max-width: 755px) {
   .container-footer{
     margin-left: 28%;
   }
-  .vertion-paragraph{
-    margin-top: 50%;
-  }
-  .kumo-image{
-    margin-bottom: 20%;
-  }
 }
 @media only screen and (max-width: 660px) {
   .container-footer{
     margin-left: 28%;
   }
-  .vertion-paragraph{
-    margin-top: 70%;
-  }
 }
 @media only screen and (max-width: 700px) {
   .container-footer{
     margin-left: 23%;
-   }
-   .vertion-paragraph{
-     margin-top: 50%;
-   }
-   .kumo-image{
-     margin-bottom: 15%;
    }
 }
 @media only screen and (max-width: 640px) {
@@ -227,23 +299,9 @@ code {
   }
 }
 
-@media only screen and (max-width: 590px) {
-  .vertion-paragraph{
-    margin-top: 55%;
-  }
-  .kumo-image{
-    margin-bottom: 19%;
-  }
-}
 @media only screen and (max-width: 550px) {
   .container-footer{
     margin-left: 18%;
-  }
-  .vertion-paragraph{
-    margin-top: 60%;
-  }
-  .kumo-image{
-    margin-bottom: 25%;
   }
   .image-container{
     margin-left: 30%;
@@ -258,6 +316,9 @@ code {
   }
   .acb1{
    margin-left: 20%;
+  }
+  .ibpem{
+    margin-right: -20%;
   }
 }
 @media only screen and (max-width: 1150px) and (min-width: 992px) {
@@ -298,43 +359,15 @@ code {
     margin-left:-3%;
   }
 }
-@media only screen and (max-width: 512px) {
-  .vertion-paragraph{
-    margin-top: 65%;
-  }
-  .kumo-image{
-    margin-bottom: 30%;
-  }
-}
 @media only screen and (max-width: 455px) {
   .container-footer{
     margin-left: 10%;
   }
-  .vertion-paragraph{
-    margin-top: 70%;
-  }
-  .kumo-image{
-   margin-bottom: 35%;
-  }
 }
 @media only screen and (max-width: 420px) {
-  .vertion-paragraph{
-    margin-top: 80%;
-  }
-  .kumo-image{
-    margin-bottom: 40%;
-  }
   .about-image{
     max-width: 100%;
     height: auto;
-  }
-}
-@media only screen and (max-width: 391px) {
-  .vertion-paragraph{
-    margin-top: 80%;
-  }
-  .kumo-image{
-    margin-bottom: 45%;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -352,13 +385,6 @@ code {
   .development{
     padding-top: 42%;
   }
-  .vertion-paragraph{
-    margin-top: 90%;
-  }
-  .kumo-image{
-    margin-bottom: 55%;
-    margin-top: 5%;
-  }
   .about-image{
     max-width: 100%;
     height: auto;
@@ -373,16 +399,63 @@ code {
     margin-left: 10%;
   }
 }
+@media only screen and (device-width: 375px) {
+  .acbel{
+    margin-right: -10%;
+   }
+   .CRM{
+     margin-right: -25%;
+   }
+   .ibpem{
+     margin-right: -20%;
+   } 
+}
+@media only screen and (max-width: 412px) {
+  .ibpem{
+    margin-right: -20%;
+  }
+  .CRM{
+    margin-right: -50%;
+  }
+  .acbel{
+    margin-right: -300px;
+  }
+  .kumo{
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 414px) {
+
+  .acbel{
+    max-width: 100%;
+    margin-right: 40px;
+  }
+  .CRM{
+    max-width: 90%;
+    margin-right: -10%;
+  }
+  .ibpem{
+   right:-800px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  .kumo{
+    margin-right: 5%;
+  }
+  .acbel{
+    max-width: 100%;
+  }
+  .CRM{
+    max-width: 100%;
+  }
+  .ibpem{
+    max-width: 100%;
+  }
+}
 @media only screen and (max-width: 361px) {
   .container-footer{
     margin-left: 4%;
-  }
-  .vertion-paragraph{
-    margin-top: 95%;
-  }
-  .kumo-image{
-    margin-bottom: 60%;
   }
   .image-container{
     margin-left: 100px;
@@ -394,6 +467,15 @@ code {
   .acb1{
     margin-left: 30%;
   }
+  .acbel{
+   margin-right: -10%;
+  }
+  .CRM{
+    margin-right: -25%;
+  }
+  .ibpem{
+    margin-right: -50%;
+  }
 }
 @media only screen and (max-width: 321px) {
   .container-footer{
@@ -402,12 +484,6 @@ code {
   .town-sub{
     padding-top: 3%;
     margin-left: -10%;
-  }
-  .vertion-paragraph{
-    margin-top: 100%;
-  }
-  .kumo-image{
-    margin-bottom: 65%;
   }
   .image-container{
     /* width: 80%; */
@@ -419,13 +495,16 @@ code {
   .acb{
     margin-left: 2%;
   }
-}
-@media only screen and (max-width: 300px) {
-  .vertion-paragraph{
-    margin-top: 110%;
+  .acbel{
+    max-width: 90%;
   }
-  .kumo-image{
-    margin-bottom: 70%;
+  .CRM{
+    max-width: 90%;
+    margin-right: -30%;
+  }
+  .ibpem{
+    max-width: 90%;
+    margin-right: -50%;
   }
 }
 @media only screen and (max-width: 281px) {
@@ -475,29 +554,14 @@ code {
     margin-left: 5%;
     margin-top: 5%;
   }
-}
-@media only screen and (max-width: 260px) {
-  .vertion-paragraph{
-    margin-top: 130%;
+  /* .ibpem{
+    margin-right: -110px;
   }
-  .kumo-image{
-    margin-bottom: 90%;
-  }
-}
-@media only screen and (max-width: 230px) {
-  .vertion-paragraph{
-    margin-top: 140%;
-  }
-  .kumo-image{
-    margin-bottom: 100%;
-  }
-}
-@media only screen and (max-width: 200px) {
-  .vertion-paragraph{
-    margin-top: 160%;
-  }
-  .kumo-image{
-    margin-bottom: 120%;
+  .CRM{
+    margin-right: -30px;
+  } */
+  .ibpem{
+    margin-right: -40%;
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -525,6 +589,9 @@ code {
   }
   .acb{
     margin-left: -7%;
+  }
+  .ibpem{
+    margin-right: -10%;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -558,6 +625,28 @@ code {
  .vertion-paragraph{
   margin-top: -4%;
  }
+ .column {
+  float: left;
+  width: 30%;
+  /* padding: 10px; */
+}
+
+/* Clear floats after the columns */
+.mobile:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.desktop-footer{
+  display: none;
+}
+.mobile-footer{
+  display: block;
+}
+ 
+}
+@media only screen and (device-width: 730px) {
+  
 }
 
 @media only screen and (max-width: 1250px) {
