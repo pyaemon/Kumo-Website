@@ -5,8 +5,8 @@ export default class ThreeImage extends React.Component{
         return(
             <div>
             <div
-            className="col-lg-3 col-xl-12 col-md-12 px-2 desktop"
-            style={{ maxHeight: 600, position: 'relative', zIndex: 1 }}
+            className="col-lg-3 col-xl-12 col-md-12 px-2 mt-1 kumo-desktop desktop"
+            style={{ position: 'relative', zIndex: 1 }}
           >
             <div
               className="d-flex justify-content-end align-items-start "
@@ -14,9 +14,9 @@ export default class ThreeImage extends React.Component{
             >
               <img
                 className=" shadow acbel"
-                src={"/acbel.jpeg"}
+                src={"/acbel.jpg"}
                 alt="view"
-                style={{ width: "400px", height: 210, borderRadius: 17, right: -500}}
+                style={{ width: "500px", height:"auto" , borderRadius: 50, right: -500}}
               />
             </div>
             <div
@@ -28,11 +28,11 @@ export default class ThreeImage extends React.Component{
                 src={"/crm.jpeg"}
                 alt="view"
                 style={{
-                  width: "400px",
-                  height: 210,
-                  borderRadius: 17,
+                  width: "500px",
+                  height:"auto",
+                  borderRadius: 50,
                   position: "absolute",
-                  right: 100
+                  right: 80
                   
                 }}
               />
@@ -46,9 +46,9 @@ export default class ThreeImage extends React.Component{
                 src={"/ibpemwhite.jpeg"}
                 alt="view"
                 style={{
-                  width: "400px",
-                  height: 210,
-                  borderRadius: 17,
+                  width: "500px",
+                  height:"auto",
+                  borderRadius: 35,
                   position: "absolute",
                   right: 150
                 }}
@@ -56,8 +56,8 @@ export default class ThreeImage extends React.Component{
             </div>
           </div>
           <div
-            className="col-lg-3 col-xl-12 col-md-12 px-2 mobile-image"
-            style={{ maxHeight: 600, position: 'relative', zIndex: 1 }}
+            className="col-lg-3 col-xl-12 col-md-12 px-2 kumo-desktop  mobile-image"
+            style={{ maxHeight: 600, position: 'relative' }}
           >
             <div
               className="d-flex justify-content-end align-items-start "
@@ -67,7 +67,7 @@ export default class ThreeImage extends React.Component{
                 className=" shadow acbel"
                 src={"/acbel.jpeg"}
                 alt="view"
-                style={{ width: "400px", height: 210, borderRadius: 17, right: -500}}
+                style={{ width: "400px", height: "auto", borderRadius: 35, right: -500}}
               />
             </div>
             <div
@@ -80,10 +80,10 @@ export default class ThreeImage extends React.Component{
                 alt="view"
                 style={{
                   width: "400px",
-                  height: 210,
-                  borderRadius: 17,
+                  height: "auto",
+                  borderRadius: 35,
                   position: "absolute",
-                  right: 100
+                  right: 70
                   
                 }}
               />
@@ -98,8 +98,8 @@ export default class ThreeImage extends React.Component{
                 alt="view"
                 style={{
                   width: "400px",
-                  height: 210,
-                  borderRadius: 17,
+                  height: "auto",
+                  borderRadius: 35,
                   position: "absolute",
                   right: 120
                 }}

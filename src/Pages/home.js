@@ -24,8 +24,9 @@ const Home = () => {
         <div className="desktop-view">
           <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
             <div className="col-lg-5 col-xl-5 col-md-5 kumo-team">
-              <div className="kumo-text">
+              <div >
                 <div
+                className="kumo-text"
                   style={{
                     color: "#084C95",
                     textAlign: "left",
@@ -33,12 +34,13 @@ const Home = () => {
                     fontFamily: "Microsoft Sans Serif",
                     lineHeight: "80%",
                     zIndex: 2,
-                    marginTop: 100
+                    marginTop: 150
                   }}
                 >
                   KUMO{" "}
                 </div>
                 <div
+                className="kumo-text1"
                   style={{
                     color: "#084C95",
                     textAlign: "left",
@@ -80,7 +82,7 @@ const Home = () => {
                     textAlign: "left",
                     fontSize: "35px",
                     fontFamily: "Cambria",
-                    marginTop: "50px",
+                    marginTop: "80px",
                   }}
                 >
                   Vision
@@ -101,7 +103,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo">
+            <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container">
               <ThreeImage />
             </div>
 

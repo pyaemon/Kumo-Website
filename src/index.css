@@ -101,174 +101,181 @@ code {
   overflow-x:hidden;
   overflow-y: hidden;
 }
-/* .vertion-paragraph{
-  position: absolute;
-} */
-/* @media only screen and (device-width: 1200px) {
-  .kumo{
-    margin-left: 50%;
-  }
- .acbel{
-   margin-right: -50%;
- }
-} */
+@media only screen and (max-width: 1200px) {
+.kumo-desktop{
+  margin-left: 80%;
+}
+}
 
-@media only screen and (max-width: 1199px) {
-  .kumo{
-    margin-left: 50%;
-  }
-  /* .vertion-local{
-    white-space: nowrap;
-  } */
-}
-@media only screen and (max-width: 1020px) {
-  .kumo{
-    margin-left: 52%;
-  }
-  /* .vertion-local{
-    white-space: nowrap;
-  } */
-}
-@media only screen and (max-width: 995px) {
-  .kumo{
-    margin-left: 50%;
+@media only screen and (max-width: 1100px) {
+  .acbel{
+    max-width: 450px;
   }
   .CRM{
-    margin-right: -50px;
+    max-width: 450px;
   }
   .ibpem{
-    margin-right: -100px;
+    max-width: 450px;
   }
 }
-@media only screen and (max-width: 992px) {
-  .kumo{
-    margin-left: -40%;
+@media only screen and (max-width: 1050px) {
+  .CRM{
+    max-width: 400px;
   }
   .ibpem{
-    margin-right: -20%;
+    max-width: 400px;
   }
-  /* .vertion-local{
-    white-space: nowrap;
-  } */
-}
-@media only screen and (max-width: 980px) {
   .acbel{
-    margin-left: 100px;
+    max-width: 400px;
   }
 }
-@media only screen and (max-width: 950px) {
-  .ibpem{
-    margin-right: -100px;
-  }
+@media only screen and (device-width: 1000px) {
+ .kumo-desktop{
+   margin: 0%;
+ }
+ .acbel{
+   margin-right: -300%;
+ }
+ .ibpem{
+  margin-right: -300%;
+ }
+ .CRM{
+   margin-right: -300%;
+ }
+ 
+}
+
+@media only screen and (max-width: 992px) {
+.kumo-desktop{
+  margin: 0%;
+}
+}
+@media only screen and (max-width: 952px) {
   .vertion-local{
     margin-bottom: -25%;
     /* white-space: nowrap; */
   }
-}
-@media only screen and (max-width: 822px) {
   .acbel{
-    max-width: 65%;
+    margin-top: 10%;
+    max-width: 380px;
   }
- .CRM{
-   max-width: 65%;
+  .CRM{
+    max-width: 380px;
+  }
+  .ibpem{
+    max-width: 380px;
+  }
+}
+@media only screen and (max-width: 944px) {
+ .acbel{
+   margin-top: 10%;
+   max-width: 350px;
  }
  .ibpem{
-   max-width: 65%;
+   max-width: 350px;
+ }
+ .CRM{
+   max-width: 350px;
  }
 }
-@media only screen and (max-width: 777px) {
+@media only screen and (max-width: 920px) {
+  .acbel{
+    margin-top: 20%;
+    max-width: 320px;
+  }
   .ibpem{
-    max-width: 55%;
-    max-height: 90%;
+    max-width: 320px;
   }
   .CRM{
-    max-width: 55%;
-    max-height: 90%;
-  }
-  .acbel{
-    max-width: 55%;
-    max-height: 90%;
-  }
-  .kumo{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    max-width: 320px;
   }
 }
-@media only screen and (max-width: 771px) {
- 
-  .kumo-team{
-    margin-left: -3%;
-  }
-  .kumo{
-    margin-top: -280px;
-    padding-right: -50%;
-  }
-  /* .kumo{
-    margin-top: -280px;
+@media only screen and (max-width: 840px) {
+  .kumo-desktop{
+    margin-left: 15%;
   }
   .acbel{
-    max-width: 60%;
-    margin-right: -15%;
-  }
-  .CRM{
-    max-width: 60%;
-    margin-right: -25%;
+    margin-top: 30%;
+    max-width: 300px;
   }
   .ibpem{
-    max-width: 60%;
-    margin-right: 50%;
-
+    max-width: 300px;
+  }
+  .CRM{
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 800px) {
+/*  
+  .kumo-team{
+    margin-left: -3%;
   } */
-  /* .kumo{
-    position: absolute;
-    margin-left: 30%;
-    z-index: -1;
-  } */
+  
   .vertion-local{
     margin-bottom: -30%;
   }
  
 }
-@media only screen and (max-width: 761px) {
-  .kumo{
-    position: absolute;
-    margin-top: 20px;
-    /* margin-left: 25%; */
-    z-index: -1;
-  } 
-  .acbel{
-    max-width: 100%;
-  }
-  .CRM{
-    max-width: 100%;
-  }
-  .ibpem{
-    max-width: 100%;
-  }
+@media only screen and (max-width: 769px) {
   .desktop{
     display: none;
   }
   .mobile-image{
     display: block;
-    margin-left: 10%;
+  }
+ .kumo-container{
+   position: absolute;
+   z-index: -1;
+ }
+ .kumo-team{
+   margin-top: -20%;
+ }
+ .kumo-desktop{
+   margin-left: 130%;
+ }
+ .ibpem{
+  max-width: 500px;
+ }
+ .CRM{
+   max-width: 500px;
+ }
+ .acbel{
+   max-width: 500px;
+ }
+}
+@media only screen and (max-width: 570px) {
+  .kumo-desktop{
+    margin-left: 120%;
+  }
+  
+}
+@media only screen and (max-width: 530px) {
+  .acbel{
+    max-width: 350px;
+  }
+  .ibpem{
+    max-width: 350px;
+  }
+  .CRM{
+    max-width: 350px;
   }
 }
-@media only screen and (max-width: 630px){
-  .ibpem1{
-    margin-left: 500px;
+
+@media only screen and (max-width: 466px) {
+  .kumo-desktop{
+    margin-left: 130%;
+  }
+  .acbel{
+    max-width: 300px;
+  }
+  .ibpem{
+    max-width: 300px;
+  }
+  .CRM{
+    max-width: 300px;
   }
 }
-@media only screen and (max-width: 870px){
-  .kumo{
-    margin-right: -40px;
-  }
-}
-@media only screen and (max-width: 830px){
-  .kumo{
-    margin-right: -40px;
-  }
-}
+
 @media only screen and (max-width: 450px) {
   .development {
     /* background-color: lightblue; */
@@ -297,9 +304,82 @@ code {
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 440px) {
+  .kumo-team{
+    margin-top: -30%;
+  }
+ .acbel{
+   max-width: 280px;
+ }
+ .CRM{
+  max-width: 280px;
+}
+.ibpem{
+  max-width: 280px;
+}
+.vertion-local{
+  margin-top: -10%;
+}
+}
+@media only screen and (max-width: 405px) {
+ .acbel{
+   max-width: 260px;
+ }
+ .ibpem{
+   max-width: 260px;
+ }
+ .CRM{
+   max-width: 260px;
+ }
+ .vertion-local{
+   margin-top: -10%;
+ }
  
 }
+@media only screen and (max-width: 385px) {
+  .acbel{
+    max-width: 240px;
+  }
+  .ibpem{
+    max-width: 240px;
+  }
+  .CRM{
+    max-width: 240px;
+  }
+  .vertion-local{
+    margin-top: -10%;
+  }
+  .kumo-team{
+    margin-top: -40%;
+  }
+  
+ }
+ @media only screen and (max-width: 365px) {
+  .acbel{
+    max-width: 220px;
+  }
+  .ibpem{
+    max-width: 220px;
+  }
+  .CRM{
+    max-width: 220px;
+  }
+  .kumo-team{
+    margin-top: -50%;
+  }
+ }
+ @media only screen and (max-width: 330px) {
+  .acbel{
+    max-width: 200px;
+  }
+  .ibpem{
+    max-width: 200px;
+  }
+  .CRM{
+    max-width: 200px;
+  }
+ 
+ }
 @media only screen and (max-width: 730px) {
   .development {
    padding-top: 30%;
@@ -330,9 +410,9 @@ code {
   .acb1{
     margin-left: 30%;
   }
-  .kumo{
+  /* .kumo{
     margin-left: 20%;
-  }
+  } */
 }
 @media only screen and (max-width: 755px) {
   .container-footer{
@@ -376,9 +456,9 @@ code {
   .acb1{
    margin-left: 20%;
   }
-  .ibpem{
+  /* .ibpem{
     margin-right: -20%;
-  }
+  } */
 }
 @media only screen and (max-width: 1150px) and (min-width: 992px) {
   .about-image{
@@ -459,7 +539,7 @@ code {
   }
 }
 @media only screen and (device-width: 375px) {
-  .acbel{
+  /* .acbel{
     margin-right: -10%;
    }
    .CRM{
@@ -467,10 +547,10 @@ code {
    }
    .ibpem{
      margin-right: -20%;
-   } 
+   }  */
 }
 @media only screen and (max-width: 412px) {
-  .ibpem{
+  /* .ibpem{
     margin-right: -20%;
   }
   .CRM{
@@ -478,7 +558,7 @@ code {
   }
   .acbel{
     margin-right: -300px;
-  }
+  } */
   .kumo{
     text-align: center;
   }
@@ -486,7 +566,7 @@ code {
 
 @media only screen and (max-width: 414px) {
 
-  .acbel{
+  /* .acbel{
     max-width: 100%;
     margin-right: 40px;
   }
@@ -496,13 +576,13 @@ code {
   }
   .ibpem{
    right:-800px;
-  }
+  } */
 }
 @media only screen and (max-width: 541px) {
-  .kumo{
+  /* .kumo{
     margin-right: 5%;
-  }
-  .acbel{
+  } */
+  /* .acbel{
     max-width: 100%;
   }
   .CRM{
@@ -510,7 +590,7 @@ code {
   }
   .ibpem{
     max-width: 100%;
-  }
+  } */
 }
 @media only screen and (max-width: 361px) {
   .container-footer{
@@ -526,7 +606,7 @@ code {
   .acb1{
     margin-left: 30%;
   }
-  .acbel{
+  /* .acbel{
    margin-right: -10%;
   }
   .CRM{
@@ -534,7 +614,7 @@ code {
   }
   .ibpem{
     margin-right: -50%;
-  }
+  } */
   .committed-text{
     font-size: 12px;
   }
@@ -565,7 +645,7 @@ code {
   .acb{
     margin-left: 2%;
   }
-  .acbel{
+  /* .acbel{
     max-width: 90%;
   }
   .CRM{
@@ -575,7 +655,7 @@ code {
   .ibpem{
     max-width: 90%;
     margin-right: -50%;
-  }
+  } */
 }
 @media only screen and (max-width: 281px) {
   .container-footer{
@@ -630,9 +710,9 @@ code {
   .CRM{
     margin-right: -30px;
   } */
-  .ibpem{
+  /* .ibpem{
     margin-right: -40%;
-  }
+  } */
   .kumo-text{
     margin-left: -5%;
   }
@@ -663,9 +743,9 @@ code {
   .acb{
     margin-left: -7%;
   }
-  .ibpem{
+  /* .ibpem{
     margin-right: -10%;
-  }
+  } */
 }
 @media only screen and (max-width: 1100px) {
   .image-container{
@@ -703,21 +783,23 @@ code {
   width: 30%;
   /* padding: 10px; */
 }
-.kumo{
-  margin-top: 20px;
-  margin-right: 0%;
+.kumo-desktop{
+  /* margin-left: 60%; */
+  margin-left: 120%;
+  margin-top: -25%;
 }
-.acbel{
-  max-width: 100%;
-  height: auto;
+.kumo-team{
+  margin-top: -8%;
 }
 .ibpem{
-  max-width: 100%;
+  max-width: 300px;
+}
+.acbel{
+  max-width: 300px;
 }
 .CRM{
-  max-width: 100%;
+  max-width: 300px;
 }
-
 /* Clear floats after the columns */
 .mobile:after {
   content: "";
