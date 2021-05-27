@@ -105,15 +105,29 @@ code {
 /* .vertion-paragraph{
   position: absolute;
 } */
-
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (device-width: 1200px) {
   .kumo{
     margin-left: 50%;
+  }
+ .acbel{
+   margin-right: -50%;
+ }
+} */
+
+@media only screen and (max-width: 1199px) {
+  .kumo{
+    margin-left: 50%;
+  }
+  .vertion-local{
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 1020px) {
   .kumo{
     margin-left: 52%;
+  }
+  .vertion-local{
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 995px) {
@@ -134,6 +148,9 @@ code {
   .ibpem{
     margin-right: -20%;
   }
+  .vertion-local{
+    white-space: nowrap;
+  }
 }
 @media only screen and (max-width: 980px) {
   .acbel{
@@ -145,7 +162,8 @@ code {
     margin-right: -100px;
   }
   .vertion-local{
-    margin-bottom: -60%;
+    margin-bottom: -25%;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 822px) {
@@ -179,21 +197,62 @@ code {
   }
 }
 @media only screen and (max-width: 771px) {
+ 
+  .kumo-team{
+    margin-left: -3%;
+  }
+  .kumo{
+    margin-top: -280px;
+    padding-right: -50%;
+  }
+  /* .kumo{
+    margin-top: -280px;
+  }
+  .acbel{
+    max-width: 60%;
+    margin-right: -15%;
+  }
+  .CRM{
+    max-width: 60%;
+    margin-right: -25%;
+  }
+  .ibpem{
+    max-width: 60%;
+    margin-right: 50%;
+
+  } */
+  /* .kumo{
+    position: absolute;
+    margin-left: 30%;
+    z-index: -1;
+  } */
+  .vertion-local{
+    margin-bottom: -30%;
+  }
+ 
+}
+@media only screen and (max-width: 761px) {
+  .kumo{
+    position: absolute;
+    margin-top: 20px;
+    /* margin-left: 25%; */
+    z-index: -1;
+  } 
+  .acbel{
+    max-width: 100%;
+  }
+  .CRM{
+    max-width: 100%;
+  }
+  .ibpem{
+    max-width: 100%;
+  }
   .desktop{
     display: none;
   }
   .mobile{
     display: block;
   }
-  .kumo{
-    position: absolute;
-    margin-left: 30%;
-    z-index: -1;
-  }
-  .vertion-local{
-    margin-bottom: -30%;
-  }
- 
 }
 @media only screen and (max-width: 630px){
   .ibpem1{
@@ -630,6 +689,19 @@ code {
   width: 30%;
   /* padding: 10px; */
 }
+.kumo{
+  margin-top: 20px;
+  margin-right: 30%;
+}
+.acbel{
+  max-width: 100%;
+}
+.ibpem{
+  max-width: 100%;
+}
+.CRM{
+  max-width: 100%;
+}
 
 /* Clear floats after the columns */
 .mobile:after {
@@ -644,9 +716,6 @@ code {
   display: block;
 }
  
-}
-@media only screen and (device-width: 730px) {
-  
 }
 
 @media only screen and (max-width: 1250px) {

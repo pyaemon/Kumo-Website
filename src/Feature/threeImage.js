@@ -101,7 +101,7 @@ export default class ThreeImage extends React.Component{
                   height: 210,
                   borderRadius: 17,
                   position: "absolute",
-                  right: 130
+                  right: 120
                 }}
               />
             </div>
