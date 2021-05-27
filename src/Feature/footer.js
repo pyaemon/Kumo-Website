@@ -49,28 +49,28 @@ const Footer = () => {
              </div>
          </footer>
          </div>
-         <div className="mobile-footer">
+         <div className="mobile-footer" >
             <footer>
-            <div class="row mobile">
-                <div class="column" >
+            <div class="row mobile" >
+                <div class="column" style={{paddingLeft:20}}>
                 {/* <Map  style={{ borderRadius: 10 }} width={"200px"} height={"200px"} /> */}
                 <MapForMobile />
                 </div>
                 <div class="column" style={{marginLeft: -20}}>
-                <img src={Location} alt="img" style={{}} />
-                        <div style={{ paddingLeft: 50, marginTop: -40, font: Font.regular }}>
-                           <p class="town" style={{whiteSpace:'nowrap' }}>(Nga Gyi/98), 64Street, Between</p>
-                            <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: 5, whiteSpace: 'nowrap', marginLeft: -30 }}>105 & 106 Street, Mandalay, Myanmar</p>
+                <img src={Location} alt="img" style={{}} width={40}/>
+                        <div style={{ paddingLeft: 50, marginTop: -40 , fontSize:"1.2vw" }}>
+                           <p class="town" style={{ }}>(Nga Gyi/98), 64Street, Between 105 & 106 Street, Mandalay, Myanmar</p>
+                            {/* <p class="town-sub">r</p> */}
                         </div>
                        <br></br>
                        <img src={Phone} alt="facebook" width={25} />
-                       <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
+                       <span style={{ paddingLeft:15,fontSize: "2vw" }}>(+95) 9-774 477 275</span>
                 </div>
-                <div class="column" style={{whiteSpace: 'nowrap', marginLeft: 20 }}>
-                <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
-                       <br></br><br></br>
+                <div class="column" style={{whiteSpace: 'nowrap', fontSize: "2vw" }}>
+                <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 6 }}>KUMO Solutions Page</span>
+                       <br></br><br></br><br></br>
                        <div className="mail">
-                            <img src={Mail} alt="mail" /><span style={{}}>office@kumomyanmar.com</span>
+                            <img src={Mail} alt="mail" /><span style={{paddingLeft: 10}}>office@kumomyanmar.com</span>
                          </div>
                 </div>
             </div>

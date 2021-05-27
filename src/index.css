@@ -86,6 +86,10 @@ code {
   display: none;
 }
 
+.ipad-commit{
+  display: none;
+}
+
 .image-box img {
   transition: all 0.3s;
   transform: scale(1);
@@ -800,6 +804,12 @@ code {
 .CRM{
   max-width: 300px;
 }
+.desktop-commit{
+  display: none;
+}
+.ipad-commit{
+  display: block;
+}
 /* Clear floats after the columns */
 .mobile:after {
   content: "";
@@ -812,7 +822,9 @@ code {
 .mobile-footer{
   display: block;
 }
- 
+ .vertion-local{
+   margin-bottom: -70%;
+ }
 }
 
 @media only screen and (max-width: 1250px) {

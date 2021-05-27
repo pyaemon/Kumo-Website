@@ -52,7 +52,7 @@ const Home = () => {
                   SOLUTIONS
           </div>
               </div>
-              <div className="committed-text">
+              <div className="committed-text desktop-commit">
                 <div
                   style={{
                     color: "#4B74AD",
@@ -68,6 +68,29 @@ const Home = () => {
                     color: "#4B74AD",
                     textAlign: "left",
                     fontSize: "35px",
+                    fontFamily: "Cambria",
+                    lineHeight: "80%"
+                  }}
+                >
+                  Committed to the Future
+          </div>
+              </div>
+              <div className="committed-text ipad-commit">
+                <div
+                  style={{
+                    color: "#4B74AD",
+                    textAlign: "left",
+                    fontSize: "3.3vw",
+                    fontFamily: "Cambria",
+                  }}
+                >
+                  Committed to People,{" "}
+                </div>
+                <div
+                  style={{
+                    color: "#4B74AD",
+                    textAlign: "left",
+                    fontSize: "3.3vw",
                     fontFamily: "Cambria",
                     lineHeight: "80%"
                   }}
