@@ -22,7 +22,7 @@ const Footer = () => {
                      <Map  style={{ borderRadius: 10 }} />
                      </div>
 
-                     <div class="col-lg-4 col-md-6 mb-2">
+                     <div class="col-lg-4 col-md-6 mb-2 pt-2">
                      <img src={Location} alt="img" style={{}} width={30}/>
                  <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
                              <p class="town">(Nga Gyi/98), 64Street, Between</p>
