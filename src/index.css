@@ -118,17 +118,17 @@ code {
   .kumo{
     margin-left: 50%;
   }
-  .vertion-local{
+  /* .vertion-local{
     white-space: nowrap;
-  }
+  } */
 }
 @media only screen and (max-width: 1020px) {
   .kumo{
     margin-left: 52%;
   }
-  .vertion-local{
+  /* .vertion-local{
     white-space: nowrap;
-  }
+  } */
 }
 @media only screen and (max-width: 995px) {
   .kumo{
@@ -148,9 +148,9 @@ code {
   .ibpem{
     margin-right: -20%;
   }
-  .vertion-local{
+  /* .vertion-local{
     white-space: nowrap;
-  }
+  } */
 }
 @media only screen and (max-width: 980px) {
   .acbel{
@@ -163,7 +163,7 @@ code {
   }
   .vertion-local{
     margin-bottom: -25%;
-    white-space: nowrap;
+    /* white-space: nowrap; */
   }
 }
 @media only screen and (max-width: 822px) {
@@ -535,6 +535,17 @@ code {
   .ibpem{
     margin-right: -50%;
   }
+  .committed-text{
+    font-size: 12px;
+  }
+  /* .vertion-local{
+    flex-wrap: wrap;
+  } */
+}
+@media only screen and (min-width: 768px) {
+  .vertion-local{
+    white-space: nowrap;
+  }
 }
 @media only screen and (max-width: 321px) {
   .container-footer{
@@ -622,6 +633,9 @@ code {
   .ibpem{
     margin-right: -40%;
   }
+  .kumo-text{
+    margin-left: -5%;
+  }
 }
 @media only screen and (max-width: 1050px) {
   .centralized{
@@ -691,10 +705,11 @@ code {
 }
 .kumo{
   margin-top: 20px;
-  margin-right: 30%;
+  margin-right: 0%;
 }
 .acbel{
   max-width: 100%;
+  height: auto;
 }
 .ibpem{
   max-width: 100%;
