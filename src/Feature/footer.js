@@ -23,22 +23,22 @@ const Footer = () => {
                      </div>
 
                      <div class="col-lg-4 col-md-6 mb-2">
-                     <img src={Location} alt="img" style={{}} />
+                     <img src={Location} alt="img" style={{}} width={30}/>
                  <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
                              <p class="town">(Nga Gyi/98), 64Street, Between</p>
                              <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p>
                          </div>
                          <br></br>
-                        <img src={Phone} alt="facebook" width={25} />
+                        <img src={Phone} alt="facebook" width={25} width={25}/>
                          <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
                      </div>
 
                      <div class="col-lg-3" style={{whiteSpace:'nowrap' }}>
 
-                          <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
+                          <img src={Facebook} alt="facebook" width={30}/><span style={{ paddingLeft: 20 }}>KUMO Solutions Page</span>
                         <br></br><br></br>
                     <div className="mail">
-                              <img src={Mail} alt="mail" /><span style={{ paddingLeft: 20}}>office@kumomyanmar.com</span>
+                              <img src={Mail} alt="mail" width={30}/><span style={{ paddingLeft: 20}}>office@kumomyanmar.com</span>
                       </div>
                      </div>
 
@@ -57,20 +57,20 @@ const Footer = () => {
                 <MapForMobile />
                 </div>
                 <div class="column" style={{marginLeft: -20}}>
-                <img src={Location} alt="img" style={{}} width={40}/>
+                <img src={Location} alt="img" style={{}} width={38}/>
                         <div style={{ paddingLeft: 50, marginTop: -40 , fontSize:"1.2vw" }}>
                            <p class="town" style={{ }}>(Nga Gyi/98), 64Street, Between 105 & 106 Street, Mandalay, Myanmar</p>
                             {/* <p class="town-sub">r</p> */}
                         </div>
                        <br></br>
-                       <img src={Phone} alt="facebook" width={25} />
+                       <img src={Phone} alt="facebook" width={30} />
                        <span style={{ paddingLeft:15,fontSize: "2vw" }}>(+95) 9-774 477 275</span>
                 </div>
                 <div class="column" style={{whiteSpace: 'nowrap', fontSize: "2vw" }}>
-                <img src={Facebook} alt="facebook" /><span style={{ paddingLeft: 6 }}>KUMO Solutions Page</span>
+                <img src={Facebook} alt="facebook" width={40}/><span style={{ paddingLeft: 6 }}>KUMO Solutions Page</span>
                        <br></br><br></br><br></br>
-                       <div className="mail">
-                            <img src={Mail} alt="mail" /><span style={{paddingLeft: 10}}>office@kumomyanmar.com</span>
+                       <div className="mail" style={{marginTop: 15}}>
+                            <img src={Mail} alt="mail" width={40}/><span style={{paddingLeft: 10}}>office@kumomyanmar.com</span>
                          </div>
                 </div>
             </div>
