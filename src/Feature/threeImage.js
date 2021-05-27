@@ -56,7 +56,7 @@ export default class ThreeImage extends React.Component{
             </div>
           </div>
           <div
-            className="col-lg-3 col-xl-12 col-md-12 px-2 mobile"
+            className="col-lg-3 col-xl-12 col-md-12 px-2 mobile-image"
             style={{ maxHeight: 600, position: 'relative', zIndex: 1 }}
           >
             <div

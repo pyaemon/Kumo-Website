@@ -73,6 +73,9 @@ code {
 .mobile-footer{
   display: none;
 }
+.mobile-image{
+  display: none;
+}
 .nails{
   margin: 0 auto;
   width: 100%;
@@ -246,8 +249,9 @@ code {
   .desktop{
     display: none;
   }
-  .mobile{
+  .mobile-image{
     display: block;
+    margin-left: 10%;
   }
 }
 @media only screen and (max-width: 630px){
