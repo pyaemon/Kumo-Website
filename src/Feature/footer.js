@@ -15,10 +15,10 @@ const Footer = () => {
         <div>
         <div className="desktop-footer">
          <footer>
-             <div class="container container-footer">
+             <div class="container-fluid container-footer d-flex-justify-content-around">
                  <div class="row">
 
-                    <div class="col-lg-4 col-md-6 three-column">
+                    <div class="col-lg-4 col-md-6 three-column" style={{}}>
                      <Map  style={{ borderRadius: 10 }} />
                      </div>
 
@@ -31,6 +31,7 @@ const Footer = () => {
                          <br></br>
                         <img src={Phone} alt="facebook" width={25} width={25}/>
                          <span style={{ paddingLeft: 30 }}>(+95) 9-774 477 275</span>
+                         <div class="desktop-copy" style={{marginTop:"115px" }}>© 2021 Kumo Solutions Co., Ltd. All Rights Reserved</div>
                      </div>
 
                      <div class="col-lg-3" style={{whiteSpace:'nowrap' }}>
@@ -45,7 +46,7 @@ const Footer = () => {
                  </div>
              </div>
              <div class="copyright text-center">
-             <div class="copyright-reserved">© 2021 Kumo Solutions Co., Ltd. All Rights Reserved</div>
+             <div class="copyright-reserved mobile-copy">© 2021 Kumo Solutions Co., Ltd. All Rights Reserved</div>
              </div>
          </footer>
          </div>
