@@ -453,7 +453,7 @@ const Home = () => {
         {/* <div style={{ color: "#084C95",paddingLeft:"0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div> */}
         {/* <div style={{ color: "#084C95", paddingLeft: "0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div> */}
         <div className="d-flex justify-content-center pt-4 mt-3 centralized " style={{ color: "#084C95",  }}>
-          <div className="m-0 p-0 m-container " style={{ marginTop: '50px',width: '100%' }} >
+          <div className="m-0 p-0 m-container " style={{ marginTop: '80px',width: '100%' }} >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
             <div className="m-title p-0 px-3" style={{ display: 'block',height:'2px'}}></div>
@@ -461,7 +461,7 @@ const Home = () => {
             </p>
           </div>
           <div
-            className="pt-5 mt-5  py-3 px-3 mx-3 mt-2 pt-2 image-box "
+            className="pt-3 mt-3  py-3 my-3 px-3 mx-3 mt-2 pt-2 image-box "
             style={{ maxHeight: 100, position: "relative", display: "block", }}
           >
             <div
@@ -484,13 +484,13 @@ const Home = () => {
             </div>
             <div
               className="d-flex justify-content-start align-items-end"
-              style={{ marginTop: -95 }}
+              style={{ marginTop: -60 }}
             >
               <img
                 className="img-fluid shadow p-0 m-0 px-0 mx-5 crm"
                 src={Crm}
                 alt="view"
-                style={{ width: 255, height: 255, borderRadius: "50%",marginLeft: 10 , border: `1px solid #483d8b99`,marginBottom:'30%'}}
+                style={{ width: 255, height: 255, borderRadius: "50%",marginLeft: 10 , border: `1px solid #483d8b99`,marginBottom:'10%'}}
               />
 
             </div>
