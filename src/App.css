@@ -135,4 +135,7 @@ p{
     position:absolute;
 }
 
+.ipgglb{
+  overflow-y: scroll !important;
+  }
   
