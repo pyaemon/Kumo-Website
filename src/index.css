@@ -120,7 +120,17 @@ code {
 }
 
 }
-
+@media only screen and (max-width: 1300px) {
+  .acbel{
+    max-width: 500px;
+  }
+  .CRM{
+    max-width: 500px;
+  }
+  .ibpem{
+    max-width: 500px;
+  }
+}
 @media only screen and (max-width: 1100px) {
   .acbel{
     max-width: 450px;
@@ -411,20 +421,21 @@ code {
  .container-footer{
   margin-left: 33%;
  }
+
  .copyright-reserved{
    margin-top: 5%;
  }
   
 }
-@media only screen and (max-width: 945px) {
+/* @media only screen and (max-width: 945px) {
   .container-footer{
     margin-left: 33%;
    }
-}
+} */
 @media only screen and (max-width: 769px) {
-  .container-footer{
+  /* .container-footer{
     margin-left: 30%;
-  }
+  } */
   .image-container{
     margin-left: 100px;
   }
@@ -436,18 +447,18 @@ code {
   } */
 }
 @media only screen and (max-width: 755px) {
-  .container-footer{
+  /* .container-footer{
     margin-left: 28%;
-  }
+  } */
 }
 @media only screen and (max-width: 660px) {
   .container-footer{
-    margin-left: 28%;
+    margin-left: 0%;
   }
 }
 @media only screen and (max-width: 700px) {
   .container-footer{
-    margin-left: 23%;
+    margin-left: 0%;
    }
 }
 @media only screen and (max-width: 640px) {
@@ -461,7 +472,7 @@ code {
 
 @media only screen and (max-width: 550px) {
   .container-footer{
-    margin-left: 18%;
+    margin-left: 0%;
   }
   .image-container{
     margin-left: 30%;
@@ -521,7 +532,7 @@ code {
 }
 @media only screen and (max-width: 455px) {
   .container-footer{
-    margin-left: 10%;
+    margin-left: 0%;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -540,7 +551,7 @@ code {
 }
 @media only screen and (max-width: 376px) {
   .container-footer{
-    margin-left: 6%;
+    margin-left: 0%;
   }
   .development{
     padding-top: 42%;
@@ -615,7 +626,7 @@ code {
 }
 @media only screen and (max-width: 361px) {
   .container-footer{
-    margin-left: 4%;
+    margin-left: 0%;
   }
   .image-container{
     margin-left: 100px;
@@ -652,10 +663,10 @@ code {
   .container-footer{
     margin-left: -2%;
   }
-  .town-sub{
+  /* .town-sub{
     padding-top: 3%;
     margin-left: -10%;
-  }
+  } */
   .image-container{
     /* width: 80%; */
     margin-left: 100px;
@@ -670,17 +681,23 @@ code {
    margin-top: 10%;
  }
 }
+@media only screen and (min-width: 1300px) {
+  .town,.town-sub,.Phone,.office,.solutions{
+    font-size: 20px !important;
+  }
+
+}
 @media only screen and (max-width: 281px) {
   .container-footer{
     margin-left: -5%;
   }
-  .town{
+  /* .town{
     margin-left: -3%;
   }
   .town-sub{
     padding-top: 3%;
     margin-left: -21%;
-  }
+  } */
   .three-column{
     margin-left: -5%;
   }
@@ -918,6 +935,7 @@ code {
     
   }
 }
+
 
 footer {
   background: #dbf3fa;
