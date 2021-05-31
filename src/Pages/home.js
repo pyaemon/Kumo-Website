@@ -411,10 +411,13 @@ const Home = () => {
               saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in
               which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
               </p>
+              <p>
+              The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. 
+              </p>
             </div>
           </div>
-          <div className="row p-0 m-0 px-2" style={{ color: "#084C95", paddingLeft: "0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
-
+          {/* <div className="row p-0 m-0 px-2" style={{ color: "#084C95",paddingLeft:"0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div> */}
+        
         </div>
         {/* <div className="d-flex justify-content-start pt-3 px-2 mx-0 p-0 centralized" style={{ color: "#084C95" }}>
           <div

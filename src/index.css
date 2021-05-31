@@ -938,6 +938,7 @@ code {
   }
 }
 
+
 @media only screen and (min-width: 929px) {
   .home-service-bg {
     background: #dbf3fa;
@@ -951,6 +952,18 @@ code {
   }
 }
 
+@media only screen and (min-width: 991px) {
+  .home-service-bg {
+    background: #dbf3fa;
+    transform: skew(-30deg);
+    height: 455px; 
+    z-index: -1;
+    position: absolute; 
+    left: 140px;
+    right: 100px;
+    
+  }
+}
 
 
 footer {
@@ -986,5 +999,9 @@ footer .copyright {
 }
 
 .transition-container,.transition-container .bDqItY {
+  overflow: auto;
+}
+
+.sc-jrAGrp, .gwlDDV{
   overflow: auto;
 }
