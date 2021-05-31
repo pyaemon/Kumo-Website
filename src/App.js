@@ -45,7 +45,10 @@ const App = () => {
               <Map />
             </div>
           }
-        <Footer/>
+          {/* <div className='' style={{background: '#dbf3fa'}}> */}
+          <Footer/>
+        {/* </div> */}
+        
       </PageTransition>
     </div>    
   );

@@ -11,6 +11,7 @@ import Acbel1 from '../Images/acbel1.jpeg'
 import Crm from '../Images/crm.jpeg'
 import Crm1 from '../Images/crm1.jpeg'
 import Map from "../Feature/map"
+import ThreeImage from '../Feature/threeImage'
 import { useHistory } from 'react-router-dom';
 
 import { useMediaQuery } from 'react-responsive'
@@ -27,7 +28,7 @@ const Home = () => {
     <div >
       <div className="py-3 my-4" >
         <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
-          <div className="col-lg-5 col-xl-5 col-md-5 ">
+          <div className="col-lg-5 col-xl-5 col-md-5 kumo-team" style={{ marginTop: "150px" }}>
             <div
               style={{
                 color: "#084C95",
@@ -71,35 +72,35 @@ const Home = () => {
             >
               Committed to the Future
           </div>
-          <div className="vertion-paragraph">
-            <div
-              style={{
-                color: "#4B74AD",
-                textAlign: "left",
-                fontSize: "35px",
-                fontFamily: "Cambria",
-                marginTop: "120px",
-              }}
-            >
-              Vision
+            <div className="vertion-paragraph">
+              <div
+                style={{
+                  color: "#4B74AD",
+                  textAlign: "left",
+                  fontSize: "35px",
+                  fontFamily: "Cambria",
+                  marginTop: "120px",
+                }}
+              >
+                Vision
           </div>
-            <div
-            className="vertion-text"
-              style={{
-                
-                color: "#4B74AD",
-                textAlign: "left",
-                fontSize: "25px",
-                fontFamily: "Microsoft Yi Baiti",
-                lineHeight: " 90%"
-              }}
-            >
-              To grow local IT industry & provide world class outsourcing
-              services.
+              <div
+                className="vertion-text"
+                style={{
+
+                  color: "#4B74AD",
+                  textAlign: "left",
+                  fontSize: "25px",
+                  fontFamily: "Microsoft Yi Baiti",
+                  lineHeight: " 90%"
+                }}
+              >
+                To grow local IT industry & provide world class outsourcing
+                services.
           </div>
+            </div>
           </div>
-          </div>
-          <div
+          {/* <div
             className="col-lg-6 col-xl-6 col-md-6 px-2  image-box kumo-image"
             style={{ maxHeight: 600, position: "relative", display: "block" }}
           >
@@ -147,8 +148,11 @@ const Home = () => {
               />
             </div>
           </div>
+        </div> */}
+          <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container">
+            <ThreeImage />
+          </div>
         </div>
-
         <div
           className="d-flex justify-content-center development"
           style={{ marginTop: "80px", overflow: 'auto' }}
@@ -212,7 +216,7 @@ const Home = () => {
               Partner Company
               {/* <hr className='ud_line m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></hr> */}
             </span>
-            <div className='m-title' style={{ marginTop: -3 , marginLeft: '25px', height: "2px", width: '100%' }}></div>
+            <div className='m-title' style={{ marginTop: -3, marginLeft: '25px', height: "2px", width: '100%' }}></div>
           </button>
         </div>
 
@@ -259,10 +263,10 @@ const Home = () => {
       </div> */}
 
         <div className="container-fluid p-0 m-0">
-          <div className="home-service-bg" style={{ }}></div>
+          <div className="home-service-bg" style={{}}></div>
         </div>
         <div className='m-container' style={{}}>
-          <div className="d-flex justify-content-center mt-3" style={{ position: 'relative', zIndex: '4',paddingLeft:"50px",marginRight:'-5px' }} >
+          <div className="d-flex justify-content-center mt-3" style={{ position: 'relative', zIndex: '4', paddingLeft: "50px", marginRight: '-5px' }} >
             <div
               className="d-flex justify-content-center"
               style={{
@@ -270,7 +274,7 @@ const Home = () => {
                 height: "40px",
                 width: "40px",
                 borderRadius: "50%",
-                
+
               }}
             >
               <i
@@ -284,21 +288,21 @@ const Home = () => {
                 style={{
                   textAlign: "center",
                   fontSize: "1.5rem",
-                  paddingLeft:"10px" ,
-                  cursor: 'pointer'               
+                  paddingLeft: "10px",
+                  cursor: 'pointer'
                 }}
               >
                 Our Services
               {/* <hr className='m-title' style={{ marginTop: -4, marginRight: '180px', height:"2px",width:'100%'}}></hr> */}
               </span>
-              <div className='m-title p-0' style={{ marginTop: -2, paddingleft: "-20px", height: "2px", width: '100%',marginRight:'-200px' }}></div>
+              <div className='m-title p-0' style={{ marginTop: -2, paddingleft: "-20px", height: "2px", width: '100%', marginRight: '-200px' }}></div>
             </div>
           </div>
           <div className="" style={{ position: 'relative', zIndex: 1 }} >
             <OurService />
           </div>
         </div>
-        <div className="d-flex justify-content-center" style={{marginTop:"10%"}}>
+        <div className="d-flex justify-content-center" style={{ marginTop: "10%" }}>
           {" "}
           <button
             className="btn m-container border"
@@ -344,7 +348,7 @@ const Home = () => {
               Previous Product
               {/* <hr className='ud_line m-title' style={{ marginTop: -4, marginLeft: '110px', height:"2px",width:'75%'}}></hr> */}
             </span>
-            <div className='m-title' style={{ marginTop: -3 , marginLeft: '25px', height: "2px", width: '100%' }}></div>
+            <div className='m-title' style={{ marginTop: -3, marginLeft: '25px', height: "2px", width: '100%' }}></div>
           </button>
         </div>
         {/* <div className="d-flex justify-content-center realtime-image px-3 mx-3 pb-4">
@@ -359,12 +363,12 @@ const Home = () => {
           className="d-flex justify-content-center"
           style={{ marginTop: "10px", overflow: 'hidden' }}
         >
-            <ParaFragment
-              imgSrc={realtimeImg}
-              isReverse={false}
-              data={productData1}
-              imgWidth={"400px"} 
-            />
+          <ParaFragment
+            imgSrc={realtimeImg}
+            isReverse={false}
+            data={productData1}
+            imgWidth={"400px"}
+          />
         </div>
         {/* <div
           className="d-flex justify-content-center"
@@ -377,9 +381,9 @@ const Home = () => {
               imgWidth={"350px"} 
             />
         </div> */}
-        <div className="container-fluid m-0 px-0 py-3 pt-3 mt-3" style={{ }}>
-          <div className="d-block d-md-flex p-0 m-0" style={{  }}>
-            {!(!isMobile && isTablet) && 
+        <div className="container-fluid m-0 px-0 py-3 pt-3 mt-3" style={{}}>
+          <div className="d-block d-md-flex p-0 m-0" style={{}}>
+            {!(!isMobile && isTablet) &&
               <div className="p-0 m-0" style={{ minWidth: "30%", zIndex: 1 }} align="center">
                 <div className="mx-auto" style={{ position: "relative", minHeight: 200 }}>
                   <img className="img-fluid shadow" src={Acbel1} style={{ position: "absolute", right: 0, bottom: 0, /*height: 140,*/ width: isMobile ? 300 : "70%", borderRadius: 46, border: `1px solid #483d8b99` }} />
@@ -388,24 +392,24 @@ const Home = () => {
               </div>
             }
             <div className="p-0 m-0 m-container" style={{ minWidth: "70%", position: "relative", color: "#084C95" }}>
-              { (!isMobile && isTablet) &&
+              {(!isMobile && isTablet) &&
                 <div className="mx-auto me-2" style={{ width: 300, position: "relative", minHeight: 200, float: isTablet ? "left" : "none" }}>
                   <img className="img-fluid shadow" src={Acbel1} style={{ position: "absolute", right: 0, bottom: 0, /*height: 140,*/ width: isMobile ? 300 : "70%", borderRadius: 46, border: `1px solid #483d8b99` }} />
                   <img className="img-fluid shadow" src={Acbel} style={{ position: "absolute", right: 16, bottom: "16%", /*height: 170,*/ width: isMobile ? 300 : "90%", borderRadius: 36, border: `1px solid #483d8b99` }} />
                 </div>
               }
-              <div></div>              
-              <h3 className="" style={{ marginRight: 15, textAlign:'right'}}>Taiwan Centralized </h3>       
+              <div></div>
+              <h3 className="" style={{ marginRight: 15, textAlign: 'right' }}>Taiwan Centralized </h3>
               <div className=" m-title p-0" style={{ marginLeft: isMobile ? 0 : isTablet ? 22 : -22, position: "absolute", display: 'block', width: '100%', zIndex: -1 }}></div>
-              <p className="ps-2">Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of 
-                chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable 
-                saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in 
-                which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
+              <p className="ps-2">Taiwan Centralized Project for Acbel is the centralized chiller system for monitoring Energy and power consumptions of
+              chillers, cooling towers, zone pumps and etc. It controls multiple sites for saving opportunity and validating measurable
+              saving results by using data visualizations and data driven approaches. It consists of MyApps and User Management system in
+              which MyApps provides five main parts for chiller system and User Management for authorizing user access to the system.
               </p>
             </div>
           </div>
-          <div className="row p-0 m-0 px-2" style={{ color: "#084C95",paddingLeft:"0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
-        
+          <div className="row p-0 m-0 px-2" style={{ color: "#084C95", paddingLeft: "0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div>
+
         </div>
         {/* <div className="d-flex justify-content-start pt-3 px-2 mx-0 p-0 centralized" style={{ color: "#084C95" }}>
           <div
@@ -452,11 +456,11 @@ const Home = () => {
         </div> */}
         {/* <div style={{ color: "#084C95",paddingLeft:"0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div> */}
         {/* <div style={{ color: "#084C95", paddingLeft: "0px" }}>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user. </div> */}
-        <div className="d-flex justify-content-center pt-4 mt-3 centralized " style={{ color: "#084C95",  }}>
-          <div className="m-0 p-0 m-container " style={{ marginTop: '80px',width: '100%' }} >
+        <div className="d-flex justify-content-center pt-4 mt-3 centralized " style={{ color: "#084C95", }}>
+          <div className="m-0 p-0 m-container " style={{ marginTop: '80px', width: '100%' }} >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="m-title p-0 px-3" style={{ display: 'block',height:'2px'}}></div>
+            <div className="m-title p-0 px-3" style={{ display: 'block', height: '2px' }}></div>
             <p>Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager. Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
             </p>
           </div>
@@ -477,7 +481,7 @@ const Home = () => {
                   height: 150,
                   borderRadius: "50%",
                   position: "absolute",
-                  left: -15 ,                  
+                  left: -15,
                   top: 15, border: `1px solid #483d8b99`
                 }}
               />
@@ -490,13 +494,13 @@ const Home = () => {
                 className="img-fluid shadow p-0 m-0 px-0 mx-5 crm"
                 src={Crm}
                 alt="view"
-                style={{ width: 255, height: 255, borderRadius: "50%",marginLeft: 10 , border: `1px solid #483d8b99`,marginBottom:'10%'}}
+                style={{ width: 255, height: 255, borderRadius: "50%", marginLeft: 10, border: `1px solid #483d8b99`, marginBottom: '10%' }}
               />
 
             </div>
           </div>
-          </div>
-          {/* <div
+        </div>
+        {/* <div
             className="col-lg-4 col-xl-4 col-md-4 px-4 justify-content-center image-box"
             style={{ maxHeight: 600, display: "block", marginLeft: -50 }}
           >
@@ -532,7 +536,7 @@ const Home = () => {
             </div>
           </div> */}
 
-        
+
 
         <div className="d-flex justify-content-start mt-5 pt-4 kumo-button">
           {" "}

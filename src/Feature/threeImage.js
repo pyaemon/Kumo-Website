@@ -16,7 +16,7 @@ export default class ThreeImage extends React.Component{
                 className=" shadow acbel"
                 src={"/acbel.jpg"}
                 alt="view"
-                style={{ width: "500px", height:"auto" , borderRadius: 50, right: -500}}
+                style={{ width: "550px", height:"auto" , borderRadius: 50, right: -500}}
               />
             </div>
             <div
@@ -28,7 +28,7 @@ export default class ThreeImage extends React.Component{
                 src={"/crm.jpeg"}
                 alt="view"
                 style={{
-                  width: "500px",
+                  width: "550px",
                   height:"auto",
                   borderRadius: 50,
                   position: "absolute",
@@ -46,7 +46,7 @@ export default class ThreeImage extends React.Component{
                 src={"/ibpemwhite.jpeg"}
                 alt="view"
                 style={{
-                  width: "500px",
+                  width: "550px",
                   height:"auto",
                   borderRadius: 35,
                   position: "absolute",
