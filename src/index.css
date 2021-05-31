@@ -254,6 +254,9 @@ code {
  .kumo-team{
    margin-top: -20%;
  }
+ .vertion-paragraph{
+   margin-bottom: 80px;
+ }
  .kumo-desktop{
    margin-left: 130%;
  }
@@ -406,7 +409,7 @@ code {
  }
 @media only screen and (max-width: 730px) {
   .development {
-   padding-top: 30%;
+   padding-top: 5%;
    margin-bottom: -30px;
   }
 }
@@ -463,7 +466,7 @@ code {
 }
 @media only screen and (max-width: 640px) {
   .vertion-paragraph{
-    margin-top: 50%;
+    margin-top: 8%;
   }
   .kumo-image{
     margin-bottom: 17%;
@@ -543,7 +546,7 @@ code {
 }
 @media only screen and (max-width: 380px) {
   .vertion-paragraph{
-    margin-top: 85%;
+    margin-top: -20%;
   }
   .kumo-image{
     margin-bottom: 50%;
@@ -554,7 +557,7 @@ code {
     margin-left: 0%;
   }
   .development{
-    padding-top: 42%;
+    /* padding-top: 42%; */
   }
   .about-image{
     max-width: 100%;
@@ -570,6 +573,11 @@ code {
     margin-left: 10%;
   }
 }
+@media only screen and (device-width: 376px) {
+  .vertion-local{
+    margin-top: 20%;
+  }
+}
 @media only screen and (device-width: 375px) {
   /* .acbel{
     margin-right: -10%;
@@ -582,47 +590,33 @@ code {
    }  */
 }
 @media only screen and (max-width: 412px) {
-  /* .ibpem{
-    margin-right: -20%;
-  }
-  .CRM{
-    margin-right: -50%;
-  }
-  .acbel{
-    margin-right: -300px;
-  } */
   .kumo{
     text-align: center;
   }
+  .rights{
+    margin-top: -69px;
+  }
+  .vertion-local{
+    margin-top: 10px;
+  }
+  .vertion-paragraph{
+    margin-bottom: -5%;
+    margin-top: -10%;
+  }
 }
 
-@media only screen and (max-width: 414px) {
-
-  /* .acbel{
-    max-width: 100%;
-    margin-right: 40px;
-  }
-  .CRM{
-    max-width: 90%;
-    margin-right: -10%;
-  }
-  .ibpem{
-   right:-800px;
-  } */
+@media only screen and (device-width: 414px) {
+.rights{
+  margin-top: -60px;
+}
+.vertion-local{
+  margin-top: 10px;
+}
 }
 @media only screen and (max-width: 541px) {
-  /* .kumo{
-    margin-right: 5%;
-  } */
-  /* .acbel{
-    max-width: 100%;
-  }
-  .CRM{
-    max-width: 100%;
-  }
-  .ibpem{
-    max-width: 100%;
-  } */
+ .rights{
+   margin-top: -60px;
+ }
 }
 @media only screen and (max-width: 361px) {
   .container-footer{
@@ -638,25 +632,17 @@ code {
   .acb1{
     margin-left: 30%;
   }
-  /* .acbel{
-   margin-right: -10%;
-  }
-  .CRM{
-    margin-right: -25%;
-  }
-  .ibpem{
-    margin-right: -50%;
-  } */
   .committed-text{
     font-size: 12px;
   }
-  /* .vertion-local{
-    flex-wrap: wrap;
-  } */
-}
-@media only screen and (min-width: 768px) {
+  .rights{
+    margin-top: -60px;
+  }
   .vertion-local{
-    white-space: nowrap;
+    margin-top: 10px;
+  }
+  .vertion-paragraph{
+    margin-bottom: -10%;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -679,7 +665,14 @@ code {
   }
  .copyright-reserved{
    margin-top: 10%;
+ }.vertion-paragraph{
+   margin-bottom: -70%;
  }
+}
+@media only screen and (device-width: 320px) {
+  .mandalay{
+    font-size: 14px !important;
+  }
 }
 @media only screen and (min-width: 1300px) {
   .town,.town-sub,.Phone,.office,.solutions{
@@ -701,9 +694,15 @@ code {
   .three-column{
     margin-left: -5%;
   }
-  .vertion-paragraph{
-    margin-top: 120%;
+  .kumo1{
+    font-size: 80px !important;
   }
+  .kumo2{
+    font-size: 40px !important;
+  }
+  /* .vertion-paragraph{
+    margin-top: 120%;
+  } */
   .kumo-image{
     margin-bottom: 80%;
   }
@@ -804,14 +803,28 @@ code {
     text-align: center;
   }
 }
+@media only screen and (min-width: 770px) and (max-width: 1200px) {
+  .vertion-local{
+    white-space: nowrap;
+  }
+  .vertion-paragraph{
+    padding-top: 10px;
+  }
+}
 @media only screen and (device-width: 768px) {
  .vertion-paragraph{
-  margin-top: -4%;
+  margin-top: -20%;
  }
+ .vertion-local{
+    white-space: nowrap;
+  }
  .column {
   float: left;
   width: 30%;
   /* padding: 10px; */
+}
+.development{
+  margin-top: 20%;
 }
 .kumo-desktop{
   /* margin-left: 60%; */
@@ -848,9 +861,9 @@ code {
 .mobile-footer{
   display: block;
 }
- .vertion-local{
-   margin-bottom: -70%;
- }
+ /* .vertion-local{
+  margin-bottom: -100%;
+ } */
 }
 
 @media only screen and (max-width: 1250px) {
@@ -863,6 +876,12 @@ code {
 .acb1{
   margin-left: -20%;
 }
+
+}
+@media only screen and (max-width: 445px) and (min-width: 420px){
+  .vertion-local{
+    margin-top: 10px;
+  }
 
 }
 @media only screen and (max-width: 1350px) {
@@ -901,11 +920,21 @@ code {
   .vertion-text{
     margin-bottom: -50%;
   }
-  .development{
+  /* .development{
   padding-top: 20%;
-  }
+  } */
   .version-box{
     margin-left: 20%;
+  }
+}
+@media only screen and (device-width: 768px) {
+  .Phone,.solutions{
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .town{
+    flex-wrap: wrap;
   }
 }
 

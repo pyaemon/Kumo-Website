@@ -29,8 +29,10 @@ const Home = () => {
     <div >
       <div className="py-3 my-4" >
         <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
-          <div className="col-lg-5 col-xl-5 col-md-5 kumo-team" style={{ marginTop: "150px" }}>
+        <div className="col-lg-5 col-xl-5 col-md-5 kumo-team" style={{marginTop: 100}}>
+              <div >
             <div
+            className="kumo1"
               style={{
                 color: "#084C95",
                 textAlign: "left",
@@ -42,6 +44,7 @@ const Home = () => {
               KUMO{" "}
             </div>
             <div
+            className="kumo2"
               style={{
                 color: "#084C95",
                 textAlign: "left",
@@ -86,7 +89,7 @@ const Home = () => {
                 Vision
           </div>
               <div
-                className="vertion-text"
+                className="vertion-local"
                 style={{
 
                   color: "#4B74AD",
@@ -99,6 +102,7 @@ const Home = () => {
                 To grow local IT industry & provide world class outsourcing
                 services.
           </div>
+            </div>
             </div>
           </div>
           {/* <div
