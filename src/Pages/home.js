@@ -23,6 +23,7 @@ const Home = () => {
 
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
   const isTablet = useMediaQuery({ query: '(max-width: 991px)' })
+  const isxl = useMediaQuery({ query: '(min-width: 1400px)' })
 
   return (
     <div >
@@ -381,18 +382,18 @@ const Home = () => {
               imgWidth={"350px"} 
             />
         </div> */}
-        <div className="container-fluid m-0 px-0 py-3 pt-3 mt-3" style={{}}>
-          <div className="d-block d-md-flex p-0 m-0" style={{}}>
-            {!(!isMobile && isTablet) &&
-              <div className="p-0 m-0" style={{ minWidth: "30%", zIndex: 1 }} align="center">
+        <div className="container-fluid m-0 px-0 py-3 pt-3 mt-3" style={{ }}>
+          <div className="d-block d-md-flex p-0 m-0" style={{  }}>
+            {!(!isMobile && isTablet) && 
+              <div className="p-0 m-0" style={{ minWidth: isxl ? "20%" : "30%", zIndex: 1 }} align="center">
                 <div className="mx-auto" style={{ position: "relative", minHeight: 200 }}>
                   <img className="img-fluid shadow" src={Acbel1} style={{ position: "absolute", right: 0, bottom: 0, /*height: 140,*/ width: isMobile ? 300 : "70%", borderRadius: 46, border: `1px solid #483d8b99` }} />
                   <img className="img-fluid shadow" src={Acbel} style={{ position: "absolute", right: 16, bottom: "16%", /*height: 170,*/ width: isMobile ? 300 : "90%", borderRadius: 36, border: `1px solid #483d8b99` }} />
                 </div>
               </div>
             }
-            <div className="p-0 m-0 m-container" style={{ minWidth: "70%", position: "relative", color: "#084C95" }}>
-              {(!isMobile && isTablet) &&
+            <div className="p-0 m-0 m-container" style={{ minWidth: isxl ? "80%" : "70%", position: "relative", color: "#084C95" }}>
+              { (!isMobile && isTablet) &&
                 <div className="mx-auto me-2" style={{ width: 300, position: "relative", minHeight: 200, float: isTablet ? "left" : "none" }}>
                   <img className="img-fluid shadow" src={Acbel1} style={{ position: "absolute", right: 0, bottom: 0, /*height: 140,*/ width: isMobile ? 300 : "70%", borderRadius: 46, border: `1px solid #483d8b99` }} />
                   <img className="img-fluid shadow" src={Acbel} style={{ position: "absolute", right: 16, bottom: "16%", /*height: 170,*/ width: isMobile ? 300 : "90%", borderRadius: 36, border: `1px solid #483d8b99` }} />
@@ -460,12 +461,12 @@ const Home = () => {
           <div className="m-0 p-0 m-container " style={{ marginTop: '80px', width: '100%' }} >
             <h3>CRM Modules</h3>
             {/* <hr style={{ marginTop: -4,marginRight: 50  }}></hr> */}
-            <div className="m-title p-0 px-3" style={{ display: 'block', height: '2px' }}></div>
+            <div className="m-title p-0 px-3" style={{ display: 'block',height:'2px',}}></div>
             <p>Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager. Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
             </p>
           </div>
           <div
-            className="pt-3 mt-3  py-3 my-3 px-3 mx-3 mt-2 pt-2 image-box "
+            className="pt-4 mt-4 py-3 my-3 px-3 mx-3 mb-4 pb-4 image-box "
             style={{ maxHeight: 100, position: "relative", display: "block", }}
           >
             <div
