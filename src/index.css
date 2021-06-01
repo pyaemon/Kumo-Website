@@ -50,6 +50,12 @@ code {
 .mobile-copy{
   display: none;
 }
+.centralized-tablet{
+  display: none;
+}
+.centralized-desktop{
+  display: block;
+}
 .img-fluid{
   max-width: 100%;
     height: auto;
@@ -141,6 +147,18 @@ code {
   .ibpem{
     max-width: 450px;
   }
+}
+@media only screen and (max-width: 770px) {
+  /* .centralized-tablet{
+    display: block;
+  } */
+  .centralized-container{
+    min-height: 350px !important;
+  }
+  /* .centralized-desktop{
+    display: none;
+  } */
+
 }
 @media only screen and (max-width: 1050px) {
   .CRM{

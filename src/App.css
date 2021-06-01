@@ -42,6 +42,24 @@ p{
   }
 }
 
+.cool-nav {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.cool-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #9c1de7;
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
 .image-box img {
   transition: all 0.3s;
   transform: scale(1);
@@ -139,3 +157,118 @@ p{
   overflow-y: scroll !important;
   }
   
+/* about page */
+  @media only screen and (max-width:993px){
+    .about-mobile-view{
+      display: block;
+    }
+    .about-text{
+      display: none;
+    }
+    .about-destop-view{
+  display: none;
+    }
+  }
+  @media only screen and (min-width:994px){
+    .about-mobile-view{
+      display: none;
+    }
+    .about-destop-view{
+  display: block;
+    }
+    .about-text{
+      display: block;
+    }
+  }
+
+/* service page */
+  @media only screen and (max-width:768px){
+    .service-destop-view{
+      display: none;
+  
+    }
+    .service-mobile-view{
+  display: block;
+    }
+    
+  }
+  @media only screen and (min-width:769px){
+    .service-destop-view{
+      display: block;
+  
+    }
+    .service-mobile-view{
+  display: none;
+    }
+   
+  }
+
+  /* product page */
+  @media only screen and (max-width:1005px){
+    .product-mobile-view{
+      display: block;
+    }
+    .product-destop-view{
+  display: none;
+    }
+  }
+  @media only screen and (min-width:1005px){
+    .product-mobile-view{
+      display: none;
+    }
+    .product-destop-view{
+  display: block;
+    }
+  }
+
+  @media only screen and (max-width:770px) {
+    .home-mobile-view{
+      display: block;
+    }
+    .home-destop-view{
+  display: none;
+    }
+  }
+  @media only screen and (min-width:771px) {
+    .home-mobile-view{
+      display: none;
+    }
+    .home-destop-view{
+  display: block;
+    }
+  }
+
+  /* home paragraph */
+  @media only screen and (max-width:770px) {
+    .taiwan-mobile{
+      display: block;
+    }
+    .taiwan-desktop111{
+  display: none;
+    }
+  }
+  @media only screen and (min-width:771px) {
+    .taiwan-mobile{
+      display: none;
+    }
+    .taiwan-desktop111{
+  display: block;
+    }
+  }
+/* crm */
+  @media only screen and (max-width:770px) {
+    .crm-mobile1{
+      display: block;
+    }
+    .crm-desktop111{
+       display: none;
+    }
+  }
+  @media only screen and (min-width:771px) {
+    .crm-mobile1{
+      display: none;
+    }
+    .crm-desktop111{
+  display: block;
+    }
+  }

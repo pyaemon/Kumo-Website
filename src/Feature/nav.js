@@ -34,7 +34,7 @@ const Nav = () => {
                     fontWeight: loc.includes("home") ? 600 : 400,
                   }}
                 >
-                  <div className='py-2 px-3' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                  <div className='py-2 px-3 cool-link' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
                     style={{
                       color: loc.includes("home")
                         ? "#775ADA" : '#084C95',
@@ -53,7 +53,7 @@ const Nav = () => {
                     fontWeight: loc.includes("about") ? 600 : 400,
                   }}
                 >
-                  <div className='py-2 px-3' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                  <div className='py-2 px-3  cool-link' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
                     style={{
                       color: loc.includes("about")
                         ? "#775ADA" : '#084C95',
@@ -72,7 +72,7 @@ const Nav = () => {
                     fontWeight: loc.includes("services") ? 600 : 400,
                   }}
                 >
-                  <div className='py-2 px-3' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                  <div className='py-2 px-3  cool-link' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
                     style={{
                       color: loc.includes("services")
                         ? "#775ADA" : '#084C95',
@@ -90,7 +90,7 @@ const Nav = () => {
                     fontWeight: loc.includes("products") ? 600 : 400,
                   }}
                 >
-                  <div className='py-2 px-3' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                  <div className='py-2 px-3  cool-link' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
                     style={{
                       color: loc.includes("products")
                         ? "#775ADA" : '#084C95',
@@ -108,7 +108,7 @@ const Nav = () => {
                     fontWeight: loc.includes("contact") ? 600 : 400,
                   }}
                 >
-                  <div className='py-2 px-3' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
+                  <div className='py-2 px-3  cool-link' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"
                     style={{
                       color: loc.includes("contact")
                         ? "#775ADA" : '#084C95',
