@@ -9,6 +9,7 @@ const HomeParagraph = (props) => {
   const { imgRadius, isReverse, imgSrc, imgWidth, data, imgheight} = props;
   const [pageWidth, setPageWidth] = useState(window.innerWidth);
   const lessThan610 = useMediaPredicate("(max-width: 610px)");
+  const lessThan770 = useMediaPredicate("(max-width: 770px)");
   useEffect(() => {
     window.onresize = (e) => {
       setPageWidth(e.target.innerWidth);
@@ -84,7 +85,7 @@ const HomeParagraph = (props) => {
           src={imgSrc}
           style={{
             display: "block",
-            width: lessThan610?400:imgWidth,
+            width: lessThan610?450:lessThan770?500: imgWidth,
             // height: '185px',
             boxShadow: "10px 10px 10px #00000029",
             borderRadius: "41px",

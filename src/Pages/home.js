@@ -21,9 +21,10 @@ const Home = () => {
   const handleClickAbout = () => history.push('/about');
   const handleClickPrud = () => history.push('/products');
 
-  const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
-  const isTablet = useMediaQuery({ query: '(max-width: 991px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 770px)' })
+  const isTablet = useMediaQuery({ query: '(max-width: 1025px)' })
   const isxl = useMediaQuery({ query: '(min-width: 1400px)' })
+  const isxlMax = useMediaQuery({ query: '(max-width: 1050px)' })
   const graterThan=useMediaQuery({ query: '(max-width: 450px)' })
   const LessThan=useMediaQuery({ query: '(max-width: 380px)' })
   // const isxl = useMediaQuery
@@ -425,7 +426,7 @@ const Home = () => {
                 className="img-fluid shadow acb1"
                 src={Acbel1}
                 alt="view"
-                style={{ width: 300, borderRadius: 30,left:"5%"
+                style={{ width:isMobile?400: 300, borderRadius: 30,left:"5%"
                   // height:150
                }}
               />
@@ -439,7 +440,7 @@ const Home = () => {
                 src={Acbel}
                 alt="view"
                 style={{
-                  width: 310,
+                  width:isMobile?410: 310,
                   // height: 150,
                   borderRadius: 30,
                   position: "absolute",
@@ -505,7 +506,7 @@ const Home = () => {
                 className="img-fluid shadow p-0 m-0 px-0 mx-5 crm"
                 src={Crm}
                 alt="view"
-                style={{ width: 255, height: 255, borderRadius: "50%", marginLeft: 10, border: `1px solid #483d8b99`, marginBottom: '10%' }}
+                style={{ width:isxlMax?200: 255, height:isxlMax?200: 255, borderRadius: "50%", marginLeft: 10, border: `1px solid #483d8b99`, marginBottom: '10%' }}
               />
 
             </div>

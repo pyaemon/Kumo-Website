@@ -239,7 +239,7 @@ p{
   }
 
   /* home paragraph */
-  @media only screen and (max-width:770px) {
+  @media only screen and (max-width:771px) {
     .taiwan-mobile{
       display: block;
     }
@@ -247,7 +247,7 @@ p{
   display: none;
     }
   }
-  @media only screen and (min-width:771px) {
+  @media only screen and (min-width:772px) {
     .taiwan-mobile{
       display: none;
     }
@@ -256,7 +256,7 @@ p{
     }
   }
 /* crm */
-  @media only screen and (max-width:770px) {
+  @media only screen and (max-width:771px) {
     .crm-mobile1{
       display: block;
     }
@@ -264,7 +264,7 @@ p{
        display: none;
     }
   }
-  @media only screen and (min-width:771px) {
+  @media only screen and (min-width:772px) {
     .crm-mobile1{
       display: none;
     }

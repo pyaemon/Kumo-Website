@@ -111,64 +111,7 @@ const Products = () => {
                 />
             </div>
         </div>
-        /* <div className="container ms-5 me-2" style={{ marginTop: '-4%', color: "#084C95", fontWeight: 600 }}>
-            <p>The system provides chiller system’s latest information with Map View, consuming side, report analysis and control. For user management, admin can add or edit or delete users and their information and control access limit for each user.</p>
-        </div>
-
-        <div className="mb-5 ">
-        <div className=" ms-5 me-4 row mt-5 ">
-            <div className=" ms-3 me-2 col-5 m-container">
-                <div style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>CRM Modules</div>
-                <div className={`dropdown-divider m-title border-0 pl-1`} style={{ backgroundColor: '', height: "2px", width: 510 }}></div>
-                <div className="" style={{ color: "#084C95", fontWeight: 600 }}>
-                    Customer Relationship Management (CRM) project was developed to enhance better communication with customers for Australia based company, Brennan IT product Portal. The main objective is to be able to view and manage orders easily. Users can analyse revenue and gross margin by month, products and customers. The system will create daily and monthly catalogues and send mails to relevant customers, sales team and client manager.</div>
-            </div>
-            <div className=" ms-3 me-2 col-6 image-box">
-                <img className='shadow' src={CRM} width={"610px"} style={{ borderRadius: '40px', height: '230px' }} />
-            </div>
-        </div>
-        <div className="container " style={{ color: "#084C95", fontWeight: 600, marginRight: 26 }}>
-            <p>Moreover, users are able to view reports by product, vendor, month and the system is able to send mails to relevant clients, managers and sale reps.
-            </p>
-        </div>
-        </div>
-
-
-        <Paragraph
-            imgSrc={Chiller1}
-            imageWidth={'590px'}
-            imgRadius={'40px'}
-            isReverse={false}
-            data={chillerData}
-            imgheight={'250px'}
-        />
-        <div className="container " style={{ color: "#084C95", fontWeight: 600, marginRight: 26, marginTop: '-3%' }}>
-            <p>Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.
-            </p>
-        </div>
-
-
-        <div className=" ms-5 me-4 row mt-5 mb-5 ">
-            <div className=" ms-3 me-2 col-5 m-container">
-            <div  style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>Solarporean </div>
-                <div className={`dropdown-divider m-title border-0 pl-1`} style={{ backgroundColor: '', height: "2px", width: 510 }}></div>
-                <div className="" style={{ color: "#084C95", fontWeight: 600 }}>
-                This product is dedicated for a Singapore based Solar Power Company. The main function of this product is providing source information for Singapore’s Energy Market bidding. In this single platform, various vendors are able to control their sites for power output monitoring and market bidding. As a registered vendor, the client is able to access real-time and historical prices and demand on the market. Users can also generate various reports such as quarterly revenue report, service report, activation reports and so on by selecting the time range they would like to. 
-                </div>
-            </div>
-            <div className=" ms-3 me-2 col-6 image-box">
-                <img className='shadow' src={Solar} width={"600px"} style={{ borderRadius: '40px', height: '250px' }} />
-            </div>
-        </div>
-        <Paragraph
-            imgSrc={Survey}
-            imageWidth={'590px'}
-            imgRadius={'40px'}
-            isReverse={false}
-            data={surveyData}
-            imgheight={'250px'}
-        />
-    </div> */
+       
     )
 }
 export default Products;

@@ -79,7 +79,7 @@ const ServiceParagraph = (props) => {
           className="d-flex flex-column justify-content-center"
         >
              <div
-              className="text-center ms-2"
+              className=" ms-2"
               style={{
                 whiteSpace: "nowrap",
                 color: Color.TitleColor,
@@ -99,7 +99,7 @@ const ServiceParagraph = (props) => {
               }}
             ></div>
           <div
-            className="image-box d-flex justify-content-center align-items-center"
+            className="image-box d-flex justify-content-center align-items-center mt-2"
             style={{ display: "inline-block", verticalAlign: "top" }}
           >
             <img
