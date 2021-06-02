@@ -693,7 +693,7 @@ const Home = () => {
               style={{
                 maxHeight: 600,
                 display: "block",
-                marginTop:graterThan ? "15px":  "40px",
+                marginTop:graterThan ? "15px":  "20px",
                 right: LessThan ? "20%" : "10%",
               }}
             >
