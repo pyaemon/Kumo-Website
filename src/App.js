@@ -16,11 +16,12 @@ import Map from "./Feature/MapForContact"
 import Footer from "./Feature/footer";
 import Bg from '../src/Images/bg.svg';
 import { PageTransition } from '@steveeeie/react-page-transition';
-
+import { useMediaQuery } from "react-responsive";
 const App = () => {
   let location = useLocation();
   let loc = location.pathname;
-  
+  const isTablet = useMediaQuery({ query: "(max-width: 770px)" });
+
   return (
     
     <div className='m-0' style={{overflow:'hidden', backgroundImage: `url(${Bg})`, height: "100%",backgroundAttachment:'fixed',backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>            
@@ -41,7 +42,7 @@ const App = () => {
         </Switch>
       </div>      
           { loc.includes("contact") &&
-            <div className='mb-5' style={{ height: '50%', position: "relative" }}>
+            <div className='mb-5' style={{ height: '50%', position: "relative",paddingLeft: isTablet? "5px" : 0 ,marginRight: isTablet? "1.5%": 0 }}>
               <Map />
             </div>
           }

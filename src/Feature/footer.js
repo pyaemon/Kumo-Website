@@ -8,9 +8,12 @@ import Phone from "../Images/phone.png";
 import Map from "../Feature/map"
 import Font from "../Feature/fonts";
 import MapForMobile from "../Feature/Mapformobile";
+import { useMediaQuery } from "react-responsive";
 // import Map from "../Images/map.JPG"
 
 const Footer = () => {
+    const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+    const isTablet = useMediaQuery({ query: "(max-width: 770px)" });
     return (
         <div>
             <div className="desktop-footer">
@@ -23,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="row py-3">
-                            <div class="col-lg-6 col-md-5 col-sm-5 py-1" style={{marginBottom: "-4px"}}>
+                            <div class="col-lg-6 col-md-5 col-sm-5" style={{marginBottom: "-4px"}}>
                                 <img src={Location} alt="img" style={{ width: 40, height: 40 }} />
                                 <div className="" style={{paddingLeft: 55, marginTop: -40, font: Font.regular }}>
                                     {/* <div className="px-3"> */}
@@ -34,15 +37,15 @@ const Footer = () => {
                                     {/* <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p> */}
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 py-3">
-                                <div className="mail d-flex">
-                                    <img src={Facebook} alt="facebook" style={{ width: 40, height: 40 }} /><p class="solutions px-3 pt-2" style={{  }}>KUMO Solutions Page</p>
+                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                <div className="mail d-flex" style={{marginTop: isMobile?"5%": 0, marginBottom: isMobile? "-25px": 0 }}>
+                                    <img src={Facebook} alt="facebook" style={{ width: 40, height: 40 }} /><p class="solutions px-3" style={{  }}>KUMO Solutions Page</p>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="row" style={{marginTop: "-30px"}}>
+                        <div class="row py-5" style={{marginTop: "-30px"}}>
                             <div class="col-lg-6 col-md-5 col-sm-5 ">
                                 <div className="mail d-flex">
                                     <img src={Phone} alt="facebook" style={{ width: 40, height: 40 }} />
@@ -81,7 +84,7 @@ const Footer = () => {
                     </div>
                 </div> */}
                         <div class="row ">
-                            <div class="col-lg-12 col-md-12" style={{ marginTop: 80 }}>
+                            <div class="col-lg-12 col-md-12" style={{ marginTop:isTablet?"-20px":  40 }}>
                                 <div class="rights">© 2021 Kumo Solutions Co., Ltd. All Rights Reserved</div>
                             </div>
                         </div>
