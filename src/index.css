@@ -1018,6 +1018,7 @@ footer .copyright {
 
 .transition-container,.transition-container .bDqItY {
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .sc-jrAGrp, .gwlDDV{
