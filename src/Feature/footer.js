@@ -23,9 +23,9 @@ const Footer = () => {
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="row py-3">
-                            <div class="col-lg-6 col-md-5 col-sm-5">
+                            <div class="col-lg-6 col-md-5 col-sm-5 py-1" style={{marginBottom: "-4px"}}>
                                 <img src={Location} alt="img" style={{ width: 40, height: 40 }} />
-                                <div style={{ paddingLeft: 60, marginTop: -40, font: Font.regular }}>
+                                <div className="" style={{paddingLeft: 55, marginTop: -40, font: Font.regular }}>
                                     {/* <div className="px-3"> */}
                                     <p style={{ whiteSpace: 'inherit' }}>(Nga Gyi/98), 64Street, Between</p>
                                     <p className="mandalay" style={{ lineHeight: 0, whiteSpace: 'pre' }}>
@@ -34,24 +34,24 @@ const Footer = () => {
                                     {/* <p class="town-sub" style={{ lineHeight: "0.1cm", marginTop: -7, whiteSpace: 'nowrap' }}>105 & 106 Street, Mandalay, Myanmar</p> */}
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5">
+                            <div class="col-lg-5 col-md-5 col-sm-5 py-3">
                                 <div className="mail d-flex">
-                                    <img src={Facebook} alt="facebook" style={{ width: 40, height: 40 }} /><p class="solutions" style={{ paddingLeft: 20 }}>KUMO Solutions Page</p>
+                                    <img src={Facebook} alt="facebook" style={{ width: 40, height: 40 }} /><p class="solutions px-3 pt-2" style={{  }}>KUMO Solutions Page</p>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="row">
-                            <div class="col-lg-6 col-md-5 col-sm-5">
+                        <div class="row" style={{marginTop: "-30px"}}>
+                            <div class="col-lg-6 col-md-5 col-sm-5 ">
                                 <div className="mail d-flex">
                                     <img src={Phone} alt="facebook" style={{ width: 40, height: 40 }} />
-                                    <p class="Phone" style={{ paddingLeft: 30, paddingTop: 8 }}>(+95) 9-774 477 275</p>
+                                    <p class="Phone px-3" style={{ paddingTop: 8 }}>(+95) 9-774 477 275</p>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-5 col-sm-5">
                                 <div className="mail d-flex">
-                                    <img src={Mail} alt="mail" style={{ width: 40, height: 40 }} /><p class="office" style={{ paddingLeft: 20, paddingTop: 8 }}>office@kumomyanmar.com</p>
+                                    <img src={Mail} alt="mail" style={{ width: 40, height: 40 }} /><p class="office px-3" style={{ paddingTop: 8 }}>office@kumomyanmar.com</p>
                                 </div>
 
                             </div>
