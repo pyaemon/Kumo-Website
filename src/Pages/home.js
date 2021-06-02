@@ -651,7 +651,7 @@ const Home = () => {
                     borderRadius: "50%",
                     position: "absolute",
                     left: -15,
-                    top: 15,
+                    top: isxlMax ?-5: 15,
                     border: `1px solid #483d8b99`,
                   }}
                 />
@@ -693,7 +693,7 @@ const Home = () => {
               style={{
                 maxHeight: 600,
                 display: "block",
-                marginTop: "40px",
+                marginTop:graterThan ? "15px":  "40px",
                 right: LessThan ? "20%" : "10%",
               }}
             >
@@ -715,12 +715,12 @@ const Home = () => {
                     src={Crm1}
                     alt="view"
                     style={{
-                      width: graterThan ? 90 : 150,
-                      height: graterThan ? 90 : 150,
+                      width: graterThan ? 120 :isMobile? 180: 150,
+                      height: graterThan ? 120 :isMobile? 180: 150,
                       borderRadius: "50%",
                       position: "absolute",
                       left: LessThan ? -27 : -8,
-                      top: -15,
+                      top: graterThan ?-20: -15,
                       border: `1px solid #483d8b99`,
                     }}
                   />
@@ -734,8 +734,8 @@ const Home = () => {
                     src={Crm}
                     alt="view"
                     style={{
-                      width: graterThan ? 150 : 255,
-                      height: graterThan ? 140 : LessThan ? 130 : 255,
+                      width: graterThan ? 150 : LessThan ? 130 : 255,
+                      height: graterThan ? 150 : LessThan ? 130 : 255,
                       borderRadius: "50%",
                       marginLeft: 10,
                       // top: 15,
@@ -750,7 +750,7 @@ const Home = () => {
               className="m-container centralized-layout ps-2"
               style={{
                 marginLeft: "-4%",
-                marginTop: graterThan ? "40px" : "60px",
+                marginTop: graterThan ? "-10px" : "60px",
               }}
             >
               <p style={{ display: "inline-block", textAlign: "justify" }}>
