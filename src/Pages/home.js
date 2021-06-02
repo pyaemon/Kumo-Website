@@ -13,6 +13,7 @@ import Crm1 from "../Images/crm1.jpeg";
 import Map from "../Feature/map";
 import ThreeImage from "../Feature/threeImage";
 import { useHistory } from "react-router-dom";
+import colors from "../Feature/colors"
 
 import { useMediaQuery } from "react-responsive";
 
@@ -43,7 +44,7 @@ const Home = () => {
                 style={{
                   color: "#084C95",
                   textAlign: "left",
-                  fontSize: "104px",
+                  fontSize: "4em",
                   fontFamily: "Microsoft Sans Serif",
                   lineHeight: "80%",
                 }}
@@ -55,7 +56,7 @@ const Home = () => {
                 style={{
                   color: "#084C95",
                   textAlign: "left",
-                  fontSize: "50px",
+                  fontSize: "3em",
                   fontFamily: "Microsoft Sans Serif",
                 }}
               >
@@ -65,7 +66,7 @@ const Home = () => {
                 style={{
                   color: "#4B74AD",
                   textAlign: "left",
-                  fontSize: "35px",
+                  fontSize: "2.5em",
                   fontFamily: "Cambria",
                 }}
               >
@@ -75,7 +76,7 @@ const Home = () => {
                 style={{
                   color: "#4B74AD",
                   textAlign: "left",
-                  fontSize: "35px",
+                  fontSize: "2.5em",
                   fontFamily: "Cambria",
                   lineHeight: "80%",
                 }}
@@ -87,7 +88,7 @@ const Home = () => {
                   style={{
                     color: "#4B74AD",
                     textAlign: "left",
-                    fontSize: "35px",
+                    fontSize: "2.5em",
                     fontFamily: "Cambria",
                     marginTop: "120px",
                   }}
@@ -99,7 +100,7 @@ const Home = () => {
                   style={{
                     color: "#4B74AD",
                     textAlign: "left",
-                    fontSize: "25px",
+                    fontSize: "2em",
                     fontFamily: "Microsoft Yi Baiti",
                     lineHeight: " 90%",
                   }}
@@ -508,7 +509,7 @@ const Home = () => {
                   zIndex: -1,
                 }}
               ></div>
-              <p className="ps-2">
+              <p className="ps-2" style={{color: colors.ParagraphColor}}>
                 Taiwan Centralized Project for Acbel is the centralized chiller
                 system for monitoring Energy and power consumptions of chillers,
                 cooling towers, zone pumps and etc. It controls multiple sites
@@ -518,7 +519,7 @@ const Home = () => {
                 provides five main parts for chiller system and User Management
                 for authorizing user access to the system.
               </p>
-              <p>
+              <p style={{color: colors.ParagraphColor}}>
                 The system provides chiller system’s latest information with Map
                 View, consuming side, report analysis and control. For user
                 management, admin can add or edit or delete users and their
@@ -589,7 +590,7 @@ const Home = () => {
               className="m-container centralized-layout ps-2"
               style={{ marginLeft: "-4%" }}
             >
-              <p style={{ textAlign: "justify" }}>
+              <p style={{ textAlign: "justify", color: colors.ParagraphColor }}>
                 Taiwan Centralized Project for Acbel is the centralized chiller
                 system for monitoring Energy and power consumptions of chillers,
                 cooling towers, zone pumps and etc. It controls multiple sites
@@ -620,7 +621,7 @@ const Home = () => {
                 className="m-title p-0 px-3"
                 style={{ display: "block", height: "2px" }}
               ></div>
-              <p style={{ display: "inline-block" }}>
+              <p style={{ display: "inline-block", color: colors.ParagraphColor }}>
                 Customer Relationship Management (CRM) project was developed to
                 enhance better communication with customers for Australia based
                 company, Brennan IT product Portal. The main objective is to be
@@ -753,7 +754,7 @@ const Home = () => {
                 marginTop: graterThan ? "-10px" : "60px",
               }}
             >
-              <p style={{ display: "inline-block", textAlign: "justify" }}>
+              <p style={{ display: "inline-block", textAlign: "justify", color: colors.ParagraphColor }}>
                 Customer Relationship Management (CRM) project was developed to
                 enhance better communication with customers for Australia based
                 company, Brennan IT product Portal. The main objective is to be

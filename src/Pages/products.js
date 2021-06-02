@@ -12,7 +12,7 @@ import colors from '../Feature/colors'
 
 const Products = () => {
     return (
-        <div className="d-flex flex-wrap justify-content-center py-3 ">
+        <div className="d-flex flex-wrap justify-content-center py-3">
             {/* <div className="container ms-3 me-2 mb-5 m-container" style={{ color: colors.ParagraphColor, fontSize: '14px', marginTop: '6%' }}>
                 <div className="" style={{ whiteSpace: 'nowrap', color: colors.TitleColor, fontSize: fonts.heading12, fontWeight: 400 }}>Real-Time Machine Learning Platform </div>
                 <div className={`dropdown-divider m-title border-0 p-0`} style={{ backgroundColor: '', height: '2px' }}></div>
@@ -97,7 +97,7 @@ const Products = () => {
                 />
             </div>
             <div
-                className="d-flex justify-content-center product"
+                className="d-flex justify-content-center product mb-5"
                 style={{ marginTop: "30px"}}
             >
 
