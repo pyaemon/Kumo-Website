@@ -159,7 +159,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-          <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container">
+          <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container" style={{opacity: isMobile? 0.6: 1 }}>
             <ThreeImage />
           </div>
         </div>
