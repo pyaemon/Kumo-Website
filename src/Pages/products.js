@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from "react";
 import Ipbem from '../Images/ipbem.jpeg';
 import Survey from '../Images/survey.jpeg';
 import CRM from '../Images/crm.jpeg';
@@ -9,8 +9,13 @@ import Paragraph from '../Feature/productParagraph'
 import Footer from '../Feature/footer'
 import fonts from '../Feature/fonts'
 import colors from '../Feature/colors'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Products = () => {
+    useEffect(() => {
+        Aos.init(  {duration: 2000});
+       },[]);
     return (
         <div className="d-flex flex-wrap justify-content-center py-3">
             {/* <div className="container ms-3 me-2 mb-5 m-container" style={{ color: colors.ParagraphColor, fontSize: '14px', marginTop: '6%' }}>
@@ -28,6 +33,7 @@ const Products = () => {
             </div> */}
             <div
                 className="d-flex justify-content-center product"
+                data-aos="zoom-in-left" data-aos-offset="100"
                 style={{ marginTop: "30px" }}
             >
 
@@ -43,6 +49,7 @@ const Products = () => {
             <div
                 className="d-flex justify-content-center product"
                 style={{ marginTop: "30px"}}
+                data-aos="zoom-in-right" data-aos-offset="100"
             >
 
                 <Paragraph

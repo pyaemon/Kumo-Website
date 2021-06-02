@@ -1,4 +1,4 @@
-import React from "react";
+import {React,useEffect} from "react";
 import ParaFragment from "../Feature/homeParagraph";
 import Development from "../Images/development.jpg";
 import realtimeImg from "../Images/ipbem.jpeg";
@@ -13,8 +13,9 @@ import Crm1 from "../Images/crm1.jpeg";
 import Map from "../Feature/map";
 import ThreeImage from "../Feature/threeImage";
 import { useHistory } from "react-router-dom";
-import colors from "../Feature/colors"
-
+import colors from "../Feature/colors";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { useMediaQuery } from "react-responsive";
 
 const Home = () => {
@@ -29,18 +30,22 @@ const Home = () => {
   const graterThan = useMediaQuery({ query: "(max-width: 450px)" });
   const LessThan = useMediaQuery({ query: "(max-width: 380px)" });
   // const isxl = useMediaQuery
-
+  useEffect(() => {
+    Aos.init(  {duration: 2000});
+   },[]);
   return (
     <div>
       <div className="py-3 my-4">
         <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap px-2 justify-content-between pt-4">
           <div
             className="col-lg-5 col-xl-5 col-md-5 kumo-team"
+            data-aos="fade-left" data-aos-offset="100"
             style={{ marginTop: 100 }}
           >
             <div>
               <div
                 className="kumo1"
+                data-aos="fade-down" data-aos-offset="100"
                 style={{
                   color: "#084C95",
                   textAlign: "left",
@@ -53,6 +58,7 @@ const Home = () => {
               </div>
               <div
                 className="kumo2"
+                data-aos="fade-down" data-aos-offset="100"
                 style={{
                   color: "#084C95",
                   textAlign: "left",
@@ -63,6 +69,7 @@ const Home = () => {
                 SOLUTIONS
               </div>
               <div
+               data-aos="fade-up-right" data-aos-offset="100"
                 style={{
                   color: "#4B74AD",
                   textAlign: "left",
@@ -73,6 +80,7 @@ const Home = () => {
                 Committed to People,{" "}
               </div>
               <div
+               data-aos="fade-up-right" data-aos-offset="100"
                 style={{
                   color: "#4B74AD",
                   textAlign: "left",
@@ -85,6 +93,7 @@ const Home = () => {
               </div>
               <div className="vertion-paragraph">
                 <div
+                 data-aos="fade-up" data-aos-offset="100"
                   style={{
                     color: "#4B74AD",
                     textAlign: "left",
@@ -96,6 +105,7 @@ const Home = () => {
                   Vision
                 </div>
                 <div
+                 data-aos="fade-up" data-aos-offset="100"
                   className="vertion-local"
                   style={{
                     color: "#4B74AD",
@@ -160,12 +170,15 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-          <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container" style={{opacity: isMobile? 0.6: 1 }}>
+          <div className="d-flex flex-wrap flex-md-nowrap flex-lg-nowrap flex-xl-nowrap kumo-container" 
+            data-aos="fade-left" data-aos-offset="100"
+          style={{opacity: isMobile? 0.6: 1 }}>
             <ThreeImage />
           </div>
         </div>
         <div
           className="d-flex justify-content-center development"
+        
           style={{ marginTop: "80px", overflow: "auto" }}
         >
           <ParaFragment

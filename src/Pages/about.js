@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from "react";
 import ParaFragment from '../Feature/aboutParagraph'
 import colors from '../Feature/colors'
 import AboutImg from '../Images/about_1.png'
@@ -9,14 +9,21 @@ import Footer from '../Feature/footer'
 import Color from '../Feature/colors'
 import '../App.css';
 import { useMediaPredicate } from "react-media-hook";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
     const windowWidth = window.innerWidth
     const lessThan993=useMediaPredicate("(max-width:993px)");
+    useEffect(() => {
+        Aos.init(  {duration: 2000});
+       },[]);
     return (
         <div style={{}}>
             <div>
-                <div className="d-flex flex-wrap justify-content-center py-3 my-4 " style={{}}>
+                <div className="d-flex flex-wrap justify-content-center py-3 my-4 " 
+                data-aos="zoom-in-down" data-aos-offset="100"
+                style={{}}>
                     <ParaFragment
                         imgSrc={AboutImg}
                         imageWidth={'400px'}
@@ -25,7 +32,8 @@ const About = () => {
                         data={AboutCompany}
                     // imgheight={'200px'}
                     />
-                    <div className='col-12 about-text' style={{textAlign:"justify", 
+                    <div className='col-12 about-text' 
+                    style={{textAlign:"justify", 
                     paddingLeft: '10px', color: Color.ParagraphColor, wordSpacing: 4, fontSize: '18px' }}>
                         <p>To provide satisfying products to our customers, we utilize object-oriented analysis, design, and testing methodologies and ensure seamless integration and
                         traceability between the project’s requirements, design, development, quality assurance, and delivery.
@@ -33,7 +41,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="nails w-100 pb-0 mb-3  large-view" style={{ position: 'relative', margin: '' }}>
+                <div className="nails w-100 pb-0 mb-3  large-view"   data-aos="zoom-in-up" data-aos-offset="100" style={{ position: 'relative', margin: '' }}>
                     <div className="image-layout">
                         <img className="img-fluid about-image shadow-lg w-100" alt="developers" src={Developers} style={{ height: '400px', overflow: 'auto' }} />
                     </div>

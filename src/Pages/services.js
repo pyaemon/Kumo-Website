@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from "react";
 import Azure from '../Images/azure.png'
 import Warehouse from '../Images/AI.jpg'
 import Mobile from '../Images/mobileapps.jpg'
@@ -6,10 +6,16 @@ import WebApp from '../Images/webapp.jpg'
 import UiUx from '../Images/uiux.png'
 import Paragraph from '../Feature/serviceParagraph'
 import Footer from '../Feature/footer'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
+    useEffect(() => {
+        Aos.init(  {duration: 2000});
+       },[]);
     return (
         <div className="d-flex flex-wrap justify-content-center py-3 my-4" style={{}}>
+            <div data-aos="fade-left" data-aos-offset="100">
             <Paragraph
                 imgSrc={Azure}
                 imageWidth={'215px'}
@@ -17,6 +23,8 @@ const Services = () => {
                 isReverse={false}
                 data={analyticsData}
             />
+            </div>
+            <div data-aos="fade-right" data-aos-offset="100">
             <Paragraph
                 imgSrc={Warehouse}
                 imageWidth={'215px'}
@@ -24,6 +32,8 @@ const Services = () => {
                 isReverse={true}
                 data={warehouseData}
             />
+            </div>
+            <div data-aos="zoom-in-up" data-aos-offset="100">
             <Paragraph
                 imgSrc={Mobile}
                 imageWidth={'215px'}
@@ -31,6 +41,9 @@ const Services = () => {
                 isReverse={false}
                 data={mobileDevData}
             />
+            </div>
+            
+            
             <Paragraph
                 imgSrc={WebApp}
                 imageWidth={'215px'}
