@@ -5,6 +5,11 @@ import CRM from '../Images/crm.jpeg';
 import Chiller1 from '../Images/chiller1.jpeg';
 import ACBEL from '../Images/acbel.jpeg';
 import Solar from '../Images/solar.JPG'
+import JNW from "../Images/jnw.PNG";
+import UNDP from "../Images/undp.PNG";
+import NTTU from "../Images/nttu.PNG";
+import ADS from "../Images/ads.PNG";
+import DataWarehouse from "../Images/datawarehouse.jpeg";
 import Paragraph from '../Feature/productParagraph'
 import Footer from '../Feature/footer'
 import fonts from '../Feature/fonts'
@@ -104,7 +109,7 @@ const Products = () => {
                 />
             </div>
             <div
-                className="d-flex justify-content-center product mb-5"
+                className="d-flex justify-content-center product"
                 style={{ marginTop: "30px"}}
             >
 
@@ -114,6 +119,76 @@ const Products = () => {
                     imgRadius={'40px'}
                     isReverse={true}
                     data={surveyData}
+                    imgheight={'250px'}
+                />
+            </div>
+            <div
+                className="d-flex justify-content-center product"
+                style={{ marginTop: "30px" }}
+            >
+
+                <Paragraph
+                    imgSrc={ADS}
+                    imgWidth={'600px'}
+                    imgRadius={'40px'}
+                    isReverse={false}
+                   data={adsData}
+                    imgheight={'250px'}
+                />
+            </div>
+            <div
+                className="d-flex justify-content-center product"
+                style={{ marginTop: "30px"}}
+            >
+
+                <Paragraph
+                    imgSrc={JNW}
+                    imgWidth={'600px'}
+                    imgRadius={'40px'}
+                    isReverse={true}
+                    data={jnwData}
+                    imgheight={'250px'}
+                />
+            </div>
+            <div
+                className="d-flex justify-content-center product"
+                style={{ marginTop: "30px"}}
+            >
+
+                <Paragraph
+                    imgSrc={DataWarehouse}
+                    imgWidth={'600px'}
+                    imgRadius={'40px'}
+                    isReverse={false}
+                    data={datawarehouseData}
+                    imgheight={'250px'}
+                />
+            </div>
+            <div
+                className="d-flex justify-content-center product"
+                style={{ marginTop: "30px"}}
+            >
+
+                <Paragraph
+                    imgSrc={UNDP}
+                    imgWidth={'600px'}
+                    imgRadius={'40px'}
+                    isReverse={true}
+                    data={undpData}
+                    imgheight={'250px'}
+                />
+            </div>
+            <div
+                className="d-flex justify-content-center product"
+                style={{ marginTop: "30px"}}
+            >
+
+                <Paragraph
+                    imgSrc={NTTU}
+                    imgWidth={'600px'}
+                    imgRadius={'40px'}
+                    isReverse={false}
+                    data={nttuData}
                     imgheight={'250px'}
                 />
             </div>
@@ -153,4 +228,27 @@ const chillerData = {
 const surveyData = {
     title: 'Survey Platform ',
     description1: 'This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+}
+
+const adsData = {
+    title: 'ADS ',
+    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+}
+
+const jnwData = {
+    title: 'JNW',
+    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+}
+const undpData = {
+    title: 'Digital x Sustainable Agenda Tool (UNDP)',
+    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+}
+const nttuData = {
+    title: 'NTTU Energery monitaring for elementry school ',
+    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+}
+const datawarehouseData = {
+    title: 'Biggest Data Datawarehouse ',
+    description1: 'Biggest Data Warehouse is the project to analyze data for Australia based on ITQuoter. It is the cloud-based ETL and data integration service. The head responsibility of this project is to create data-driven workflows for orchestrating data movement and transforming big data, raw and unorganized data from source(API, Excel, CSV, Database and so on) at scale by using Azure Data Factory.',
+    description2: 'Then, the system can store data from ITQuoter API to database on each of every 15 minutes automatically meanwhile this system sends error email to admin user when something was wrong on storing data.'
 }
