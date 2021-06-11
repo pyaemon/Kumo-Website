@@ -231,13 +231,13 @@ const surveyData = {
 }
 
 const adsData = {
-    title: 'ADS ',
-    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+    title: 'Advanced Digital Solutions(ADS) ',
+    description1: "This project is to digitize Energy Monitoring System of SMEs in Singapore. The dashboard  provides Realtime, hourly and daily data of each Energy, Temperatures, Humidity and Water Consumption devices. The users are able to use Daily Report of this energy system for any historical date."
 }
 
 const jnwData = {
-    title: 'JNW',
-    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+    title: 'Boiler (JNW)',
+    description1: "This project is to support the boiler system of JNW. Boiler system contains of Power Usage, Water Consumption, Water level, Temperature Monitoring and Pump Operations. Dashboard display the described informations for realtime, hourly and daily. The user can generate the daily report of the digitized boiler system anytime."
 }
 const undpData = {
     title: 'Digital x Sustainable Agenda Tool (UNDP)',
@@ -245,7 +245,7 @@ const undpData = {
 }
 const nttuData = {
     title: 'NTTU Energery monitaring for elementry school ',
-    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+    description1: "In National Dong Hwa University Experimental Elementary School, students can attend Grade one to Grade six. Each grade has five classrooms. The purpose of the project is to monitor and save the energy usage of School. The energy monitor panel calculates and reports on daily, monthly, yearly energy consumption for each grade and each class. The panel also calculates the number of trees to plant in a year for the carbon dioxide emission from power usage of school."
 }
 const datawarehouseData = {
     title: 'Biggest Data Datawarehouse ',
