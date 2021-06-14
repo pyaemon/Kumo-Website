@@ -109,7 +109,7 @@ const Products = () => {
                 />
             </div>
             <div
-                className="d-flex justify-content-center product"
+                className="d-flex justify-content-center product survey"
                 style={{ marginTop: "30px"}}
             >
 
@@ -241,7 +241,7 @@ const jnwData = {
 }
 const undpData = {
     title: 'Digital x Sustainable Agenda Tool (UNDP)',
-    description1: "UNDP supports countries in gaining a clear perspective of their digital ecosystem,which in turn allows for improving public service delivery and commitment to responsible governance. It further enables countries to be well-positioned to manage risks and hamess the full potential of their digital transformation.Digital x Sustainable Agenda Tool reports for researched SDG detail of a country.Overview report includes detail of SDG records, ICT solution, link to sector and national projects. UNDP webiste can be edit for each SDG target property of specific country. This edit table can update by admin and catigorize by SDG target. It also show completed fields by progress bar. It contains Digital Maurity Assessment Survey for a country. And the website generate result of evaluation level by survey."
+    description1: "UNDP supports countries in gaining a clear perspective of their digital ecosystem,which in turn allows for improving public service delivery and commitment to responsible governance. It further enables countries to be well-positioned to manage risks and harness the full potential of their digital transformation. Digital x Sustainable Agenda Tool reports for researched SDG details of a country.Overview report includes details of SDG records, ICT solution, the link to sector and national projects. UNDP website can be edited for each SDG target property of a specific country. This editable table can be updated by admin and categorized by SDG target. It also shows completed fields by a progress bar. It contains Digital Maturity Assessment Survey for each country. And the website generates result data of evaluation level and visualize with graphs"
 }
 const nttuData = {
     title: 'NTTU Energery monitaring for elementry school ',
