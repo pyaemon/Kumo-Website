@@ -241,7 +241,7 @@ const jnwData = {
 }
 const undpData = {
     title: 'Digital x Sustainable Agenda Tool (UNDP)',
-    description1: 'Moreover, clients can check daily reports through this platform for chillers’ overall performance reviews by selecting any date they would like to review. The system contains user management system to control users’ role and levels so that sites information are only accessed by authorized person. Admin can edit each user’s access level from the UI.This is the Singapore exploratory project in which the platform to create, fill and submit surveys. By collecting information through survey system, the platform will transform those information into meaningful reports for application across industries.'
+    description1: "UNDP supports countries in gaining a clear perspective of their digital ecosystem,which in turn allows for improving public service delivery and commitment to responsible governance. It further enables countries to be well-positioned to manage risks and hamess the full potential of their digital transformation.Digital x Sustainable Agenda Tool reports for researched SDG detail of a country.Overview report includes detail of SDG records, ICT solution, link to sector and national projects. UNDP webiste can be edit for each SDG target property of specific country. This edit table can update by admin and catigorize by SDG target. It also show completed fields by progress bar. It contains Digital Maurity Assessment Survey for a country. And the website generate result of evaluation level by survey."
 }
 const nttuData = {
     title: 'NTTU Energery monitaring for elementry school ',
